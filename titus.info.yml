@@ -3,4 +3,3 @@ type: theme
 description: A better admin theme
 package: Other
 core: 8.x
-base theme: stable
