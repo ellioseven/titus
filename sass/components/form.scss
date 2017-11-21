@@ -1,0 +1,71 @@
+@import '../lib/lib';
+
+.form-wrapper,
+.form-item {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+.form-item > label,
+.form-item > legend {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  font-weight: 700;
+}
+
+.form-item > input,
+.form-item > select,
+.form-item > .form-textarea-wrapper > textarea {
+  @include type-leader-clear;
+}
+
+.form-actions > .form-submit {
+  @include button(secondary);
+  @include breakpoint($breakpoint-medium) {
+    @include button-size(medium);
+  }
+
+  + a {
+    margin-left: 1em;
+  }
+}
+
+.form-type-radio,
+.js-form-type-radio,
+.form-type-checkbox,
+.js-form-type-checkbox {
+  vertical-align: middle;
+
+  > input,
+  > label {
+    display: inline-block;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    margin: 0;
+    text-transform: inherit;
+    vertical-align: middle;
+  }
+
+  > input {
+    margin-right: .5em;
+  }
+}
+
+.form-radios > .form-type-radio,
+.form-checkboxes > .form-type-checkbox {
+  @include type-leader(.25);
+  @include type-leader-clear;
+}
+
+.form-item > .description {
+  $base: th-base(jamie);
+  @include th-h(
+    $heading: jamie,
+    $include: font-size line-height
+  );
+  @include type-leader(
+    $step: .5,
+    $base: $base
+  );
+  @include type-leader-clear;
+}
