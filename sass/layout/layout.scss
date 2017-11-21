@@ -1,0 +1,10 @@
+@import '../lib/lib';
+
+.layout-container {
+  padding-left: em($base-vertical-margin);
+  padding-right: em($base-vertical-margin);
+  @include breakpoint($breakpoint-medium) {
+    padding-left: em($base-vertical-margin * 2);
+    padding-right: em($base-vertical-margin * 2);
+  }
+}
