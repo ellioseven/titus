@@ -1,18 +1,3 @@
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-embed,
-img,
-object,
-video {
-  max-width: 100%;
-  height: auto; }
-
 form,
 label,
 fieldset,
@@ -21,7 +6,10 @@ input,
 select,
 textarea,
 button {
-  margin: 0;
+  margin: 0; }
+
+fieldset,
+legend {
   padding: 0; }
 
 form,
@@ -180,10 +168,5 @@ textarea {
 input[type='radio'],
 input[type='checkbox'] {
   margin-right: .25em; }
-
-input[type='reset'],
-input[type='submit'],
-button {
-  padding: 0.71429em 1em; }
 
 /*# sourceMappingURL=forms.css.map */
