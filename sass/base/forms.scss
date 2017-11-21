@@ -9,6 +9,10 @@ select,
 textarea,
 button {
   margin: 0;
+}
+
+fieldset,
+legend {
   padding: 0;
 }
 
@@ -103,8 +107,3 @@ input[type='checkbox'] {
   margin-right: .25em;
 }
 
-input[type='reset'],
-input[type='submit'],
-button {
-  padding: em($base-vertical-margin / 2) 1em;
-}
