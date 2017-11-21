@@ -16,5 +16,12 @@
     "gulp-watch": "^4.3.11",
     "yarn": "^1.3.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "compass-mixins": "^0.12.10",
+    "sass-toolkit": "^2.10.2",
+    "sass-units-translate": "^1.0.2",
+    "sassdash": "^0.8.2",
+    "type-heading": "^0.0.16"
+  }
 }
