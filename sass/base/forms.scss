@@ -32,6 +32,7 @@ details {
 summary {
   @include type-leader;
   @include type-leader-clear;
+  font-weight: 700;
 
   &[aria-expanded='false'] {
     margin-bottom: 0;

@@ -35,7 +35,8 @@ details {
 
 summary {
   margin-top: 1.42857em;
-  margin-bottom: 1.42857em; }
+  margin-bottom: 1.42857em;
+  font-weight: 700; }
   summary:first-child {
     margin-top: 0; }
   summary:last-child {
