@@ -1,0 +1,35 @@
+$type-font-family-body: Helvetica Neue, Helvetica, Arial, Liberation Sans, sans-serif;
+$type-font-family-display: $type-font-family-body;
+$type-font-family-mono: monospace, monospace;
+
+// Type Heading
+// https://github.com/ellioseven/type-heading
+
+$th-headings: (
+  walter: (54px 62px),
+  skyler: (48px 56px),
+  mike: (36px 44px),
+  pete: (30px 38px),
+  marie: (24px 28px),
+  tuco: (20px 28px),
+  junior: (18px 26px),
+  saul: (16px 24px),
+  hank: (14px 24px),
+  jamie: (12px 20px)
+);
+
+$th-base-font-size: $base-font-size;
+
+$th-property-units: (
+  font-size: em,
+  line-height: rel,
+  margin-top: em,
+  margin-bottom: em
+);
+
+$th-property-defaults: (
+  font-size: $base-font-size,
+  line-height: $base-line-height,
+  margin-top: $base-vertical-margin,
+  margin-bottom: $base-vertical-margin
+);

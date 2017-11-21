@@ -1,0 +1,81 @@
+@mixin type-heading-base {
+  color: $color-display;
+  font-family: $type-font-family-display;
+  font-weight: 700;
+}
+
+@mixin type-step(
+  $steps: 1,
+  $unit: em,
+  $base: $base-font-size
+){
+  $count: 0;
+  $memo: _memo('type-step', 'step', nth($steps, 1));
+  @content;
+  $steps: _drop($steps);
+  @each $step in $steps {
+    $count: $count + 1;
+    $breakpoint: nth($breakpoint-map, $count);
+    $memo: _memo('type-step', 'step', $step);
+    @include breakpoint($breakpoint) {
+      @content;
+    }
+  }
+}
+
+@mixin type-leader(
+  $step: 1,
+  $unit: em,
+  $base: $base-font-size,
+  $types: (margin),
+  $directions: (top bottom)
+){
+  $leader: call($unit, $base-vertical-margin * $step, $base);
+  @each $type in $types {
+    @each $direction in $directions {
+      $rule: unquote('#{$type}-#{$direction}');
+      #{$rule}: $leader;
+    }
+  }
+}
+
+@mixin type-leader-step(
+  $steps: 1,
+  $unit: em,
+  $base: $base-font-size,
+  $types: (margin),
+  $directions: (top bottom)
+){
+  @include type-step($steps) {
+    $step: _memo('type-step', 'step');
+    @include type-leader(
+      $step: $step,
+      $unit: $unit,
+      $base: $base,
+      $types: $types,
+      $directions: $directions
+    );
+  }
+}
+
+@mixin type-leader-clear(
+  $reference: false
+){
+  @if $reference {
+    #{$reference}:first-child {
+      margin-top: 0;
+    }
+
+    #{$reference}:last-child {
+      margin-bottom: 0;
+    }
+  } @else {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

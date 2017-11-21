@@ -1,0 +1,48 @@
+@mixin input-placeholder {
+  &::-webkit-input-placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-moz-placeholder { @content }
+  &:-ms-input-placeholder { @content }
+}
+
+@mixin input-size(
+  $size: default,
+  $base: $base-font-size
+){
+  $font-size: th-base(hank);
+  $padding-horizontal: 14px;
+  $padding-vertical: 11px;
+  $line-height: $base-line-height;
+  $border: 1px;
+
+  @if $size == medium {
+    $font-size: th-base(hank);
+    $padding-horizontal: 14px;
+    $padding-vertical: 11px;
+    $line-height: $base-line-height;
+    $border: 1px;
+  }
+
+  #{$selector-form-text-inputs},
+  select,
+  textarea {
+    font-size: em($font-size, $base);
+    line-height: em($line-height, $font-size);
+    padding: em($padding-vertical $padding-horizontal, $font-size);
+  }
+
+  #{$selector-form-text-inputs},
+  select {
+    $height: ($padding-vertical * 2) + ($border * 2) + $line-height;
+    height: em($height, $font-size);
+  }
+
+  select {
+    $icon-offset: 8px;
+    background-position: calc(100% - #{em($padding-horizontal)}) center;
+    padding-right: em($icon-offset + ($padding-horizontal * 2), $base);
+  }
+
+  $memo-font-size: _memo('input-size', 'font-size', $font-size);
+  @content;
+}

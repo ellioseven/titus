@@ -1,0 +1,10 @@
+@function th-base(
+  $heading
+){
+  $font-size: th-property(
+    $property-name: font-size,
+    $heading: $heading,
+    $convert: false
+  );
+  @return $font-size;
+}
