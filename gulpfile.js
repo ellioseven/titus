@@ -8,7 +8,7 @@ var sassGlob = require('gulp-sass-glob');
 var sasslint = require('gulp-sass-lint');
 
 gulp.task('sass', function () {
-  return gulp.src('./sass')
+  return gulp.src('./sass/**/*.scss')
     .pipe(sassGlob())
     .pipe(sasslint({
        configFile: '.sasslint.json'
@@ -22,7 +22,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
-  watch('./sass', function () {
+  watch('./sass/**/*.scss', function () {
     gulp.start('sass');
   });
 });
