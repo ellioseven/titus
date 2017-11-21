@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "at-rule-empty-line-before": 0,
+    "block-no-empty": 0,
+    "color-hex-case": 0,
+    "color-hex-length": 0,
+    "comment-empty-line-before": 0,
+    "declaration-block-no-duplicate-properties": 0,
+    "declaration-block-no-redundant-longhand-properties": 0,
+    "declaration-block-no-shorthand-property-overrides": 0,
+    "declaration-block-trailing-semicolon": 0,
+    "declaration-colon-space-after": 0,
+    "function-comma-space-after": 0,
+    "function-linear-gradient-no-nonstandard-direction": 0,
+    "function-name-case": 0,
+    "function-whitespace-after": 0,
+    "length-zero-no-unit": 0,
+    "no-empty-source": 0,
+    "number-leading-zero": 0,
+    "number-no-trailing-zeros": 0,
+    "property-no-unknown": 0,
+    "rule-empty-line-before": 0,
+    "selector-pseudo-element-colon-notation": 0,
+    "selector-type-no-unknown": 0,
+    "shorthand-property-no-redundant-values": 0
+  }
+}
