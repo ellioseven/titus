@@ -19,15 +19,8 @@
   @include type-leader-clear;
 }
 
-.form-actions > .form-submit {
-  @include button(secondary);
-  @include breakpoint($breakpoint-medium) {
-    @include button-size(medium);
-  }
-
-  + a {
-    margin-left: 1em;
-  }
+.form-actions > .form-submit + a {
+  margin-left: 1em;
 }
 
 .form-type-radio,
