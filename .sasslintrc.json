@@ -22,6 +22,11 @@
     "rule-empty-line-before": 0,
     "selector-pseudo-element-colon-notation": 0,
     "selector-type-no-unknown": 0,
-    "shorthand-property-no-redundant-values": 0
+    "shorthand-property-no-redundant-values": 0,
+    "force-pseudo-nesting": 0,
+    "no-vendor-prefixes": 0,
+    "no-qualifying-elements": 0,
+    "force-element-nesting": 0,
+    "force-attribute-nesting": 0
   }
 }
