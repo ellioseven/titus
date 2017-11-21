@@ -1,0 +1,5 @@
+@import '../lib/lib';
+
+.button {
+  @include button(secondary);
+}
