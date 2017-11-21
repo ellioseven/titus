@@ -2,8 +2,14 @@ global-styling:
   version: VERSION
   css:
     base:
-      css/base/base.css: {}
+      css/base/code.css: {}
+      css/base/core.css: {}
+      css/base/forms.css: {}
+      css/base/lists.css: {}
+      css/base/media.css: {}
+      css/base/table.css: {}
+      css/base/typography.css: {}
     component:
-      css/components/component.css: {}
+      css/components/form.css: {}
     layout:
       css/layout/layout.css: {}
