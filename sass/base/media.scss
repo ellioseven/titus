@@ -1,0 +1,19 @@
+@import '../lib/lib';
+
+img,
+iframe,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  @include type-leader;
+  @include type-leader-clear;
+
+  figcaption {
+    @include type-leader(.5);
+    @include type-leader-clear
+  }
+}

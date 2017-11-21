@@ -1,0 +1,30 @@
+@import '../lib/lib';
+
+code,
+pre {
+  font-family: $type-font-family-mono;
+  margin: 0;
+  padding: 0;
+  tab-size: 4;
+}
+
+code {
+  color: $color-body;
+  display: inline-block;
+}
+
+pre {
+  @include type-leader;
+  @include type-leader-clear;
+  border: 1px solid $color-grey-cement;
+  display: block;
+  padding: em($base-vertical-margin) 1em;
+
+  code {
+    background: none;
+    color: inherit;
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+}

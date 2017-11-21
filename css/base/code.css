@@ -1,0 +1,44 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto; }
+
+code,
+pre {
+  font-family: monospace, monospace;
+  margin: 0;
+  padding: 0;
+  tab-size: 4; }
+
+code {
+  color: #444;
+  display: inline-block; }
+
+pre {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em;
+  border: 1px solid #ddd;
+  display: block;
+  padding: 1.42857em 1em; }
+  pre:first-child {
+    margin-top: 0; }
+  pre:last-child {
+    margin-bottom: 0; }
+  pre code {
+    background: none;
+    color: inherit;
+    display: block;
+    padding: 0;
+    width: 100%; }
+
+/*# sourceMappingURL=code.css.map */

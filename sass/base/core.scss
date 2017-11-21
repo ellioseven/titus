@@ -1,0 +1,15 @@
+@import '../lib/lib';
+
+@include establish-baseline;
+
+html {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: $color-white;
+  color: $color-body;
+  font-family: $type-font-family-body;
+}

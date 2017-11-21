@@ -1,0 +1,91 @@
+@import '../lib/lib';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+blockquote,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+#{$selector-type-headings} {
+  @include type-heading-base;
+  @include type-leader-clear;
+}
+
+h1 {
+  @include th-hs(walter);
+}
+
+h2 {
+  @include th-hs(skyler);
+}
+
+h3 {
+  @include th-hs(mike);
+}
+
+h4 {
+  @include th-hs(pete);
+}
+
+h5 {
+  @include th-hs(marie);
+}
+
+h6 {
+  @include th-hs(tuco);
+}
+
+p {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+address {
+  @include type-leader;
+  @include type-leader-clear;
+  font-style: normal;
+}
+
+blockquote {
+  @include type-leader;
+  @include type-leader-clear;
+  @include type-leader-clear('*');
+  font-style: italic;
+  padding-left: 2em;
+
+  cite {
+    display: block;
+  }
+}
+
+cite {
+  font-style: italic;
+}
+
+hr {
+  @include type-leader;
+  @include type-leader-clear;
+  background: $color-grey-cement;
+  border: 0;
+  height: 1px;
+}
+
+a {
+  @include transition(300ms);
+  color: $color-link;
+  text-decoration: none;
+  word-wrap: break-word;
+
+  &:hover,
+  &:focus {
+    color: $color-link-hover;
+  }
+}

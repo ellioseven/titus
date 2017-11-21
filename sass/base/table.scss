@@ -1,0 +1,57 @@
+@import '../lib/lib';
+
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  @include border-radius(4px);
+  @include type-leader;
+  @include type-leader-clear;
+  background-color: $color-white;
+  border-bottom: 1px solid $color-grey-cement;
+  border-collapse: collapse;
+  border-top: 1px solid $color-grey-cement;
+  width: 100%;
+
+  table {
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  caption {
+    @include type-leader;
+    @include type-leader-clear;
+    text-align: left;
+  }
+
+  td,
+  th {
+    background-color: $color-white;
+    border-bottom: 1px solid $color-grey-cement;
+    padding: em($base-vertical-margin / 2);
+    text-align: left;
+    vertical-align: middle;
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+
+  th {
+    font-weight: 700;
+  }
+
+  thead th {
+    background-color: $color-grey-steam;
+  }
+}
