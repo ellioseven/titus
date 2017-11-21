@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/base.css: {}
+    component:
+      css/components/component.css: {}
+    layout:
+      css/layout/layout.css: {}
