@@ -32,5 +32,21 @@
     background-color: #ddddda;
     border-color: #c7c7c4;
     color: #444; }
+  @media (min-width: 48em) {
+    .button {
+      font-size: 1em;
+      line-height: 1.42857em;
+      padding: 0.71429em 1.71429em; } }
+
+.button--primary {
+  background-color: #008ee6;
+  border-color: #0079c4;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff; }
+  .button--primary:hover, .button--primary:focus {
+    background-color: #0079c4;
+    border-color: #0067a7;
+    color: #fff; }
 
 /*# sourceMappingURL=button.css.map */
