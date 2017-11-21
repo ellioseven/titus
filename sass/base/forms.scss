@@ -42,7 +42,7 @@ summary {
   font-weight: 700;
   margin-left: -#{em($base-vertical-margin)};
   margin-right: -#{em($base-vertical-margin)};
-  padding: em($base-vertical-margin);
+  padding: em(($base-vertical-margin * .75) $base-vertical-margin);
 
   &[aria-expanded='false'] {
     border-bottom: 0;
