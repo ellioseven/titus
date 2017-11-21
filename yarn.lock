@@ -250,6 +250,10 @@ braces@^1.8.2:
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
+breakpoint-sass@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/breakpoint-sass/-/breakpoint-sass-2.7.1.tgz#8ef6c4744dcc25ba83d969b6c9a17e5daa29980a"
+
 builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
@@ -363,6 +367,10 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
 commander@^2.8.1, commander@^2.9.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
+
+compass-mixins@^0.12.10:
+  version "0.12.10"
+  resolved "https://registry.yarnpkg.com/compass-mixins/-/compass-mixins-0.12.10.tgz#cd9f15f829c4e960cc43bb226f049b28beb99d41"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -1016,7 +1024,7 @@ glob@^6.0.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@~7.1.1:
+glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@~7.1.1:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -1107,15 +1115,6 @@ graceful-fs@^3.0.0:
 graceful-fs@~1.2.0:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-1.2.3.tgz#15a4806a57547cb2d2dbf27f42e89a8c3451b364"
-
-gulp-sass-glob@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/gulp-sass-glob/-/gulp-sass-glob-1.0.8.tgz#3b737ecebc9e6c106b82574c6faa9314bd94aeaa"
-  dependencies:
-    glob "^7.1.1"
-    minimatch "^3.0.3"
-    slash "^1.0.0"
-    through2 "^2.0.3"
 
 gulp-sass-lint@^5.0.0:
   version "1.3.4"
@@ -1896,7 +1895,7 @@ mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.7:
   dependencies:
     mime-db "~1.30.0"
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
+"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -2574,6 +2573,20 @@ sass-lint@^1.12.0:
     path-is-absolute "^1.0.0"
     util "^0.10.3"
 
+sass-toolkit@^2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/sass-toolkit/-/sass-toolkit-2.10.2.tgz#c290ad71d76f435b068d963226f287e022dc696a"
+
+sass-units-translate@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/sass-units-translate/-/sass-units-translate-1.0.2.tgz#33904ac8202e1aaa0c691296177217e4d98c0259"
+  dependencies:
+    sassdash "^0.8.1"
+
+sassdash@^0.8.1, sassdash@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/sassdash/-/sassdash-0.8.2.tgz#42d59b4932f13034695604bd8437e2b598afd368"
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
@@ -2909,6 +2922,10 @@ type-check@~0.3.2:
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
   dependencies:
     prelude-ls "~1.1.2"
+
+type-heading@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/type-heading/-/type-heading-0.0.16.tgz#6f50c101cfa15076ee80e1d414a3d031c8c94440"
 
 typedarray@^0.0.6:
   version "0.0.6"
