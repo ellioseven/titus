@@ -52,7 +52,7 @@
   }
 
   a.is-active {
-    border-bottom: 2px solid $color-blue-malibu;
+    @include box-shadow(0 1px 0 0 $color-blue-malibu);
   }
 
   .tabs__tab {

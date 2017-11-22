@@ -46,7 +46,9 @@
   .tabs.secondary a {
     padding: 0.71429em; }
   .tabs.secondary a.is-active {
-    border-bottom: 2px solid #008ee6; }
+    -webkit-box-shadow: 0 1px 0 0 #008ee6;
+    -moz-box-shadow: 0 1px 0 0 #008ee6;
+    box-shadow: 0 1px 0 0 #008ee6; }
   .tabs.secondary .tabs__tab {
     display: inline-block; }
 
