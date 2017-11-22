@@ -8,3 +8,4 @@
 ## Modules
 
 - [ ] Paragraphs support
+- [ ] Display Suite support
