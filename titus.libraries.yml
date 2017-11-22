@@ -10,6 +10,7 @@ global-styling:
       css/base/table.css: {}
       css/base/typography.css: {}
     component:
+      css/components/block.css: {}
       css/components/breadcrumb.css: {}
       css/components/button.css: {}
       css/components/form.css: {}

@@ -1,0 +1,9 @@
+.block {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .block:first-child {
+    margin-top: 0; }
+  .block:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=block.css.map */

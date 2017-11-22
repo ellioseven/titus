@@ -1,0 +1,6 @@
+@import '../lib/lib';
+
+.block {
+  @include type-leader;
+  @include type-leader-clear;
+}
