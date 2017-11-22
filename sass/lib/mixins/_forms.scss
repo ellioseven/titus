@@ -15,10 +15,10 @@
   $line-height: $base-line-height;
   $border: 1px;
 
-  @if $size == medium {
-    $font-size: th-base(junior);
-    $padding-horizontal: 14px;
-    $padding-vertical: 11px;
+  @if $size == small {
+    $font-size: th-base(saul);
+    $padding-horizontal: 6px;
+    $padding-vertical: 4px;
     $line-height: $base-line-height;
     $border: 1px;
   }
