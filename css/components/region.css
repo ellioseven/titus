@@ -1,0 +1,9 @@
+.region {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .region:first-child {
+    margin-top: 0; }
+  .region:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=region.css.map */

@@ -1,0 +1,7 @@
+
+@import '../lib/lib';
+
+.region {
+  @include type-leader;
+  @include type-leader-clear;
+}
