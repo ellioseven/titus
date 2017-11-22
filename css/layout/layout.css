@@ -1,9 +1,5 @@
 .layout-container {
   padding-left: 1.42857em;
   padding-right: 1.42857em; }
-  @media (min-width: 48em) {
-    .layout-container {
-      padding-left: 2.85714em;
-      padding-right: 2.85714em; } }
 
 /*# sourceMappingURL=layout.css.map */
