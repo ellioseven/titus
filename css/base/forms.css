@@ -181,4 +181,17 @@ tr .form-item {
     background-position: calc(100% - 0.42857em) center;
     padding-right: 1.42857em; }
 
+button.link {
+  background: transparent;
+  border: 0;
+  color: #008ee6;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0; }
+  button.link:hover, button.link:focus {
+    color: #444; }
+
 /*# sourceMappingURL=forms.css.map */
