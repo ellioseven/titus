@@ -1,14 +1,12 @@
 @import '../lib/lib';
 
 .content-header {
-  @include type-leader(
-    $types: margin padding,
-    $step: 1
-  );
-  @include type-leader-clear;
   background-color: $color-grey-steam;
+  border-bottom: 1px solid $color-grey-cement;
+  padding-bottom: em($base-vertical-margin);
+  padding-top: em($base-vertical-margin);
 }
 
-.toolbar + .content-header {
-  margin-top: 0;
+.content-header .block-local-tasks-block:last-child {
+  margin-bottom: -#{em($base-vertical-margin + 1px)};
 }
