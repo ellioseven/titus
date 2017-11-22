@@ -8,6 +8,8 @@ libraries:
   - titus/global-styling
 libraries-override:
   system/admin: false
+  classy/base: false
+  classy/messages: false
 regions:
   header: 'Header'
   pre_content: 'Pre-content'
