@@ -1,0 +1,15 @@
+.breadcrumb ol {
+  margin: 0;
+  padding: 0; }
+
+.breadcrumb li {
+  display: inline-block; }
+
+.breadcrumb li::before {
+  content: '\00bb';
+  display: inline; }
+
+.breadcrumb li:first-child::before {
+  display: none; }
+
+/*# sourceMappingURL=breadcrumb.css.map */
