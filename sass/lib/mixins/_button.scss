@@ -93,6 +93,12 @@
   $padding: 10px 24px;
   $line-height: $base-line-height;
 
+  @if $size == small {
+    $font-size: th-base(saul);
+    $padding: 4px 18px;
+    $line-height: $base-line-height;
+  }
+
   font-size: em($font-size, $base);
   line-height: em($line-height, $font-size);
   padding: em($padding, $font-size);

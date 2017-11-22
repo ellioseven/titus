@@ -32,11 +32,6 @@
     background-color: #ddddda;
     border-color: #c7c7c4;
     color: #444; }
-  @media (min-width: 48em) {
-    .button {
-      font-size: 1em;
-      line-height: 1.42857em;
-      padding: 0.71429em 1.71429em; } }
 
 .button--primary {
   background-color: #008ee6;
@@ -48,5 +43,10 @@
     background-color: #0079c4;
     border-color: #0067a7;
     color: #fff; }
+
+.button--small {
+  font-size: 0.85714em;
+  line-height: 1.66667em;
+  padding: 0.33333em 1.5em; }
 
 /*# sourceMappingURL=button.css.map */

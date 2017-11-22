@@ -2,11 +2,12 @@
 
 .button {
   @include button(secondary);
-  @include breakpoint($breakpoint-medium) {
-    @include button-size(medium);
-  }
 }
 
 .button--primary {
   @include button-theme;
+}
+
+.button--small {
+  @include button-size(small);
 }
