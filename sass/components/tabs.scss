@@ -1,0 +1,61 @@
+@import '../lib/lib';
+
+.tabs {
+  @include type-leader;
+  @include type-leader-clear;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+
+  a {
+    display: block;
+  }
+
+  .tabs__tab {
+    list-style: none;
+  }
+}
+
+.tabs.primary {
+
+  a {
+    background-color: $color-grey-steam;
+    border: 1px solid $color-grey-cement;
+    padding: em($base-vertical-margin / 2 $base-vertical-margin);
+  }
+
+  a.is-active {
+    background-color: $color-white;
+  }
+
+  .tabs__tab {
+    display: inline-block;
+    margin: 0 -5px 0 0;
+    padding: 0;
+  }
+
+  .tabs__tab:first-child a {
+    @include border-radius(2px 0 0 2px);
+  }
+
+  .tabs__tab:last-child a {
+    @include border-radius(0 2px 2px 0);
+  }
+}
+
+.tabs.secondary {
+  border-bottom: 1px solid $color-grey-cement;
+
+  a {
+    padding: em($base-vertical-margin / 2);
+  }
+
+  a.is-active {
+    border-bottom: 2px solid $color-blue-malibu;
+  }
+
+  .tabs__tab {
+    display: inline-block;
+  }
+}
