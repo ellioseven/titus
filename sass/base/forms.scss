@@ -77,10 +77,7 @@ legend {
   width: 100%;
 }
 
-@include input-size;
-@include breakpoint($breakpoint-medium) {
-  @include input-size(medium);
-}
+@include input-size(medium);
 
 #{$selector-form-text-inputs},
 select,
@@ -120,3 +117,7 @@ input[type='checkbox'] {
   margin-right: .25em;
 }
 
+tr .form-item {
+  @include input-size(small);
+  margin: 0;
+}

@@ -113,20 +113,6 @@ select {
   background-position: calc(100% - 1em) center;
   padding-right: 2.57143em; }
 
-@media (min-width: 48em) {
-  input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
-  select,
-  textarea {
-    font-size: 1em;
-    line-height: 1.42857em;
-    padding: 0.78571em 1em; }
-  input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
-  select {
-    height: 3.14286em; }
-  select {
-    background-position: calc(100% - 1em) center;
-    padding-right: 2.57143em; } }
-
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 select,
 textarea {
@@ -179,5 +165,20 @@ textarea {
 input[type='radio'],
 input[type='checkbox'] {
   margin-right: .25em; }
+
+tr .form-item {
+  margin: 0; }
+  tr .form-item input[type="text"], tr .form-item input[type="password"], tr .form-item input[type="date"], tr .form-item input[type="datetime"], tr .form-item input[type="datetime-local"], tr .form-item input[type="month"], tr .form-item input[type="week"], tr .form-item input[type="email"], tr .form-item input[type="number"], tr .form-item input[type="search"], tr .form-item input[type="tel"], tr .form-item input[type="time"], tr .form-item input[type="url"],
+  tr .form-item select,
+  tr .form-item textarea {
+    font-size: 0.85714em;
+    line-height: 1.66667em;
+    padding: 0.33333em 0.5em; }
+  tr .form-item input[type="text"], tr .form-item input[type="password"], tr .form-item input[type="date"], tr .form-item input[type="datetime"], tr .form-item input[type="datetime-local"], tr .form-item input[type="month"], tr .form-item input[type="week"], tr .form-item input[type="email"], tr .form-item input[type="number"], tr .form-item input[type="search"], tr .form-item input[type="tel"], tr .form-item input[type="time"], tr .form-item input[type="url"],
+  tr .form-item select {
+    height: 2.5em; }
+  tr .form-item select {
+    background-position: calc(100% - 0.42857em) center;
+    padding-right: 1.42857em; }
 
 /*# sourceMappingURL=forms.css.map */
