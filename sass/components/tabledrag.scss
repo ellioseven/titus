@@ -1,0 +1,10 @@
+.draggable a.tabledrag-handle {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+
+  .handle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -18,6 +18,7 @@ global-styling:
       css/components/form.css: {}
       css/components/region.css: {}
       css/components/page-title.css: {}
+      css/components/tabledrag.css: {}
       css/components/tabs.css: {}
     layout:
       css/layout/layout.css: {}
