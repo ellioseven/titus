@@ -1,0 +1,14 @@
+@import '../lib/lib';
+
+.content-header {
+  @include type-leader(
+    $types: margin padding,
+    $step: 1
+  );
+  @include type-leader-clear;
+  background-color: $color-grey-steam;
+}
+
+.toolbar + .content-header {
+  margin-top: 0;
+}
