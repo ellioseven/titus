@@ -1,0 +1,10 @@
+@import '../lib/lib';
+
+.page-title {
+  @include th-h(
+    $heading: mike,
+    $include: font-size line-height
+  );
+  font-weight: 400;
+  margin: 0;
+}
