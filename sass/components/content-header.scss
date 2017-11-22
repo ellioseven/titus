@@ -9,4 +9,10 @@
 
 .content-header .block-local-tasks-block:last-child {
   margin-bottom: -#{em($base-vertical-margin + 1px)};
+
+  a.is-active {
+    @include box-shadow(0 1px 0 0 white);
+    background-color: $color-white;
+    border-bottom: 0;
+  }
 }
