@@ -41,6 +41,7 @@ summary {
   margin-bottom: 1.42857em;
   background-color: #f5f5f2;
   border-bottom: 1px solid #ddd;
+  display: list-item;
   font-weight: 700;
   margin-left: -1.42857em;
   margin-right: -1.42857em;
