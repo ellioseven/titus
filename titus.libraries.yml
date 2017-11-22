@@ -14,6 +14,7 @@ global-styling:
       css/components/breadcrumb.css: {}
       css/components/button.css: {}
       css/components/content-header.css: {}
+      css/components/content-main.css: {}
       css/components/form.css: {}
       css/components/region.css: {}
       css/components/page-title.css: {}
