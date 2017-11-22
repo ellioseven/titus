@@ -1,3 +1,5 @@
+@import '../lib/lib';
+
 .draggable a.tabledrag-handle {
   display: inline-block;
   float: none;
@@ -7,4 +9,19 @@
     margin-left: 0;
     margin-right: 0;
   }
+}
+
+.tabledrag-toggle-weight-wrapper {
+  @include th-h(
+    $heading: saul,
+    $include: font-size line-height
+  );
+  position: relative;
+}
+
+.tabledrag-toggle-weight {
+  $base: th-base(saul);
+  bottom: em($base-vertical-margin / 2, $base);
+  position: absolute;
+  right: 0;
 }
