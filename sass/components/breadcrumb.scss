@@ -1,4 +1,8 @@
+@import '../lib/lib';
+
 .breadcrumb {
+  @include type-leader;
+  @include type-leader-clear;
 
   ol {
     margin: 0;
@@ -17,4 +21,9 @@
   li:first-child::before {
     display: none;
   }
+}
+
+.contextual + .breadcrumb {
+  margin-bottom: 0;
+  margin-top: 0;
 }

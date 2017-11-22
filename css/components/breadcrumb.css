@@ -1,15 +1,23 @@
-.breadcrumb ol {
-  margin: 0;
-  padding: 0; }
+.breadcrumb {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .breadcrumb:first-child {
+    margin-top: 0; }
+  .breadcrumb:last-child {
+    margin-bottom: 0; }
+  .breadcrumb ol {
+    margin: 0;
+    padding: 0; }
+  .breadcrumb li {
+    display: inline-block; }
+  .breadcrumb li::before {
+    content: '\00bb';
+    display: inline; }
+  .breadcrumb li:first-child::before {
+    display: none; }
 
-.breadcrumb li {
-  display: inline-block; }
-
-.breadcrumb li::before {
-  content: '\00bb';
-  display: inline; }
-
-.breadcrumb li:first-child::before {
-  display: none; }
+.contextual + .breadcrumb {
+  margin-bottom: 0;
+  margin-top: 0; }
 
 /*# sourceMappingURL=breadcrumb.css.map */
