@@ -3,8 +3,8 @@
 
 ## General
 
-[ ] Right to left support
+- [ ] Right to left support
 
 ## Modules
 
-[ ] Paragraphs support
+- [ ] Paragraphs support
