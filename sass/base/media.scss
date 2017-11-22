@@ -8,6 +8,14 @@ figcaption {
   padding: 0;
 }
 
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
   @include type-leader;
   @include type-leader-clear;

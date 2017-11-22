@@ -5,6 +5,13 @@ figcaption {
   margin: 0;
   padding: 0; }
 
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto; }
+
 figure {
   margin-top: 1.42857em;
   margin-bottom: 1.42857em; }
