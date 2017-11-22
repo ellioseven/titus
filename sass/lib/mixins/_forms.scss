@@ -9,14 +9,14 @@
   $size: default,
   $base: $base-font-size
 ){
-  $font-size: th-base(hank);
+  $font-size: th-base(junior);
   $padding-horizontal: 14px;
   $padding-vertical: 11px;
   $line-height: $base-line-height;
   $border: 1px;
 
   @if $size == medium {
-    $font-size: th-base(hank);
+    $font-size: th-base(junior);
     $padding-horizontal: 14px;
     $padding-vertical: 11px;
     $line-height: $base-line-height;

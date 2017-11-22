@@ -62,9 +62,9 @@
 }
 
 .form-item > .description {
-  $base: th-base(jamie);
+  $base: th-base(saul);
   @include th-h(
-    $heading: jamie,
+    $heading: saul,
     $include: font-size line-height
   );
   @include type-leader(

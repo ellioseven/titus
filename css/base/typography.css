@@ -21,40 +21,40 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0; }
 
 h1 {
-  font-size: 3.85714em;
-  line-height: 1.14815;
-  margin-top: 0.37037em;
-  margin-bottom: 0.37037em; }
-
-h2 {
   font-size: 3.42857em;
-  line-height: 1.16667;
+  line-height: 1.25;
   margin-top: 0.41667em;
   margin-bottom: 0.41667em; }
 
-h3 {
+h2 {
   font-size: 2.57143em;
-  line-height: 1.22222;
+  line-height: 1.33333;
   margin-top: 0.55556em;
   margin-bottom: 0.55556em; }
 
-h4 {
-  font-size: 2.14286em;
-  line-height: 1.26667;
-  margin-top: 0.66667em;
-  margin-bottom: 0.66667em; }
-
-h5 {
+h3 {
   font-size: 1.71429em;
-  line-height: 1.16667;
+  line-height: 1.5;
   margin-top: 0.83333em;
   margin-bottom: 0.83333em; }
 
+h4 {
+  font-size: 1.5em;
+  line-height: 1.52381;
+  margin-top: 0.95238em;
+  margin-bottom: 0.95238em; }
+
+h5 {
+  font-size: 1.28571em;
+  line-height: 1.66667;
+  margin-top: 1.11111em;
+  margin-bottom: 1.11111em; }
+
 h6 {
-  font-size: 1.42857em;
-  line-height: 1.4;
-  margin-top: 1em;
-  margin-bottom: 1em; }
+  font-size: 1.14286em;
+  line-height: 1.5;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em; }
 
 p {
   margin-top: 1.42857em;
