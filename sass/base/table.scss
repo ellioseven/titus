@@ -40,7 +40,7 @@ table {
     border-bottom: 1px solid $color-grey-cement;
     padding: em($base-vertical-margin / 2);
     text-align: left;
-    vertical-align: middle;
+    vertical-align: top;
 
     &:last-child {
       border-right: 0;
