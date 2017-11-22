@@ -44,7 +44,7 @@ table {
     border-bottom: 1px solid #ddd;
     padding: 0.71429em;
     text-align: left;
-    vertical-align: top; }
+    vertical-align: middle; }
     table td:last-child,
     table th:last-child {
       border-right: 0; }
