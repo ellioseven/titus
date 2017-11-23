@@ -7,5 +7,7 @@
 
 ## Modules
 
-- [ ] Paragraphs support
-- [ ] Display Suite support
+- [ ] Display Suite
+- [ ] Paragraphs
+- [ ] Toolbar
+- [ ] Views
