@@ -10,6 +10,9 @@ libraries-override:
   system/admin: false
   classy/base: false
   classy/messages: false
+libraries-extend:
+  core/drupal.vertical-tabs:
+    - titus/vertical-tabs
 regions:
   header: 'Header'
   pre_content: 'Pre-content'

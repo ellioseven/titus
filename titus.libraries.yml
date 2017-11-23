@@ -23,3 +23,9 @@ global-styling:
       css/components/tabs.css: {}
     layout:
       css/layout/layout.css: {}
+
+vertical-tabs:
+  version: VERSION
+  css:
+    component:
+      css/components/vertical-tabs.css: {}
