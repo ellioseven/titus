@@ -7,7 +7,14 @@
 
 ## Modules
 
+- [ ] Block
+- [ ] Contact
 - [ ] Display Suite
-- [ ] Paragraphs
+- [ ] Field UI
+- [ ] Node
+- [ ] Paragraphs       
+- [ ] Quick Edit
+- [ ] Taxonomy
 - [ ] Toolbar
-- [ ] Views
+- [ ] Tour
+- [ ] Views UI
