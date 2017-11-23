@@ -1,0 +1,10 @@
+.field-suffix {
+  margin-top: 0.35714em;
+  margin-bottom: 0.35714em;
+  display: block; }
+  .field-suffix:first-child {
+    margin-top: 0; }
+  .field-suffix:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=field.css.map */

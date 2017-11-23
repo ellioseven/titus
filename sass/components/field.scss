@@ -1,0 +1,7 @@
+@import '../lib/lib';
+
+.field-suffix {
+  @include type-leader(.25);
+  @include type-leader-clear;
+  display: block;
+}
