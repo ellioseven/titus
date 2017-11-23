@@ -79,7 +79,6 @@ hr {
 }
 
 a {
-  @include transition(300ms);
   color: $color-link;
   text-decoration: none;
   word-wrap: break-word;
