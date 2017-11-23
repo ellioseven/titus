@@ -19,6 +19,8 @@
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
     "compass-mixins": "^0.12.10",
+    "gulp-cached": "^1.1.1",
+    "gulp-sass-partials-imported": "^1.0.5",
     "sass-toolkit": "^2.10.2",
     "sass-units-translate": "^1.0.2",
     "sassdash": "^0.8.2",
