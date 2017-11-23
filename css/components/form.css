@@ -144,6 +144,12 @@
   .form-item > .description:last-child {
     margin-bottom: 0; }
 
+.form--inline > .form-item {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  vertical-align: bottom; }
+
 .details-wrapper {
   margin-top: 1.42857em;
   margin-bottom: 1.42857em; }
