@@ -16,9 +16,9 @@
   $border: 1px;
 
   @if $size == small {
-    $font-size: th-base(saul);
-    $padding-horizontal: 6px;
-    $padding-vertical: 4px;
+    $font-size: th-base(junior);
+    $padding-horizontal: 8px;
+    $padding-vertical: 6px;
     $line-height: $base-line-height;
     $border: 1px;
   }
