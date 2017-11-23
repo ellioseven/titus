@@ -2,9 +2,6 @@
   display: inline-block;
   float: none;
   vertical-align: top; }
-  .draggable a.tabledrag-handle .handle {
-    margin-left: 0;
-    margin-right: 0; }
 
 .tabledrag-toggle-weight-wrapper {
   font-size: 0.85714em;
