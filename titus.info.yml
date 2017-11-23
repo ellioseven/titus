@@ -8,8 +8,10 @@ libraries:
   - titus/global-styling
 libraries-override:
   system/admin: false
-  classy/base: false
-  classy/messages: false
+  core/drupal.dropbutton:
+    css:
+      component:
+        /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/dropbutton.css
 libraries-extend:
   core/drupal.vertical-tabs:
     - titus/vertical-tabs

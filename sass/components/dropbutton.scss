@@ -1,0 +1,129 @@
+@import '../lib/lib';
+
+.dropbutton {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  a {
+    display: block;
+  }
+
+  .dropbutton-action {
+    display: inline-block;
+    margin: 0 0 0 .5em;
+    padding: 0;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .dropbutton-toggle {
+    display: none;
+  }
+}
+
+.js .dropbutton {
+  overflow: hidden;
+
+  .dropbutton-action {
+    margin: 0;
+  }
+
+  .dropbutton-action a {
+    $base: th-base(saul);
+    @include th-h(
+      $heading: saul,
+      $include: font-size line-height
+    );
+    color: $color-grey-abyss;
+    font-weight: 700;
+    padding: em(6px 18px, $base);
+  }
+
+  .dropbutton-action.secondary-action {
+    border-top: 1px solid $color-grey-cement;
+    display: none;
+  }
+
+  .dropbutton-toggle {
+    bottom: 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: em(32px);
+  }
+
+  .dropbutton-toggle button {
+    background: none;
+    border: 0;
+    border-left: 1px solid $color-grey-cement;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .dropbutton-toggle .dropbutton-arrow {
+    @include triangle(
+      $color: $color-grey-abyss,
+      $height: em(6px),
+      $width: em(8px),
+      $angle: 180
+    );
+    margin: auto;
+    position: absolute;
+    top: em(12px);
+    right: em(12px);
+  }
+}
+
+.js .dropbutton-wrapper {
+  position: relative;
+  min-height: em(30px);
+}
+
+.js .dropbutton-widget {
+  @include border-radius(22em);
+  background-color: $color-grey-steam;
+  border: 1px solid $color-grey-cement;
+  padding-right: em(32px);
+  position: absolute;
+}
+
+.js .dropbutton-wrapper.open {
+
+  .dropbutton-widget {
+    @include border-radius(em(16px));
+    position: absolute;
+    z-index: 20;
+  }
+
+  .dropbutton {
+    overflow: visible;
+  }
+
+  .dropbutton .dropbutton-action {
+    @include border-radius(0);
+  }
+
+  .dropbutton .dropbutton-action.secondary-action {
+    display: block;
+  }
+
+  .dropbutton .dropbutton-toggle button {
+    @include border-radius(0 1em 1em 0);
+  }
+
+  .dropbutton-toggle .dropbutton-arrow {
+    @include triangle(
+      $color: $color-grey-abyss,
+      $height: em(6px),
+      $width: em(8px)
+    );
+  }
+}

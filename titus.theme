@@ -3,11 +3,11 @@
 /**
  * Implements hook_library_info_alter().
  *
- * As we are extending seven, we want all the library assets except for
- * stylesheets, giving us more style control.
+ * As we are extending seven, which extends classy. We want all the library
+ * assets except for stylesheets, giving us more style control.
  */
 function titus_library_info_alter(&$libraries, $extension) {
-  if ("seven" === $extension) {
+  if ("seven" === $extension || "classy" === $extension) {
     foreach ($libraries as $id => $library) {
       $libraries[$id]['css'] = [];
     }
