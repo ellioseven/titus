@@ -73,3 +73,8 @@
   );
   @include type-leader-clear;
 }
+
+.details-wrapper {
+  @include type-leader;
+  @include type-leader-clear;
+}

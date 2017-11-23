@@ -144,4 +144,12 @@
   .form-item > .description:last-child {
     margin-bottom: 0; }
 
+.details-wrapper {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .details-wrapper:first-child {
+    margin-top: 0; }
+  .details-wrapper:last-child {
+    margin-bottom: 0; }
+
 /*# sourceMappingURL=form.css.map */
