@@ -77,8 +77,13 @@
 .form--inline > .form-item {
   display: inline-block;
   margin-bottom: 0;
+  margin-left: .5em;
   margin-top: 0;
   vertical-align: bottom;
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .details-wrapper {
