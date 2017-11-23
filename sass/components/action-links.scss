@@ -1,0 +1,15 @@
+@import '../lib/lib';
+
+.action-links {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin-left: .5em;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+}
