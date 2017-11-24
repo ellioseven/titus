@@ -40,6 +40,7 @@
     color: $color-grey-abyss;
     font-weight: 700;
     padding: em(6px 18px, $base);
+    white-space: nowrap;
   }
 
   .dropbutton-action.secondary-action {
@@ -84,6 +85,7 @@
 
 .js .dropbutton-wrapper {
   min-height: em(30px);
+  padding-right: em(180px);
   position: relative;
 }
 
