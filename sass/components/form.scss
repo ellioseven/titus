@@ -72,6 +72,7 @@
     $base: $base
   );
   @include type-leader-clear;
+  color: $color-grey-ash;
 }
 
 .form--inline > .form-item {

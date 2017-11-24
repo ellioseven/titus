@@ -1,19 +1,21 @@
 @import '../lib/lib';
 
-.panel,
-.panel__title {
+.panel {
   @include type-leader;
   @include type-leader-clear;
-}
-
-.panel {
   @include border-radius(2px);
-  background: $color-grey-steam;
   border: 1px solid $color-grey-cement;
-  padding: em($base-vertical-margin);
 }
 
 .panel__title {
+  border-bottom: 1px solid $color-grey-cement;
   font-size: inherit;
+  font-weight: 700;
   line-height: inherit;
+  margin: 0;
+  padding: em($base-vertical-margin / 2);
+}
+
+.panel__content {
+  padding: em($base-vertical-margin);
 }

@@ -90,7 +90,7 @@
 }
 
 .js .dropbutton-widget {
-  @include border-radius(22em);
+  @include border-radius(2px);
   background-color: $color-grey-steam;
   border: 1px solid $color-grey-cement;
   padding-right: em(32px);
@@ -100,7 +100,7 @@
 .js .dropbutton-wrapper.open {
 
   .dropbutton-widget {
-    @include border-radius(em(16px));
+    @include border-radius(2px);
     position: absolute;
     z-index: 20;
   }

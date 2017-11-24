@@ -12,49 +12,49 @@ hr {
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
+  color: #292C44;
   font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, sans-serif;
-  font-weight: 700; }
+  font-weight: 400; }
   h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0; }
   h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
     margin-bottom: 0; }
 
 h1 {
-  font-size: 3.42857em;
-  line-height: 1.25;
-  margin-top: 0.41667em;
-  margin-bottom: 0.41667em; }
-
-h2 {
-  font-size: 2.57143em;
-  line-height: 1.33333;
-  margin-top: 0.55556em;
-  margin-bottom: 0.55556em; }
-
-h3 {
   font-size: 1.71429em;
   line-height: 1.5;
   margin-top: 0.83333em;
   margin-bottom: 0.83333em; }
 
-h4 {
+h2 {
   font-size: 1.5em;
   line-height: 1.52381;
   margin-top: 0.95238em;
   margin-bottom: 0.95238em; }
 
-h5 {
+h3 {
   font-size: 1.28571em;
   line-height: 1.66667;
   margin-top: 1.11111em;
   margin-bottom: 1.11111em; }
 
-h6 {
+h4 {
   font-size: 1.14286em;
   line-height: 1.5;
   margin-top: 1.25em;
   margin-bottom: 1.25em; }
+
+h5 {
+  font-size: 1em;
+  line-height: 1.42857;
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+
+h6 {
+  font-size: 0.85714em;
+  line-height: 1.5;
+  margin-top: 1.66667em;
+  margin-bottom: 1.66667em; }
 
 p {
   margin-top: 1.42857em;
@@ -104,10 +104,10 @@ hr {
     margin-bottom: 0; }
 
 a {
-  color: #008ee6;
+  color: #4f80ee;
   text-decoration: none;
   word-wrap: break-word; }
   a:hover, a:focus {
-    color: #444; }
+    color: #292C44; }
 
 /*# sourceMappingURL=typography.css.map */

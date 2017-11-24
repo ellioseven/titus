@@ -1,10 +1,22 @@
 @import '../lib/lib';
 
 .content-header {
-  background-color: $color-grey-steam;
-  border-bottom: 1px solid $color-grey-cement;
+  background-color: #292C44;
+  color: white;
   padding-bottom: em($base-vertical-margin);
   padding-top: em($base-vertical-margin);
+
+  a {
+    color: tint(#292C44, 50%);
+  }
+
+  .page-title {
+    color: white;
+  }
+
+  .tabs.primary a.is-active {
+    color: $color-grey-abyss;
+  }
 }
 
 .content-header .block-local-tasks-block:last-child {

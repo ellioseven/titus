@@ -13,7 +13,7 @@
   $base: $base-font-size
 ){
   @include appearance(none);
-  @include border-radius(22px);
+  @include border-radius(2px);
   @include transition(300ms);
   border: 0;
   cursor: pointer;
@@ -56,10 +56,10 @@
   @if $theme == default {
     $color: $color-white;
     $color-hover: $color-white;
-    $background-color: $color-blue-malibu;
-    $background-color-hover: shade($background-color, 15%);
-    $border-color: shade($background-color, 15%);
-    $border-color-hover: shade($border-color, 15%);
+    $background-color: $color-red-swiss;
+    $background-color-hover: shade($background-color, 10%);
+    $border-color: shade($background-color, 10%);
+    $border-color-hover: shade($border-color, 10%);
   }
 
   @if $theme == secondary {

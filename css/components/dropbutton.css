@@ -20,7 +20,7 @@
   .js .dropbutton .dropbutton-action a {
     font-size: 0.85714em;
     line-height: 1.5;
-    color: #444;
+    color: #292C44;
     font-weight: 700;
     padding: 0.5em 1.5em;
     white-space: nowrap; }
@@ -49,7 +49,7 @@
     width: 0;
     height: 0;
     border: 0 solid transparent;
-    border-top-color: #444;
+    border-top-color: #292C44;
     border-width: 0.42857em 0.28571em 0 0.28571em;
     margin: auto;
     position: absolute;
@@ -62,22 +62,22 @@
   position: relative; }
 
 .js .dropbutton-widget {
-  -webkit-border-radius: 22em;
-  -moz-border-radius: 22em;
-  -ms-border-radius: 22em;
-  -o-border-radius: 22em;
-  border-radius: 22em;
-  background-color: #f5f5f2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #f1f1f1;
   border: 1px solid #ddd;
   padding-right: 2.28571em;
   position: absolute; }
 
 .js .dropbutton-wrapper.open .dropbutton-widget {
-  -webkit-border-radius: 1.14286em;
-  -moz-border-radius: 1.14286em;
-  -ms-border-radius: 1.14286em;
-  -o-border-radius: 1.14286em;
-  border-radius: 1.14286em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
   position: absolute;
   z-index: 20; }
 
@@ -106,7 +106,7 @@
   width: 0;
   height: 0;
   border: 0 solid transparent;
-  border-bottom-color: #444;
+  border-bottom-color: #292C44;
   border-width: 0 0.28571em 0.42857em 0.28571em; }
 
 /*# sourceMappingURL=dropbutton.css.map */

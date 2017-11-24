@@ -20,39 +20,35 @@
 .tabs.primary {
 
   a {
-    background-color: $color-grey-steam;
-    border: 1px solid $color-grey-cement;
     padding: em($base-vertical-margin / 2 $base-vertical-margin);
   }
 
   a.is-active {
+    @include border-radius(2px);
     background-color: $color-white;
+    color: $color-grey-ash;
   }
 
   .tabs__tab {
     display: inline-block;
-    margin: 0 -5px 0 0;
+    margin: 0 -4px 0 0;
     padding: 0;
   }
 
-  .tabs__tab:first-child a {
-    @include border-radius(2px 0 0 2px);
-  }
-
-  .tabs__tab:last-child a {
-    @include border-radius(0 2px 2px 0);
+  .tabs__tab:first-child a.is-active {
+    border-left: 0;
   }
 }
 
 .tabs.secondary {
-  border-bottom: 1px solid $color-grey-cement;
+  border-bottom: 2px solid $color-grey-cement;
 
   a {
     padding: em($base-vertical-margin / 2);
   }
 
   a.is-active {
-    @include box-shadow(0 1px 0 0 $color-blue-malibu);
+    @include box-shadow(0 2px 0 0 $color-green-retro);
   }
 
   .tabs__tab {

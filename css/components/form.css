@@ -138,7 +138,8 @@
   font-size: 0.85714em;
   line-height: 1.5;
   margin-top: 0.83333em;
-  margin-bottom: 0.83333em; }
+  margin-bottom: 0.83333em;
+  color: #999; }
   .form-item > .description:first-child {
     margin-top: 0; }
   .form-item > .description:last-child {

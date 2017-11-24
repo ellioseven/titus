@@ -1,7 +1,7 @@
 @mixin type-heading-base {
   color: $color-display;
   font-family: $type-font-family-display;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @mixin type-step(

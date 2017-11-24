@@ -20,27 +20,27 @@ hr {
 }
 
 h1 {
-  @include th-hs(walter);
-}
-
-h2 {
-  @include th-hs(skyler);
-}
-
-h3 {
   @include th-hs(mike);
 }
 
-h4 {
+h2 {
   @include th-hs(pete);
 }
 
-h5 {
+h3 {
   @include th-hs(marie);
 }
 
-h6 {
+h4 {
   @include th-hs(tuco);
+}
+
+h5 {
+  @include th-hs(junior);
+}
+
+h6 {
+  @include th-hs(saul);
 }
 
 p {

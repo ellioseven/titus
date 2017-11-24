@@ -14,32 +14,21 @@
     margin: 0;
   }
 
+  > li:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
   > li:last-child {
     padding-bottom: 0;
   }
 
   > li > a {
     display: block;
-    padding-left: 1.5em;
     position: relative;
   }
 
-  > li > a::before {
-    $font-size: 10px;
-    @include fontello($icon-right-open);
-    color: $color-grey-abyss;
-    font-size: em($font-size);
-    left: 0;
-    position: absolute;
-    top: em(6px, $font-size);
-  }
-
   .label {
-    @include th-h(
-      $heading: tuco,
-      $include: font-size line-height
-    );
-    @include type-leader-clear;
     display: block;
     font-weight: 700;
   }
