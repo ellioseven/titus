@@ -1,0 +1,19 @@
+@import '../lib/lib';
+
+.panel,
+.panel__title {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+.panel {
+  @include border-radius(2px);
+  background: $color-grey-steam;
+  border: 1px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
+}
+
+.panel__title {
+  font-size: inherit;
+  line-height: inherit;
+}
