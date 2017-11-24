@@ -77,14 +77,14 @@
     );
     margin: auto;
     position: absolute;
-    top: em(12px);
     right: em(12px);
+    top: em(12px);
   }
 }
 
 .js .dropbutton-wrapper {
-  position: relative;
   min-height: em(30px);
+  position: relative;
 }
 
 .js .dropbutton-widget {

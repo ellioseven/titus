@@ -52,12 +52,12 @@
     border-width: 0.42857em 0.28571em 0 0.28571em;
     margin: auto;
     position: absolute;
-    top: 0.85714em;
-    right: 0.85714em; }
+    right: 0.85714em;
+    top: 0.85714em; }
 
 .js .dropbutton-wrapper {
-  position: relative;
-  min-height: 2.14286em; }
+  min-height: 2.14286em;
+  position: relative; }
 
 .js .dropbutton-widget {
   -webkit-border-radius: 22em;
