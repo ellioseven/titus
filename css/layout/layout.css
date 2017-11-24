@@ -2,4 +2,18 @@
   padding-left: 1.42857em;
   padding-right: 1.42857em; }
 
+.layout-column + .layout-column {
+  padding-left: 1.42857em; }
+
+@media (min-width: 64em) {
+  .layout-column--half {
+    width: 50%; } }
+
+@media (min-width: 64em) {
+  .layout-column {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left; } }
+
 /*# sourceMappingURL=layout.css.map */

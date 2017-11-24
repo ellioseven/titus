@@ -4,3 +4,20 @@
   padding-left: em($base-vertical-margin);
   padding-right: em($base-vertical-margin);
 }
+
+.layout-column + .layout-column {
+  padding-left: em($base-vertical-margin);
+}
+
+.layout-column--half {
+  @include breakpoint($breakpoint-large) {
+    width: 50%;
+  }
+}
+
+.layout-column {
+  @include breakpoint($breakpoint-large) {
+    @include box-sizing(border-box);
+    float: left;
+  }
+}
