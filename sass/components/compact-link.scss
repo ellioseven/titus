@@ -1,0 +1,6 @@
+@import '../lib/lib';
+
+.compact-link {
+  @include type-leader;
+  @include type-leader-clear;
+}

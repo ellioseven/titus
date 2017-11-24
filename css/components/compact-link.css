@@ -1,0 +1,9 @@
+.compact-link {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .compact-link:first-child {
+    margin-top: 0; }
+  .compact-link:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=compact-link.css.map */

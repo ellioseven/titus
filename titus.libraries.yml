@@ -15,6 +15,7 @@ global-styling:
       css/components/block.css: {}
       css/components/breadcrumb.css: {}
       css/components/button.css: {}
+      css/components/compact-link.css: {}
       css/components/content-header.css: {}
       css/components/content-main.css: {}
       css/components/field.css: {}
