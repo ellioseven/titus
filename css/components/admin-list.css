@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0; }
   .admin-list > li {
-    padding-top: 1.42857em;
-    padding-bottom: 1.42857em;
-    border-bottom: 1px solid #ddd;
+    padding-top: 1.07143em;
+    padding-bottom: 1.07143em;
+    border-top: 1px solid #ddd;
     display: block;
     margin: 0; }
-    .admin-list > li:first-child {
-      border-top: 1px solid #ddd; }
+  .admin-list > li:last-child {
+    padding-bottom: 0; }
   .admin-list > li > a {
     display: block;
     padding-left: 1.5em;
