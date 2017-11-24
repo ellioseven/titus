@@ -59,6 +59,7 @@ gulp.task('fontello', function() {
     // Write icons to file.
     fs.open(dest, 'w', '0755', function (err, fd) {
       fs.writeSync(fd, icons.join("\n"));
+      fs.writeSync(fd, "\n");
     });
   })
 });
