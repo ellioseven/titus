@@ -39,3 +39,26 @@ gulp.task('sass:watch', function () {
     gulp.start('sass');
   });
 });
+
+// Parse fontello codes to sass variables.
+gulp.task('fontello', function() {
+  var src = './fonts/fontello/css/fontello-codes.css';
+  var dest = './sass/lib/variables/_fontello.scss';
+  // Read fontello codes from file.
+  fs.readFile(src, 'utf-8', function (err, data) {
+    var icons = [];
+    // First group matches icon name, second matches icon code.
+    var expression = /.(icon-.+?(?=:)).+\\(.+?)'.+/g;
+    var lines = data.split("\n");
+    // Loop matches.
+    for (var line of lines) {
+      var match = expression.exec(line);
+      // Push formatted icon variable string.
+      if (match) icons.push("$" + match[1] + ": '\\" + match[2] + "';");
+    }
+    // Write icons to file.
+    fs.open(dest, 'w', '0755', function (err, fd) {
+      fs.writeSync(fd, icons.join("\n"));
+    });
+  })
+});
