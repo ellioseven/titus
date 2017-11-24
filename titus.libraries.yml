@@ -11,6 +11,7 @@ global-styling:
       css/base/typography.css: {}
     component:
       css/components/action-links.css: {}
+      css/components/admin-list.css: {}
       css/components/block.css: {}
       css/components/breadcrumb.css: {}
       css/components/button.css: {}
@@ -24,6 +25,14 @@ global-styling:
       css/components/tabs.css: {}
     layout:
       css/layout/layout.css: {}
+  dependencies:
+    - titus/fontello
+
+fontello:
+  version: VERSION
+  css:
+    base:
+      fonts/fontello/css/fontello.css: {}
 
 vertical-tabs:
   version: VERSION

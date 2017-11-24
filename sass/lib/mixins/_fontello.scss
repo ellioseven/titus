@@ -1,0 +1,76 @@
+@mixin fontello-base {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'fontello';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+@mixin fontello(
+  $icon: '',
+  $height: 1em,
+  $width: 1em
+){
+  @include fontello-base;
+  content: $icon;
+  display: inline-block;
+  height: $height;
+  line-height: $height;
+  text-align: center;
+  width: $width;
+}
+
+@mixin fontello-replace-with-icon(
+  $icon: '',
+  $height: false,
+  $width: false,
+  $inline: true
+){
+  @include fontello-replace-with-icon-size($height, $width);
+  line-height: 0;
+  text-indent: -119988px;
+  vertical-align: middle;
+
+  @if inline {
+    display: inline-block;
+  } @else {
+    display: block;
+  }
+
+  &::after {
+    @include fontello-base;
+    content: $icon;
+    display: block;
+    height: 100%;
+    text-align: center;
+    text-indent: 0;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
+@mixin fontello-replace-with-icon-size(
+  $height: false,
+  $width: false
+){
+  @if $height {
+    height: $height;
+  }
+
+  @if $width {
+    width: $width;
+  }
+
+  &::after {
+    @if $height {
+      line-height: $height;
+    } @else {
+      line-height: 1;
+    }
+  }
+}

@@ -1,18 +1,20 @@
-@import 'node_modules/sassdash/scss/sassdash';
-@import 'node_modules/compass-mixins/lib/compass';
 @import 'node_modules/breakpoint-sass/stylesheets/breakpoint';
+@import 'node_modules/compass-mixins/lib/compass';
+@import 'node_modules/sassdash/scss/sassdash';
 @import 'node_modules/sass-toolkit/stylesheets/toolkit';
 @import 'node_modules/sass-units-translate/sass/sass-units-translate';
 @import 'node_modules/type-heading/stylesheets/type-heading';
 
 @import 'variables/core';
-@import 'variables/selector';
 @import 'variables/breakpoint';
 @import 'variables/color';
+@import 'variables/fontello';
+@import 'variables/selector';
 @import 'variables/typography';
 
 @import 'functions/typography';
 
 @import 'mixins/button';
+@import 'mixins/fontello';
 @import 'mixins/forms';
 @import 'mixins/typography';
