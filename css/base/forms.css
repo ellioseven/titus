@@ -103,15 +103,15 @@ select,
 textarea {
   font-size: 1em;
   line-height: 1.42857em;
-  padding: 0.71429em 0.85714em; }
+  padding: 0.57143em 0.71429em; }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 select {
-  height: 3em; }
+  height: 2.71429em; }
 
 select {
-  background-position: calc(100% - 0.85714em) center;
-  padding-right: 2.28571em; }
+  background-position: calc(100% - 0.71429em) center;
+  padding-right: 2em; }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 select,
