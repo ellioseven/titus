@@ -34,6 +34,12 @@ global-styling:
   dependencies:
     - titus/fontello
 
+system:
+  version: VERSION
+  css:
+    component:
+      css/components/system/system-themes-list.css: {}
+
 fontello:
   version: VERSION
   css:
