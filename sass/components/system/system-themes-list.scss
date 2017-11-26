@@ -1,0 +1,33 @@
+@import '../../lib/lib';
+
+.system-themes-list {
+  @include type-leader;
+  @include type-leader-clear;
+
+  .theme-selector {
+    @include type-leader;
+    @include type-leader-clear;
+    max-width: em(940px);
+  }
+
+  .theme-selector img {
+    border: 1px solid $color-grey-cement;
+    float: left;
+    margin-right: em($base-vertical-margin);
+    max-width: em(300px);
+    padding: em(10px);
+  }
+
+  .theme-info__header {
+    margin: 0;
+  }
+
+  .theme-info__description,
+  .operations {
+    @include type-leader(.25);
+    @include type-leader-clear;
+  }
+}
+
+.system-themes-list-installed {
+}

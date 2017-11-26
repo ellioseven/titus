@@ -13,6 +13,8 @@ libraries-override:
       component:
         /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/dropbutton.css
 libraries-extend:
+  system/base:
+    - titus/system
   core/drupal.vertical-tabs:
     - titus/vertical-tabs
 regions:
