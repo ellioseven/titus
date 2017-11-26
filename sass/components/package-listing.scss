@@ -1,0 +1,108 @@
+@import '../lib/lib';
+
+.package-listing {
+  padding: 0;
+
+  &[open] {
+    padding-bottom: 0;
+  }
+
+  > summary {
+    margin: 0;
+  }
+
+  table {
+    border: 0;
+    margin: 0;
+  }
+
+  th,
+  td {
+    vertical-align: top;
+  }
+
+  tr:nth-child(even):not(:hover) td {
+    background-color: $color-grey-cloud;
+  }
+
+  tr:last-child th,
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+  tr:hover td {
+    background-color: $color-yellow-sand;
+  }
+
+  table details {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  table summary {
+    background-color: transparent;
+    border: 0;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .details-wrapper {
+    margin: 0;
+  }
+
+  td.checkbox {
+    width: em(20px);
+  }
+
+  td.module {
+    width: 25%;
+  }
+
+  .details-description {
+    margin-top: em($base-vertical-margin / 2);
+  }
+
+  .details-description > div {
+    @include type-leader(.5);
+    @include type-leader-clear;
+  }
+
+  .admin-requirements {
+    @include th-h(
+      $heading: saul,
+      $include: font-size line-height
+    );
+  }
+
+  .module-link {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  .module-link-help::before,
+  .module-link-permissions::before,
+  .module-link-configure::before {
+    @include fontello;
+    margin-right: .25em;
+    position: relative;
+    top: -1px;
+  }
+
+  .module-link-help::before {
+    content: $icon-help;
+  }
+
+  .module-link-permissions::before {
+    content: $icon-cog;
+  }
+
+  .module-link-configure::before {
+    content: $icon-key;
+  }
+}

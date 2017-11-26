@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.package-listing {
+  padding: 0; }
+  .package-listing[open] {
+    padding-bottom: 0; }
+  .package-listing > summary {
+    margin: 0; }
+  .package-listing table {
+    border: 0;
+    margin: 0; }
+  .package-listing th,
+  .package-listing td {
+    vertical-align: top; }
+  .package-listing tr:nth-child(even):not(:hover) td {
+    background-color: #f9f9f9; }
+  .package-listing tr:last-child th,
+  .package-listing tr:last-child td {
+    border-bottom: 0; }
+  .package-listing tr:hover td {
+    background-color: #fefbd6; }
+  .package-listing table details {
+    border: 0;
+    margin: 0;
+    padding: 0; }
+  .package-listing table summary {
+    background-color: transparent;
+    border: 0;
+    font-weight: 400;
+    margin: 0;
+    padding: 0; }
+    .package-listing table summary:hover {
+      cursor: pointer; }
+  .package-listing .details-wrapper {
+    margin: 0; }
+  .package-listing td.checkbox {
+    width: 1.42857em; }
+  .package-listing td.module {
+    width: 25%; }
+  .package-listing .details-description {
+    margin-top: 0.71429em; }
+  .package-listing .details-description > div {
+    margin-top: 0.71429em;
+    margin-bottom: 0.71429em; }
+    .package-listing .details-description > div:first-child {
+      margin-top: 0; }
+    .package-listing .details-description > div:last-child {
+      margin-bottom: 0; }
+  .package-listing .admin-requirements {
+    font-size: 0.85714em;
+    line-height: 1.5; }
+  .package-listing .module-link {
+    display: inline-block;
+    margin-right: 1em; }
+  .package-listing .module-link-help::before,
+  .package-listing .module-link-permissions::before,
+  .package-listing .module-link-configure::before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'fontello';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    width: 1em;
+    margin-right: .25em;
+    position: relative;
+    top: -1px; }
+  .package-listing .module-link-help::before {
+    content: ""; }
+  .package-listing .module-link-permissions::before {
+    content: ""; }
+  .package-listing .module-link-configure::before {
+    content: ""; }
+
+/*# sourceMappingURL=package-listing.css.map */
