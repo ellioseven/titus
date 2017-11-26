@@ -1,0 +1,19 @@
+.operations {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0; }
+  .operations:first-child {
+    margin-top: 0; }
+  .operations:last-child {
+    margin-bottom: 0; }
+  .operations li {
+    display: inline-block; }
+  .operations li:not(:first-child)::before {
+    color: #999;
+    content: '|';
+    margin-left: .5em;
+    margin-right: .5em; }
+
+/*# sourceMappingURL=operations.css.map */

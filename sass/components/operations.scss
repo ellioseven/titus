@@ -1,0 +1,20 @@
+@import '../lib/lib';
+
+.operations {
+  @include type-leader;
+  @include type-leader-clear;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+  }
+
+  li:not(:first-child)::before {
+    color: $color-grey-ash;
+    content: '|';
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+}
