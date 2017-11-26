@@ -7,4 +7,15 @@
   .field-suffix:last-child {
     margin-bottom: 0; }
 
+.field-prefix {
+  margin-right: .25em; }
+  .field-prefix + input {
+    display: inline-block; }
+
+.form-wrapper.field-plugin-settings-edit-form {
+  margin: 0; }
+
+.field-plugin-settings-editing .ajax-new-content > .form-item:first-child {
+  margin: 0; }
+
 /*# sourceMappingURL=field.css.map */

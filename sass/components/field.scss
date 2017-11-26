@@ -5,3 +5,19 @@
   @include type-leader-clear;
   display: block;
 }
+
+.field-prefix {
+  margin-right: .25em;
+
+  + input {
+    display: inline-block;
+  }
+}
+
+.form-wrapper.field-plugin-settings-edit-form {
+  margin: 0;
+}
+
+.field-plugin-settings-editing .ajax-new-content > .form-item:first-child {
+  margin: 0;
+}
