@@ -13,28 +13,31 @@
   .dropbutton .dropbutton-toggle {
     display: none; }
 
-.js .dropbutton {
+.js .dropbutton .dropbutton-action {
+  margin: 0; }
+
+.js .dropbutton .dropbutton-action a {
+  font-size: 0.85714em;
+  line-height: 1.5;
+  color: #292c44;
+  display: block;
+  font-weight: 700;
+  padding: 0.5em 1.5em;
+  white-space: nowrap; }
+
+.js .dropbutton-wrapper.dropbutton-multiple .dropbutton {
   overflow: hidden; }
-  .js .dropbutton .dropbutton-action {
-    margin: 0; }
-  .js .dropbutton .dropbutton-action a {
-    font-size: 0.85714em;
-    line-height: 1.5;
-    color: #292C44;
-    font-weight: 700;
-    padding: 0.5em 1.5em;
-    white-space: nowrap; }
-  .js .dropbutton .dropbutton-action.secondary-action {
+  .js .dropbutton-wrapper.dropbutton-multiple .dropbutton .dropbutton-action.secondary-action {
     border-top: 1px solid #ddd;
     display: none; }
-  .js .dropbutton .dropbutton-toggle {
+  .js .dropbutton-wrapper.dropbutton-multiple .dropbutton .dropbutton-toggle {
     bottom: 0;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
     width: 2.28571em; }
-  .js .dropbutton .dropbutton-toggle button {
+  .js .dropbutton-wrapper.dropbutton-multiple .dropbutton .dropbutton-toggle button {
     background: none;
     border: 0;
     border-left: 1px solid #ddd;
@@ -44,24 +47,24 @@
     margin: 0;
     padding: 0;
     width: 100%; }
-  .js .dropbutton .dropbutton-toggle .dropbutton-arrow {
+  .js .dropbutton-wrapper.dropbutton-multiple .dropbutton .dropbutton-toggle .dropbutton-arrow {
     display: block;
     width: 0;
     height: 0;
     border: 0 solid transparent;
-    border-top-color: #292C44;
+    border-top-color: #292c44;
     border-width: 0.42857em 0.28571em 0 0.28571em;
     margin: auto;
     position: absolute;
     right: 0.85714em;
     top: 0.85714em; }
 
-.js .dropbutton-wrapper {
+.js .dropbutton-wrapper.dropbutton-multiple {
   min-height: 2.14286em;
   padding-right: 12.85714em;
   position: relative; }
 
-.js .dropbutton-widget {
+.js .dropbutton-wrapper .dropbutton-widget {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -69,6 +72,9 @@
   border-radius: 2px;
   background-color: #f1f1f1;
   border: 1px solid #ddd;
+  display: inline-block; }
+
+.js .dropbutton-wrapper.dropbutton-multiple .dropbutton-widget {
   padding-right: 2.28571em;
   position: absolute; }
 
@@ -106,7 +112,7 @@
   width: 0;
   height: 0;
   border: 0 solid transparent;
-  border-bottom-color: #292C44;
+  border-bottom-color: #292c44;
   border-width: 0 0.28571em 0.42857em 0.28571em; }
 
 /*# sourceMappingURL=dropbutton.css.map */

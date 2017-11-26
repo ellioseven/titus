@@ -25,7 +25,6 @@
 }
 
 .js .dropbutton {
-  overflow: hidden;
 
   .dropbutton-action {
     margin: 0;
@@ -38,10 +37,15 @@
       $include: font-size line-height
     );
     color: $color-grey-abyss;
+    display: block;
     font-weight: 700;
     padding: em(6px 18px, $base);
     white-space: nowrap;
   }
+}
+
+.js .dropbutton-wrapper.dropbutton-multiple .dropbutton {
+  overflow: hidden;
 
   .dropbutton-action.secondary-action {
     border-top: 1px solid $color-grey-cement;
@@ -83,16 +87,20 @@
   }
 }
 
-.js .dropbutton-wrapper {
+.js .dropbutton-wrapper.dropbutton-multiple {
   min-height: em(30px);
   padding-right: em(180px);
   position: relative;
 }
 
-.js .dropbutton-widget {
+.js .dropbutton-wrapper .dropbutton-widget {
   @include border-radius(2px);
   background-color: $color-grey-steam;
   border: 1px solid $color-grey-cement;
+  display: inline-block;
+}
+
+.js .dropbutton-wrapper.dropbutton-multiple .dropbutton-widget {
   padding-right: em(32px);
   position: absolute;
 }
