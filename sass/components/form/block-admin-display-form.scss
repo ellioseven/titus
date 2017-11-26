@@ -1,0 +1,9 @@
+@import '../../lib/lib';
+
+.block-admin-display-form {
+  @include input-size(small);
+
+  > table > tbody > tr > td > .form-item {
+    margin: 0;
+  }
+}
