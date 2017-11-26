@@ -90,7 +90,7 @@
   $base: $base-font-size
 ){
   $font-size: th-base(junior);
-  $padding: 10px 24px;
+  $padding: 8px 24px;
   $line-height: $base-line-height;
 
   @if $size == small {
