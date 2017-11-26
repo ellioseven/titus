@@ -1,0 +1,23 @@
+.system-themes-list {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .system-themes-list:first-child {
+    margin-top: 0; }
+  .system-themes-list:last-child {
+    margin-bottom: 0; }
+  .system-themes-list .theme-selector {
+    margin-top: 1.42857em;
+    margin-bottom: 1.42857em; }
+    .system-themes-list .theme-selector:first-child {
+      margin-top: 0; }
+    .system-themes-list .theme-selector:last-child {
+      margin-bottom: 0; }
+  .system-themes-list .theme-selector img {
+    float: left;
+    margin-right: 1.42857em;
+    max-width: 21.42857em; }
+
+.system-themes-list-installed {
+  max-width: 67.14286em; }
+
+/*# sourceMappingURL=system-themes-list.css.map */
