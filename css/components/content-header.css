@@ -1,20 +1,21 @@
 .content-header {
   background-color: #292c44;
+  color: #fff;
   padding-bottom: 1.42857em;
   padding-top: 1.42857em; }
   .content-header a {
     color: #9496a2; }
   .content-header .page-title {
-    color: white; }
+    color: #fff; }
   .content-header .tabs.primary a.is-active {
     color: #292c44; }
 
 .content-header .block-local-tasks-block:last-child {
   margin-bottom: -1.5em; }
   .content-header .block-local-tasks-block:last-child a.is-active {
-    -webkit-box-shadow: 0 1px 0 0 white;
-    -moz-box-shadow: 0 1px 0 0 white;
-    box-shadow: 0 1px 0 0 white;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    -moz-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
     background-color: #fff;
     border-bottom: 0; }
 

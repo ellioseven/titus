@@ -1,17 +1,17 @@
 @import '../lib/lib';
 
 .content-header {
-  background-color: #292C44;
-  color: white;
+  background-color: $color-grey-abyss;
+  color: $color-white;
   padding-bottom: em($base-vertical-margin);
   padding-top: em($base-vertical-margin);
 
   a {
-    color: tint(#292C44, 50%);
+    color: tint($color-grey-abyss, 50%);
   }
 
   .page-title {
-    color: white;
+    color: $color-white;
   }
 
   .tabs.primary a.is-active {
@@ -23,7 +23,7 @@
   margin-bottom: -#{em($base-vertical-margin + 1px)};
 
   a.is-active {
-    @include box-shadow(0 1px 0 0 white);
+    @include box-shadow(0 1px 0 0 $color-white);
     background-color: $color-white;
     border-bottom: 0;
   }
