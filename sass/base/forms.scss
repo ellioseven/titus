@@ -117,11 +117,6 @@ input[type='checkbox'] {
   margin-right: .25em;
 }
 
-tr .form-item {
-  @include input-size(small);
-  margin: 0;
-}
-
 button.link {
   @include button-link;
 }

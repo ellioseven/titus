@@ -19,6 +19,12 @@
   @include type-leader-clear;
 }
 
+.form-actions > .form-submit,
+.form-wrapper.form-actions > .form-submit {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .form-actions > .form-submit + a {
   margin-left: 1em;
 }
@@ -57,25 +63,26 @@
 
 .form-radios > .form-type-radio,
 .form-checkboxes > .form-type-checkbox {
-  @include type-leader(.25);
+  @include type-leader(.5);
   @include type-leader-clear;
 }
 
-.form-item > .description {
+.form-item .description {
   $base: th-base(saul);
   @include th-h(
     $heading: saul,
     $include: font-size line-height
   );
   @include type-leader(
-    $step: .5,
+    $step: .25,
     $base: $base
   );
   @include type-leader-clear;
   color: $color-grey-ash;
 }
 
-.form--inline > .form-item {
+.form--inline .form-item,
+.container-inline .form-item {
   display: inline-block;
   margin-bottom: 0;
   margin-left: .5em;
@@ -89,5 +96,10 @@
 
 .details-wrapper {
   @include type-leader;
+  @include type-leader-clear;
+}
+
+.form-wrapper > .form-submit {
+  @include type-leader(.5);
   @include type-leader-clear;
 }
