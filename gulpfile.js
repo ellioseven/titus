@@ -48,7 +48,7 @@ gulp.task('fontello', function() {
   fs.readFile(src, 'utf-8', function (err, data) {
     var icons = [];
     // First group matches icon name, second matches icon code.
-    var expression = /.(icon-.+?(?=:)).+\\(.+?)'.+/g;
+    var expression = /.(icon-.+?(?=:)).+\\(.+?)'.+/;
     var lines = data.split("\n");
     // Loop matches.
     for (var line of lines) {
