@@ -3,3 +3,6 @@
 .icon-left-open:before { content: '\e801'; } /* '' */
 .icon-right-open:before { content: '\e802'; } /* '' */
 .icon-up-open:before { content: '\e803'; } /* '' */
+.icon-cog:before { content: '\e804'; } /* '' */
+.icon-key:before { content: '\e805'; } /* '' */
+.icon-help:before { content: '\f128'; } /* '' */
