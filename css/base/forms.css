@@ -76,7 +76,7 @@ label button {
   margin: 0;
   padding: 0; }
   label button:hover, label button:focus {
-    color: #292C44; }
+    color: #292c44; }
 
 fieldset {
   margin-top: 1.42857em;
@@ -192,6 +192,6 @@ button.link {
   margin: 0;
   padding: 0; }
   button.link:hover, button.link:focus {
-    color: #292C44; }
+    color: #292c44; }
 
 /*# sourceMappingURL=forms.css.map */
