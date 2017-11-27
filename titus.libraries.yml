@@ -19,6 +19,7 @@ global-styling:
       css/components/container-inline.css: {}
       css/components/content-header.css: {}
       css/components/content-main.css: {}
+      css/components/description.css: {}
       css/components/field.css: {}
       css/components/form.css: {}
       css/components/form/block-admin-display-form.css: {}

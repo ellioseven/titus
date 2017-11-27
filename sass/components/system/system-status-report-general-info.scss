@@ -1,0 +1,73 @@
+@import '../../lib/lib';
+
+.system-status-general-info {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+.system-status-general-info__item {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  @include border-radius(2px);
+  border: 1px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
+  padding-left: em($base-vertical-margin) + 4em;
+  position: relative;
+}
+
+.system-status-general-info__item-title,
+.system-status-general-info__sub-item-title {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  margin: 0;
+}
+
+.system-status-general-info__description .cron-description__run-cron {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  display: block;
+  @include breakpoint($breakpoint-large) {
+    margin: 0;
+    position: absolute;
+    right: em($base-vertical-margin);
+    top: em($base-vertical-margin);
+  }
+}
+
+.system-status-general-info__item .description {
+  margin: 0;
+}
+
+.system-status-general-info__item-icon {
+  display: block;
+  left: em($base-vertical-margin);
+  position: absolute;
+  top: em($base-vertical-margin);
+}
+
+.system-status-general-info__item-icon::before {
+  @include fontello;
+  color: $color-grey-cement;
+  font-size: 2.5em;
+}
+
+.system-status-general-info__item-icon--d8::before {
+  content: $icon-drupal;
+}
+
+.system-status-general-info__item-icon--clock::before {
+  content: $icon-clock;
+}
+
+.system-status-general-info__item-icon--server::before {
+  content: $icon-server;
+}
+
+.system-status-general-info__item-icon--php::before {
+  content: $icon-cog;
+}
+
+.system-status-general-info__item-icon--database::before {
+  content: $icon-database;
+}

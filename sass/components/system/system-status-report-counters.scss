@@ -1,0 +1,22 @@
+@import '../../lib/lib';
+
+.system-status-report-counters {
+  @include type-leader;
+  @include type-leader-clear;
+  @include pie-clearfix;
+}
+
+.system-status-report-counters__item {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  @include box-sizing(border-box);
+  @include border-radius(2px);
+  border: 1px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
+  padding-left: em($base-vertical-margin) + 4em;
+  position: relative;
+
+  * {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.system-status-general-info {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .system-status-general-info:first-child {
+    margin-top: 0; }
+  .system-status-general-info:last-child {
+    margin-bottom: 0; }
+
+.system-status-general-info__item {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  padding: 1.42857em;
+  padding-left: 5.42857em;
+  position: relative; }
+  .system-status-general-info__item:first-child {
+    margin-top: 0; }
+  .system-status-general-info__item:last-child {
+    margin-bottom: 0; }
+
+.system-status-general-info__item-title,
+.system-status-general-info__sub-item-title {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  margin: 0; }
+
+.system-status-general-info__description .cron-description__run-cron {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
+  display: block; }
+  .system-status-general-info__description .cron-description__run-cron:first-child {
+    margin-top: 0; }
+  .system-status-general-info__description .cron-description__run-cron:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 64em) {
+    .system-status-general-info__description .cron-description__run-cron {
+      margin: 0;
+      position: absolute;
+      right: 1.42857em;
+      top: 1.42857em; } }
+
+.system-status-general-info__item .description {
+  margin: 0; }
+
+.system-status-general-info__item-icon {
+  display: block;
+  left: 1.42857em;
+  position: absolute;
+  top: 1.42857em; }
+
+.system-status-general-info__item-icon::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'fontello';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  vertical-align: middle;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  width: 1em;
+  color: #ddd;
+  font-size: 2.5em; }
+
+.system-status-general-info__item-icon--d8::before {
+  content: ""; }
+
+.system-status-general-info__item-icon--clock::before {
+  content: ""; }
+
+.system-status-general-info__item-icon--server::before {
+  content: ""; }
+
+.system-status-general-info__item-icon--php::before {
+  content: ""; }
+
+.system-status-general-info__item-icon--database::before {
+  content: ""; }
+
+/*# sourceMappingURL=system-status-report-general-info.css.map */
