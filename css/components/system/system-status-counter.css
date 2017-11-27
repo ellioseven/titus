@@ -14,9 +14,9 @@
 
 .system-status-counter__status-icon {
   display: block;
+  left: 1.42857em;
   position: absolute;
-  top: 1.42857em;
-  left: 1.42857em; }
+  top: 1.42857em; }
 
 .system-status-counter__status-icon::before {
   -moz-osx-font-smoothing: grayscale;

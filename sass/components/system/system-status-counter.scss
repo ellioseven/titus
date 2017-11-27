@@ -19,9 +19,9 @@
 
 .system-status-counter__status-icon {
   display: block;
+  left: em($base-vertical-margin);
   position: absolute;
   top: em($base-vertical-margin);
-  left: em($base-vertical-margin);
 }
 
 .system-status-counter__status-icon::before {
