@@ -157,6 +157,10 @@ select {
   select::-ms-expand {
     display: none; }
 
+select[multiple] {
+  background-image: none;
+  height: auto; }
+
 textarea {
   height: auto;
   max-width: 100%;
