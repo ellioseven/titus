@@ -1,0 +1,15 @@
+@import '../lib/lib';
+
+.description {
+  $base: th-base(saul);
+  @include th-h(
+    $heading: saul,
+    $include: font-size line-height
+  );
+  @include type-leader(
+    $step: .25,
+    $base: $base
+  );
+  @include type-leader-clear;
+  color: $color-grey-ash;
+}

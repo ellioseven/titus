@@ -139,17 +139,6 @@
   .form-checkboxes > .form-type-checkbox:last-child {
     margin-bottom: 0; }
 
-.form-item .description {
-  font-size: 0.85714em;
-  line-height: 1.5;
-  margin-top: 0.41667em;
-  margin-bottom: 0.41667em;
-  color: #999; }
-  .form-item .description:first-child {
-    margin-top: 0; }
-  .form-item .description:last-child {
-    margin-bottom: 0; }
-
 .form--inline .form-item,
 .container-inline .form-item {
   display: inline-block;
