@@ -156,7 +156,7 @@
   margin-bottom: 0;
   margin-left: .5em;
   margin-top: 0;
-  vertical-align: bottom; }
+  vertical-align: top; }
   .form--inline .form-item:first-child,
   .container-inline .form-item:first-child {
     margin-left: 0; }
