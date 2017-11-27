@@ -23,6 +23,19 @@
   margin: 0;
 }
 
+.system-status-general-info__sub-item-title {
+  $base: th-base(saul);
+  @include th-h(
+    $heading: saul,
+    $include: font-size line-height
+  );
+  margin-top: em($base-vertical-margin / 4, $base);
+
+  &:after {
+    content: ":";
+  }
+}
+
 .system-status-general-info__description .cron-description__run-cron {
   @include type-leader(.5);
   @include type-leader-clear;
