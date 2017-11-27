@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.system-status-counter {
+  display: block; }
+
+.system-status-counter__status-title {
+  display: inline-block; }
+
+.system-status-counter__title-count,
+.system-status-counter__details {
+  display: block; }
+
+.system-status-counter__title-count {
+  font-weight: 700; }
+
+.system-status-counter__status-icon {
+  display: block;
+  position: absolute;
+  top: 1.42857em;
+  left: 1.42857em; }
+
+.system-status-counter__status-icon::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'fontello';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  vertical-align: middle;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  width: 1em;
+  font-size: 2.5em; }
+
+.system-status-counter__status-icon--error::before {
+  color: #dc3545;
+  content: ""; }
+
+.system-status-counter__status-icon--checked::before {
+  color: #20c997;
+  content: ""; }
+
+/*# sourceMappingURL=system-status-counter.css.map */

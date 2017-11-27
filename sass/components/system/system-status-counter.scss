@@ -1,0 +1,40 @@
+@import '../../lib/lib';
+
+.system-status-counter {
+  display: block;
+}
+
+.system-status-counter__status-title {
+  display: inline-block;
+}
+
+.system-status-counter__title-count,
+.system-status-counter__details {
+  display: block;
+}
+
+.system-status-counter__title-count {
+  font-weight: 700;
+}
+
+.system-status-counter__status-icon {
+  display: block;
+  position: absolute;
+  top: em($base-vertical-margin);
+  left: em($base-vertical-margin);
+}
+
+.system-status-counter__status-icon::before {
+  @include fontello;
+  font-size: 2.5em;
+}
+
+.system-status-counter__status-icon--error::before {
+  color: $color-red-blood;
+  content: $icon-cancel-circled;
+}
+
+.system-status-counter__status-icon--checked::before {
+  color: $color-green-invader;
+  content: $icon-ok-circled;
+}
