@@ -12,4 +12,10 @@
 .field-plugin-settings-editing .ajax-new-content > .form-item:first-child {
   margin: 0; }
 
+.machine-name-value + .admin-link {
+  display: inline-block;
+  margin-left: .25em; }
+  .machine-name-value + .admin-link:before {
+    content: '- '; }
+
 /*# sourceMappingURL=field.css.map */
