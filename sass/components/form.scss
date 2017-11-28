@@ -28,10 +28,10 @@
   margin-bottom: 0;
   margin-top: 0;
   vertical-align: bottom;
-}
 
-.form-actions .form-submit + a {
-  margin-left: 1em;
+  + a {
+    margin-left: 1em;
+  }
 }
 
 .form-type-radio,
