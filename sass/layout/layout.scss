@@ -27,3 +27,9 @@
     float: left;
   }
 }
+
+.layout-section {
+  @include breakpoint($breakpoint-large) {
+    @include pie-clearfix;
+  }
+}

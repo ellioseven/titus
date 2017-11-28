@@ -20,4 +20,12 @@
     box-sizing: border-box;
     float: left; } }
 
+@media (min-width: 64em) {
+  .layout-section {
+    *zoom: 1; }
+    .layout-section:after {
+      content: "";
+      display: table;
+      clear: both; } }
+
 /*# sourceMappingURL=layout.css.map */
