@@ -34,14 +34,14 @@
     color: #292c44; }
 
 .button--primary {
-  background-color: #ff5349;
-  border-color: #e64b42;
+  background-color: #20c997;
+  border-color: #1db588;
   border-style: solid;
   border-width: 1px;
   color: #fff; }
   .button--primary:hover, .button--primary:focus {
-    background-color: #e64b42;
-    border-color: #cf443b;
+    background-color: #1db588;
+    border-color: #1aa37a;
     color: #fff; }
 
 .button--small {

@@ -56,7 +56,7 @@
   @if $theme == default {
     $color: $color-white;
     $color-hover: $color-white;
-    $background-color: $color-red-swiss;
+    $background-color: $color-green-invader;
     $background-color-hover: shade($background-color, 10%);
     $border-color: shade($background-color, 10%);
     $border-color-hover: shade($border-color, 10%);
