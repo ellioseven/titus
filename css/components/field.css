@@ -1,16 +1,10 @@
 .field-suffix {
-  margin-top: 0.35714em;
-  margin-bottom: 0.35714em;
-  display: block; }
-  .field-suffix:first-child {
-    margin-top: 0; }
-  .field-suffix:last-child {
-    margin-bottom: 0; }
+  display: inline-block;
+  margin-left: .25em; }
 
 .field-prefix {
+  display: inline-block;
   margin-right: .25em; }
-  .field-prefix + input {
-    display: inline-block; }
 
 .form-wrapper.field-plugin-settings-edit-form {
   margin: 0; }

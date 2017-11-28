@@ -1,17 +1,13 @@
 @import '../lib/lib';
 
 .field-suffix {
-  @include type-leader(.25);
-  @include type-leader-clear;
-  display: block;
+  display: inline-block;
+  margin-left: .25em;
 }
 
 .field-prefix {
+  display: inline-block;
   margin-right: .25em;
-
-  + input {
-    display: inline-block;
-  }
 }
 
 .form-wrapper.field-plugin-settings-edit-form {
