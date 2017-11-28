@@ -1,0 +1,9 @@
+.image-style-preview .preview-image {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em; }
+  .image-style-preview .preview-image:first-child {
+    margin-top: 0; }
+  .image-style-preview .preview-image:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=image.admin.css.map */

@@ -1,0 +1,6 @@
+@import '../../../lib/lib';
+
+.image-style-preview .preview-image {
+  @include type-leader(.5);
+  @include type-leader-clear;
+}

@@ -19,6 +19,8 @@ libraries-override:
       component:
         /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/dropbutton.css
 libraries-extend:
+  image/admin:
+    - titus/image
   system/base:
     - titus/system
   core/drupal.vertical-tabs:

@@ -53,3 +53,9 @@ vertical-tabs:
   css:
     component:
       css/components/vertical-tabs.css: {}
+
+image:
+  version: VERSION
+  css:
+    component:
+      css/components/modules/image/image.admin.css: {}
