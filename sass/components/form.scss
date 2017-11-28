@@ -19,13 +19,13 @@
   @include type-leader-clear;
 }
 
-.form-actions > .form-submit,
-.form-wrapper.form-actions > .form-submit {
+.form-submit {
   margin-bottom: 0;
   margin-top: 0;
+  vertical-align: bottom;
 }
 
-.form-actions > .form-submit + a {
+.form-actions .form-submit + a {
   margin-left: 1em;
 }
 
@@ -80,18 +80,7 @@
   }
 }
 
-.form--inline .form-submit,
-.container-inline .form-submit {
-  margin: 0;
-  vertical-align: bottom;
-}
-
 .details-wrapper {
   @include type-leader;
-  @include type-leader-clear;
-}
-
-.form-wrapper > .form-submit {
-  @include type-leader(.5);
   @include type-leader-clear;
 }
