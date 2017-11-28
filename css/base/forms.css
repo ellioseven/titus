@@ -103,11 +103,11 @@ select,
 textarea {
   font-size: 1em;
   line-height: 1.78571em;
-  padding: 0.57143em 0.71429em; }
+  padding: 0.42857em 0.71429em; }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 select {
-  height: 3.07143em; }
+  height: 2.78571em; }
 
 select {
   background-position: calc(100% - 0.71429em) center;
