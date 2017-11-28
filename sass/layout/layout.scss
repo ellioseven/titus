@@ -15,6 +15,12 @@
   }
 }
 
+.layout-column--quarter {
+  @include breakpoint($breakpoint-large) {
+    width: 25%;
+  }
+}
+
 .layout-column {
   @include breakpoint($breakpoint-large) {
     @include box-sizing(border-box);
