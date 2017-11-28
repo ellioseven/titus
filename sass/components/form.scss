@@ -16,7 +16,6 @@
 .form-item > input,
 .form-item > select,
 .form-item > .form-textarea-wrapper > textarea {
-  @include type-leader-clear;
 }
 
 .form-item > #{$selector-form-text-inputs},

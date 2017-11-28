@@ -21,16 +21,6 @@
   .form-item > legend:last-child {
     margin-bottom: 0; }
 
-.form-item > input:first-child,
-.form-item > select:first-child,
-.form-item > .form-textarea-wrapper > textarea:first-child {
-  margin-top: 0; }
-
-.form-item > input:last-child,
-.form-item > select:last-child,
-.form-item > .form-textarea-wrapper > textarea:last-child {
-  margin-bottom: 0; }
-
 .form-item > input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 .form-item > select {
   display: inline-block; }

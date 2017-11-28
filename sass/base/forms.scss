@@ -85,6 +85,7 @@ textarea {
   @include box-sizing(border-box);
   @include border-radius(2px);
   @include appearance(none);
+  @include type-leader-clear;
   @include input-placeholder {
     color: $color-grey-ash;
   }

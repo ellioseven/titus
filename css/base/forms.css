@@ -133,6 +133,14 @@ textarea {
   font-family: inherit;
   overflow: hidden;
   width: auto; }
+  input[type="text"]:first-child, input[type="password"]:first-child, input[type="date"]:first-child, input[type="datetime"]:first-child, input[type="datetime-local"]:first-child, input[type="month"]:first-child, input[type="week"]:first-child, input[type="email"]:first-child, input[type="number"]:first-child, input[type="search"]:first-child, input[type="tel"]:first-child, input[type="time"]:first-child, input[type="url"]:first-child,
+  select:first-child,
+  textarea:first-child {
+    margin-top: 0; }
+  input[type="text"]:last-child, input[type="password"]:last-child, input[type="date"]:last-child, input[type="datetime"]:last-child, input[type="datetime-local"]:last-child, input[type="month"]:last-child, input[type="week"]:last-child, input[type="email"]:last-child, input[type="number"]:last-child, input[type="search"]:last-child, input[type="tel"]:last-child, input[type="time"]:last-child, input[type="url"]:last-child,
+  select:last-child,
+  textarea:last-child {
+    margin-bottom: 0; }
   input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder,
   select::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
