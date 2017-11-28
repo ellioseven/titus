@@ -26,8 +26,8 @@
     border: 0;
     margin: 0;
     max-width: 22.85714em;
-    width: 100%;
-    padding: 0; } }
+    padding: 0;
+    width: 100%; } }
 
 @media (min-width: 48em) {
   .system-status-report summary.system-status-report__status-icon--error::before {

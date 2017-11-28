@@ -31,8 +31,8 @@
   );
   margin-top: em($base-vertical-margin / 4, $base);
 
-  &:after {
-    content: ":";
+  &::after {
+    content: ':';
   }
 }
 

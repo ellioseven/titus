@@ -35,8 +35,8 @@
   font-size: 0.85714em;
   line-height: 1.5;
   margin-top: 0.41667em; }
-  .system-status-general-info__sub-item-title:after {
-    content: ":"; }
+  .system-status-general-info__sub-item-title::after {
+    content: ':'; }
 
 .system-status-general-info__description .cron-description__run-cron {
   margin-top: 0.71429em;
