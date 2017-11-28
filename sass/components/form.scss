@@ -80,6 +80,12 @@
   }
 }
 
+.form--inline .form-submit,
+.container-inline .form-submit {
+  margin: 0;
+  vertical-align: bottom;
+}
+
 .details-wrapper {
   @include type-leader;
   @include type-leader-clear;
