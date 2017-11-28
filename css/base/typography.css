@@ -110,4 +110,8 @@ a {
   a:hover, a:focus {
     color: #292c44; }
 
+small {
+  font-size: 0.85714em;
+  line-height: 1.5; }
+
 /*# sourceMappingURL=typography.css.map */
