@@ -15,7 +15,7 @@
 .machine-name-value + .admin-link {
   display: inline-block;
   margin-left: .25em; }
-  .machine-name-value + .admin-link:before {
+  .machine-name-value + .admin-link::before {
     content: '- '; }
 
 /*# sourceMappingURL=field.css.map */

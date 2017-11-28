@@ -22,7 +22,7 @@
   display: inline-block;
   margin-left: .25em;
 
-  &:before {
+  &::before {
     content: '- ';
   }
 }
