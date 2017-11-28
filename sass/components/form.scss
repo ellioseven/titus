@@ -13,11 +13,6 @@
   font-weight: 700;
 }
 
-.form-item > input,
-.form-item > select,
-.form-item > .form-textarea-wrapper > textarea {
-}
-
 .form-item > #{$selector-form-text-inputs},
 .form-item > select {
   display: inline-block;
