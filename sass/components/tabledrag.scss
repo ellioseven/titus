@@ -15,8 +15,10 @@
 }
 
 .tabledrag-toggle-weight {
-  $base: th-base(saul);
-  bottom: em($base-vertical-margin / 2, $base);
-  position: absolute;
-  right: 0;
+  @include breakpoint($breakpoint-medium) {
+    $base: th-base(saul);
+    bottom: em($base-vertical-margin / 2, $base);
+    position: absolute;
+    right: 0;
+  }
 }

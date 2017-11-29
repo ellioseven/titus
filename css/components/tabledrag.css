@@ -8,9 +8,10 @@
   line-height: 1.5;
   position: relative; }
 
-.tabledrag-toggle-weight {
-  bottom: 0.83333em;
-  position: absolute;
-  right: 0; }
+@media (min-width: 48em) {
+  .tabledrag-toggle-weight {
+    bottom: 0.83333em;
+    position: absolute;
+    right: 0; } }
 
 /*# sourceMappingURL=tabledrag.css.map */
