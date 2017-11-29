@@ -5,14 +5,20 @@
   margin: 0;
   padding: 0;
 
+  .button {
+    @include button-link;
+  }
+
+  li,
   a {
     display: block;
   }
 
-  .dropbutton-action {
+  li {
     display: inline-block;
-    margin: 0 0 0 .5em;
+    margin: .25em 0 0 .5em;
     padding: 0;
+    vertical-align: middle;
 
     &:first-child {
       margin-left: 0;
@@ -24,13 +30,19 @@
   }
 }
 
+.dropbutton-wrapper {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
 .js .dropbutton {
 
-  .dropbutton-action {
+  li {
     margin: 0;
   }
 
-  .dropbutton-action a {
+  li a,
+  li .button {
     $base: th-base(saul);
     @include th-h(
       $heading: saul,
@@ -47,7 +59,7 @@
 .js .dropbutton-wrapper.dropbutton-multiple .dropbutton {
   overflow: hidden;
 
-  .dropbutton-action.secondary-action {
+  li.secondary-action {
     border-top: 1px solid $color-grey-cement;
     display: none;
   }
@@ -117,11 +129,11 @@
     overflow: visible;
   }
 
-  .dropbutton .dropbutton-action {
+  .dropbutton li {
     @include border-radius(0);
   }
 
-  .dropbutton .dropbutton-action.secondary-action {
+  .dropbutton li.secondary-action {
     display: block;
   }
 

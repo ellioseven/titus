@@ -2,21 +2,46 @@
   display: block;
   margin: 0;
   padding: 0; }
+  .dropbutton .button {
+    background: transparent;
+    border: 0;
+    color: #4f80ee;
+    display: inline;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+    .dropbutton .button:hover, .dropbutton .button:focus {
+      color: #292c44;
+      background-color: transparent; }
+  .dropbutton li,
   .dropbutton a {
     display: block; }
-  .dropbutton .dropbutton-action {
+  .dropbutton li {
     display: inline-block;
-    margin: 0 0 0 .5em;
-    padding: 0; }
-    .dropbutton .dropbutton-action:first-child {
+    margin: .25em 0 0 .5em;
+    padding: 0;
+    vertical-align: middle; }
+    .dropbutton li:first-child {
       margin-left: 0; }
   .dropbutton .dropbutton-toggle {
     display: none; }
 
-.js .dropbutton .dropbutton-action {
+.dropbutton-wrapper {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .dropbutton-wrapper:first-child {
+    margin-top: 0; }
+  .dropbutton-wrapper:last-child {
+    margin-bottom: 0; }
+
+.js .dropbutton li {
   margin: 0; }
 
-.js .dropbutton .dropbutton-action a {
+.js .dropbutton li a,
+.js .dropbutton li .button {
   font-size: 0.85714em;
   line-height: 1.5;
   color: #292c44;
@@ -27,7 +52,7 @@
 
 .js .dropbutton-wrapper.dropbutton-multiple .dropbutton {
   overflow: hidden; }
-  .js .dropbutton-wrapper.dropbutton-multiple .dropbutton .dropbutton-action.secondary-action {
+  .js .dropbutton-wrapper.dropbutton-multiple .dropbutton li.secondary-action {
     border-top: 1px solid #ddd;
     display: none; }
   .js .dropbutton-wrapper.dropbutton-multiple .dropbutton .dropbutton-toggle {
@@ -90,14 +115,14 @@
 .js .dropbutton-wrapper.open .dropbutton {
   overflow: visible; }
 
-.js .dropbutton-wrapper.open .dropbutton .dropbutton-action {
+.js .dropbutton-wrapper.open .dropbutton li {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0; }
 
-.js .dropbutton-wrapper.open .dropbutton .dropbutton-action.secondary-action {
+.js .dropbutton-wrapper.open .dropbutton li.secondary-action {
   display: block; }
 
 .js .dropbutton-wrapper.open .dropbutton .dropbutton-toggle button {
