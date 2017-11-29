@@ -36,10 +36,12 @@
   line-height: inherit;
   margin: 0;
   padding: 0;
+  text-align: left;
 
   &:hover,
   &:focus {
     color: $color-link-hover;
+    background-color: transparent;
   }
 }
 
@@ -90,7 +92,7 @@
   $base: $base-font-size
 ){
   $font-size: th-base(junior);
-  $padding: 8px 24px;
+  $padding: 11px 24px;
   $line-height: $base-line-height;
 
   @if $size == small {
