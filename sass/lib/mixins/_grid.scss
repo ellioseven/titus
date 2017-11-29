@@ -1,0 +1,12 @@
+@mixin grid-row {
+  @include pie-clearfix;
+  margin-left: -$grid-gutter;
+}
+
+@mixin grid-columns($columns) {
+  $width: percentage(($grid-columns / $columns) / $grid-columns);
+  @include box-sizing(border-box);
+  float: left;
+  margin-left: $grid-gutter;
+  width: calc(#{$width} - #{$grid-gutter});
+}
