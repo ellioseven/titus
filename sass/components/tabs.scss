@@ -8,50 +8,72 @@
   margin-right: 0;
   padding: 0;
 
-  a {
+  > li > a {
     display: block;
   }
 
-  .tabs__tab {
+  > li {
+    display: block;
     list-style: none;
+    @include breakpoint($breakpoint-medium) {
+      display: inline-block;
+    }
   }
 }
 
 .tabs.primary {
 
-  a {
+  > li > a {
     padding: em($base-vertical-margin / 2 $base-vertical-margin);
   }
 
-  a.is-active {
+  > li > a.is-active {
     @include border-radius(2px);
     background-color: $color-white;
     color: $color-grey-ash;
   }
 
-  .tabs__tab {
+  > li {
     display: inline-block;
     margin: 0 -4px 0 0;
     padding: 0;
   }
 
-  .tabs__tab:first-child a.is-active {
+  > li:first-child a.is-active {
     border-left: 0;
   }
 }
 
 .tabs.secondary {
-  border-bottom: 2px solid $color-grey-cement;
+  border-bottom: 1px solid $color-grey-cement;
 
-  a {
-    padding: em($base-vertical-margin / 2);
+  > li > a {
+    @include breakpoint($breakpoint-medium) {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
   }
 
-  a.is-active {
-    @include box-shadow(0 2px 0 0 $color-green-retro);
+  > li.is-active > a {
+    color: inherit;
+    font-weight: 700;
+    @include breakpoint($breakpoint-medium) {
+      color: $color-link;
+      font-weight: 400;
+    }
   }
 
-  .tabs__tab {
-    display: inline-block;
+  > li {
+    display: block;
+    padding-bottom: em($base-vertical-margin / 2);
+    @include breakpoint($breakpoint-medium) {
+      display: inline-block;
+    }
+  }
+
+  > li.is-active {
+    @include breakpoint($breakpoint-medium) {
+      @include box-shadow(0 1px 0 0 $color-green-retro);
+    }
   }
 }
