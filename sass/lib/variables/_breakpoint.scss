@@ -1,3 +1,8 @@
 $breakpoint-medium: em(768px, 16px);
+$breakpoint-medium-lower: em(768px - 1px, 16px);
+
 $breakpoint-large: em(1024px, 16px);
+$breakpoint-large-lower: em(1024px - 1px, 16px);
+
 $breakpoint-large-x: em(1366px, 16px);
+$breakpoint-large-x-lower: em(1366px - 1px, 16px);
