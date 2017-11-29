@@ -15,7 +15,12 @@
 
 .form-item > #{$selector-form-text-inputs},
 .form-item > select {
-  display: inline-block;
+  display: block;
+  width: 100%;
+  @include breakpoint($breakpoint-medium) {
+    display: inline-block;
+    width: auto;
+  }
 }
 
 .form-submit {
@@ -68,11 +73,13 @@
 
 .form--inline .form-item,
 .container-inline .form-item {
-  display: inline-block;
-  margin-bottom: 0;
-  margin-left: .5em;
-  margin-top: 0;
-  vertical-align: top;
+  @include breakpoint($breakpoint-medium) {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: .5em;
+    margin-top: 0;
+    vertical-align: top;
+  }
 
   &:first-child {
     margin-left: 0;
