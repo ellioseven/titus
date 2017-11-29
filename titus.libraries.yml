@@ -11,6 +11,7 @@ global-styling:
       css/base/typography.css: {}
     component:
       css/components/action-links.css: {}
+      css/components/action-list.css: {}
       css/components/admin-list.css: {}
       css/components/block.css: {}
       css/components/breadcrumb.css: {}

@@ -1,0 +1,27 @@
+@import '../lib/lib';
+
+.action-list {
+  @include type-leader;
+  @include type-leader-clear;
+  background-color: $color-white;
+  border: 1px solid $color-grey-cement;
+  margin-left: 0;
+  margin-right: 0;
+  padding: em($base-vertical-margin / 2) 0;
+
+  .button {
+    @include button-link;
+  }
+
+  > li,
+  > li > a {
+    display: block;
+  }
+
+  > li > a,
+  > li > .button {
+    padding: em($base-vertical-margin / 4) 2em;
+    text-align: center;
+    width: 100%;
+  }
+}

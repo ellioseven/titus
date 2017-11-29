@@ -1,0 +1,36 @@
+.action-list {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.71429em 0; }
+  .action-list:first-child {
+    margin-top: 0; }
+  .action-list:last-child {
+    margin-bottom: 0; }
+  .action-list .button {
+    background: transparent;
+    border: 0;
+    color: #4f80ee;
+    display: inline;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+    .action-list .button:hover, .action-list .button:focus {
+      color: #292c44;
+      background-color: transparent; }
+  .action-list > li,
+  .action-list > li > a {
+    display: block; }
+  .action-list > li > a,
+  .action-list > li > .button {
+    padding: 0.35714em 2em;
+    text-align: center;
+    width: 100%; }
+
+/*# sourceMappingURL=action-list.css.map */
