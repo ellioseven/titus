@@ -60,3 +60,8 @@ image:
   css:
     component:
       css/components/modules/image/image.admin.css: {}
+
+views_ui:
+  css:
+    component:
+      css/components/modules/views_ui/views_ui.admin.css: {}
