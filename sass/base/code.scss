@@ -18,6 +18,8 @@ pre {
   @include type-leader-clear;
   border: 1px solid $color-grey-cement;
   display: block;
+  max-width: 100%;
+  overflow: auto;
   padding: em($base-vertical-margin) 1em;
 
   code {

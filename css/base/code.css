@@ -14,6 +14,8 @@ pre {
   margin-bottom: 1.42857em;
   border: 1px solid #ddd;
   display: block;
+  max-width: 100%;
+  overflow: auto;
   padding: 1.42857em 1em; }
   pre:first-child {
     margin-top: 0; }
