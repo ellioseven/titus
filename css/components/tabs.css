@@ -21,7 +21,7 @@
 .tabs.primary > li > a {
   padding: 0.71429em 1.42857em; }
 
-.tabs.primary > li > a.is-active {
+.tabs.primary > li.is-active > a {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
