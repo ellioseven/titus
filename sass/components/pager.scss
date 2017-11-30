@@ -1,6 +1,6 @@
 @import '../lib/lib';
 
-.pager {
+nav.pager {
   @include type-leader;
   @include type-leader-clear;
   text-align: center;
