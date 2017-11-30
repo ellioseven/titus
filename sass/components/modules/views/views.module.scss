@@ -117,7 +117,8 @@
   }
 }
 
-.views-display-column {
+.views-display-column,
+.views-display-column.form-wrapper {
   @include breakpoint($breakpoint-large) {
     @include grid-columns(3);
     @include border-radius(2px);
@@ -128,13 +129,15 @@
   }
 }
 
-details.views-display-column {
+details.views-display-column,
+details.form-wrapper.views-display-column {
   @include breakpoint($breakpoint-large) {
     padding-top: 0;
   }
 }
 
-details.views-display-column:not([open]) {
+details.views-display-column:not([open]),
+details.views-display-column.form-wrapper:not([open]) {
   @include breakpoint($breakpoint-large) {
     padding-bottom: 0;
     padding-top: 0;

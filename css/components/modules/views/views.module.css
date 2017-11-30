@@ -128,7 +128,8 @@
       clear: both; } }
 
 @media (min-width: 64em) {
-  .views-display-column {
+  .views-display-column,
+  .views-display-column.form-wrapper {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -146,11 +147,13 @@
     padding: 1.42857em; } }
 
 @media (min-width: 64em) {
-  details.views-display-column {
+  details.views-display-column,
+  details.form-wrapper.views-display-column {
     padding-top: 0; } }
 
 @media (min-width: 64em) {
-  details.views-display-column:not([open]) {
+  details.views-display-column:not([open]),
+  details.views-display-column.form-wrapper:not([open]) {
     padding-bottom: 0;
     padding-top: 0; } }
 
