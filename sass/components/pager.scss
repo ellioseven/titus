@@ -1,0 +1,35 @@
+@import '../lib/lib';
+
+.pager {
+  @include type-leader;
+  @include type-leader-clear;
+  text-align: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    display: block;
+  }
+
+  li.is-active a {
+    color: $color-grey-ash;
+
+    &:hover,
+    &:focus {
+      color: $color-link;
+    }
+  }
+}

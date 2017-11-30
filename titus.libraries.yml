@@ -26,6 +26,7 @@ global-styling:
       css/components/form/block-admin-display-form.css: {}
       css/components/operations.css: {}
       css/components/page-title.css: {}
+      css/components/pager.css: {}
       css/components/package-listing.css: {}
       css/components/panel.css: {}
       css/components/region.css: {}

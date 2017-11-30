@@ -1,0 +1,25 @@
+.pager {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em;
+  text-align: center; }
+  .pager:first-child {
+    margin-top: 0; }
+  .pager:last-child {
+    margin-bottom: 0; }
+  .pager ul {
+    margin: 0;
+    padding: 0; }
+  .pager li {
+    display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em; }
+    .pager li:first-child {
+      margin-left: 0; }
+  .pager a {
+    display: block; }
+  .pager li.is-active a {
+    color: #999; }
+    .pager li.is-active a:hover, .pager li.is-active a:focus {
+      color: #4f80ee; }
+
+/*# sourceMappingURL=pager.css.map */
