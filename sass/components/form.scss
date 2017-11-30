@@ -72,7 +72,9 @@
 }
 
 .form--inline .form-item,
-.container-inline .form-item {
+.form--inline .form-actions,
+.container-inline .form-item,
+.container-inline .form-actions {
   @include breakpoint($breakpoint-medium) {
     display: inline-block;
     margin-bottom: 0;

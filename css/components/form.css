@@ -140,7 +140,9 @@
 
 @media (min-width: 48em) {
   .form--inline .form-item,
-  .container-inline .form-item {
+  .form--inline .form-actions,
+  .container-inline .form-item,
+  .container-inline .form-actions {
     display: inline-block;
     margin-bottom: 0;
     margin-left: .5em;
