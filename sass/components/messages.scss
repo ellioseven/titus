@@ -1,0 +1,48 @@
+@import '../lib/lib';
+
+.messages {
+  @include border-radius(2px);
+  @include type-leader;
+  @include type-leader-clear;
+  margin-left: 0;
+  margin-right: 0;
+  padding: em($base-vertical-margin / 2);
+}
+
+.messages.messages--status {
+  background-color: $color-blue-sea;
+  color: $color-white;
+}
+
+.messages.messages--error {
+  background-color: $color-red-blood;
+  color: $color-white;
+}
+
+.messages.messages--warning {
+  background-color: $color-orange-sun;
+  color: $color-white;
+}
+
+.messages__list {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.messages__item {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  display: block;
+  margin-left: -#{em($base-vertical-margin / 2)};
+  margin-right: -#{em($base-vertical-margin / 2)};
+  border-top: 1px solid rgba($color-black, .1);
+  padding-top: em($base-vertical-margin / 2);
+  padding-left: em($base-vertical-margin / 2);
+  padding-right: em($base-vertical-margin / 2);
+
+  &:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+}

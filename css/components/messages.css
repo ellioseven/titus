@@ -1,0 +1,52 @@
+.messages {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.71429em; }
+  .messages:first-child {
+    margin-top: 0; }
+  .messages:last-child {
+    margin-bottom: 0; }
+
+.messages.messages--status {
+  background-color: #17a2b8;
+  color: #fff; }
+
+.messages.messages--error {
+  background-color: #dc3545;
+  color: #fff; }
+
+.messages.messages--warning {
+  background-color: #fd7e14;
+  color: #fff; }
+
+.messages__list {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.messages__item {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
+  display: block;
+  margin-left: -0.71429em;
+  margin-right: -0.71429em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 0.71429em;
+  padding-left: 0.71429em;
+  padding-right: 0.71429em; }
+  .messages__item:first-child {
+    margin-top: 0; }
+  .messages__item:last-child {
+    margin-bottom: 0; }
+  .messages__item:first-child {
+    border-top: 0;
+    padding-top: 0; }
+
+/*# sourceMappingURL=messages.css.map */
