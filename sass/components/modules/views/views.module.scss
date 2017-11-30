@@ -1,0 +1,160 @@
+@import '../../../lib/lib';
+
+.view,
+.view-filters,
+.view-content,
+.views-list-section,
+.views-preview-wrapper {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+.views-display-setting {
+  @include box-sizing(border-box);
+  border: 1px solid $color-grey-steam;
+  margin-top: -1px;
+  padding: em($base-vertical-margin / 2);
+
+  &:nth-of-type(2n) {
+    background-color: $color-grey-cloud;
+  }
+}
+
+.views-display-top {
+  @include breakpoint($breakpoint-large) {
+    position: relative;
+  }
+
+  .form-submit {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    display: block;
+    width: 100%;
+    @include breakpoint($breakpoint-medium) {
+      display: inline-block;
+      margin: 0;
+      width: auto;
+    }
+  }
+}
+
+.views-display-top {
+  @include breakpoint($breakpoint-large) {
+    position: relative;
+  }
+
+  .form-submit {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    display: block;
+    width: 100%;
+    @include breakpoint($breakpoint-medium) {
+      display: inline-block;
+      margin: 0;
+      width: auto;
+    }
+  }
+}
+
+.js .views-display-top {
+
+  .add {
+    margin: 0;
+    position: relative;
+    @include breakpoint($breakpoint-medium) {
+      padding: 0;
+    }
+  }
+
+  .add > a {
+    outline: none;
+    @include breakpoint($breakpoint-medium) {
+      padding-bottom: em($base-vertical-margin / 2);
+    }
+  }
+
+  .action-list {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-medium) {
+      margin: 0;
+      position: absolute;
+      top: 100%;
+      z-index: 20;
+    }
+  }
+}
+
+.views-query-info {
+
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      display: block;
+    }
+  }
+
+  table,
+  th,
+  td {
+    border-color: $color-grey-steam;
+    vertical-align: top;
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      border: 0;
+      padding: 0;
+    }
+  }
+
+  td {
+    min-width: em(200px);
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      @include type-leader(.25);
+      @include type-leader-clear;
+    }
+  }
+
+  tr {
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      @include type-leader;
+      @include type-leader-clear;
+    }
+  }
+
+  pre {
+    white-space: pre-wrap;
+  }
+}
+
+.views-display-columns {
+  @include breakpoint($breakpoint-large) {
+    @include grid-row;
+  }
+}
+
+.views-display-column {
+  @include breakpoint($breakpoint-large) {
+    @include grid-columns(3);
+    @include border-radius(2px);
+    border: 1px solid $color-grey-cement;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: em($base-vertical-margin);
+  }
+}
+
+details.views-display-column {
+  @include breakpoint($breakpoint-large) {
+    padding-top: 0;
+  }
+}
+
+details.views-display-column:not([open]) {
+  @include breakpoint($breakpoint-large) {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}

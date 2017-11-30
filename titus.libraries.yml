@@ -61,7 +61,14 @@ image:
     component:
       css/components/modules/image/image.admin.css: {}
 
+views:
+  version: VERSION
+  css:
+    component:
+      css/components/modules/views/views.module.css: {}
+
 views_ui:
+  version: VERSION
   css:
     component:
       css/components/modules/views_ui/views_ui.admin.css: {}

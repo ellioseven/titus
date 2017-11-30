@@ -19,6 +19,7 @@ libraries-override:
       component:
         /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/dropbutton.css
   views_ui/admin.styling: titus/views_ui
+  views/views.module: titus/views
 libraries-extend:
   image/admin:
     - titus/image
