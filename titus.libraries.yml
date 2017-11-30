@@ -32,6 +32,7 @@ global-styling:
       css/components/region.css: {}
       css/components/system/system-status-report.css: {}
       css/components/tabledrag.css: {}
+      css/components/tables.css: {}
       css/components/tabs.css: {}
     layout:
       css/layout/layout.css: {}
