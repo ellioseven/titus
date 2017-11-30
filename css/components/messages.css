@@ -34,13 +34,13 @@
 .messages__item {
   margin-top: 0.71429em;
   margin-bottom: 0.71429em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   display: block;
   margin-left: -0.71429em;
   margin-right: -0.71429em;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding-top: 0.71429em;
   padding-left: 0.71429em;
-  padding-right: 0.71429em; }
+  padding-right: 0.71429em;
+  padding-top: 0.71429em; }
   .messages__item:first-child {
     margin-top: 0; }
   .messages__item:last-child {

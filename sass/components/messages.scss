@@ -31,15 +31,16 @@
 }
 
 .messages__item {
+  $border-color: rgba($color-black, .1);
   @include type-leader(.5);
   @include type-leader-clear;
+  border-top: 1px solid $border-color;
   display: block;
   margin-left: -#{em($base-vertical-margin / 2)};
   margin-right: -#{em($base-vertical-margin / 2)};
-  border-top: 1px solid rgba($color-black, .1);
-  padding-top: em($base-vertical-margin / 2);
   padding-left: em($base-vertical-margin / 2);
   padding-right: em($base-vertical-margin / 2);
+  padding-top: em($base-vertical-margin / 2);
 
   &:first-child {
     border-top: 0;
