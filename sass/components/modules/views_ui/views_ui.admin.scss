@@ -3,11 +3,6 @@
 .views-ui-display-tab-bucket {
   @include type-leader;
   @include type-leader-clear;
-}
-
-.views-ui-display-tab-bucket {
-  @include type-leader;
-  @include type-leader-clear;
   @include border-radius(2px);
 
   header {

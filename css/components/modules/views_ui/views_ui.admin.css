@@ -1,13 +1,5 @@
 .views-ui-display-tab-bucket {
   margin-top: 1.42857em;
-  margin-bottom: 1.42857em; }
-  .views-ui-display-tab-bucket:first-child {
-    margin-top: 0; }
-  .views-ui-display-tab-bucket:last-child {
-    margin-bottom: 0; }
-
-.views-ui-display-tab-bucket {
-  margin-top: 1.42857em;
   margin-bottom: 1.42857em;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;

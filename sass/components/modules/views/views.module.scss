@@ -38,24 +38,6 @@
   }
 }
 
-.views-display-top {
-  @include breakpoint($breakpoint-large) {
-    position: relative;
-  }
-
-  .form-submit {
-    @include type-leader(.5);
-    @include type-leader-clear;
-    display: block;
-    width: 100%;
-    @include breakpoint($breakpoint-medium) {
-      display: inline-block;
-      margin: 0;
-      width: auto;
-    }
-  }
-}
-
 .js .views-display-top {
 
   .add {
@@ -140,8 +122,8 @@
     @include grid-columns(3);
     @include border-radius(2px);
     border: 1px solid $color-grey-cement;
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
     padding: em($base-vertical-margin);
   }
 }
