@@ -88,6 +88,13 @@
   }
 }
 
+.form--inline .form-actions,
+.container-inline .form-item {
+  @include breakpoint($breakpoint-medium) {
+    vertical-align: bottom;
+  }
+}
+
 .details-wrapper {
   @include type-leader;
   @include type-leader-clear;
