@@ -104,12 +104,12 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 select,
 textarea {
   font-size: 1em;
-  line-height: 2.14286em;
-  padding: 0.42857em 0.71429em; }
+  line-height: 1.85714em;
+  padding: 0.35714em 0.71429em; }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 select {
-  height: 3.14286em; }
+  height: 2.71429em; }
 
 select {
   background-position: calc(100% - 0.71429em) center;
