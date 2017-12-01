@@ -62,7 +62,7 @@ image:
   version: VERSION
   css:
     component:
-      css/components/modules/image/image.admin.css: {}
+      css/components/image/image.admin.css: {}
 
 image-widget:
   version: VERSION
@@ -74,16 +74,16 @@ node:
   version: VERSION
   css:
     component:
-      css/components/modules/node/node.module.css: {}
+      css/components/node/node.module.css: {}
 
 views:
   version: VERSION
   css:
     component:
-      css/components/modules/views/views.module.css: {}
+      css/components/views/views.module.css: {}
 
 views_ui:
   version: VERSION
   css:
     component:
-      css/components/modules/views_ui/views_ui.admin.css: {}
+      css/components/views_ui/views_ui.admin.css: {}
