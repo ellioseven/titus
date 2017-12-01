@@ -19,7 +19,7 @@ libraries-override:
   core/drupal.dropbutton:
     css:
       component:
-        /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/dropbutton.css
+        /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/core/dropbutton.css
   filter/drupal.filter.admin:
     css:
       theme:

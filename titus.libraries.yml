@@ -56,7 +56,7 @@ vertical-tabs:
   version: VERSION
   css:
     component:
-      css/components/vertical-tabs.css: {}
+      css/components/core/vertical-tabs.css: {}
 
 image:
   version: VERSION
