@@ -1,0 +1,14 @@
+@import '../lib/lib';
+
+.image-preview,
+.image-widget-data {
+  @include type-leader(.25);
+  @include type-leader-clear;
+}
+
+.image-widget-data label {
+  $base: th-base(saul);
+  @include type-leader($step: .5, $base: $base);
+  @include type-leader-clear;
+  @include th-h($heading: saul, $include: font-size line-height);
+}

@@ -1,0 +1,22 @@
+.image-preview,
+.image-widget-data {
+  margin-top: 0.35714em;
+  margin-bottom: 0.35714em; }
+  .image-preview:first-child,
+  .image-widget-data:first-child {
+    margin-top: 0; }
+  .image-preview:last-child,
+  .image-widget-data:last-child {
+    margin-bottom: 0; }
+
+.image-widget-data label {
+  margin-top: 0.83333em;
+  margin-bottom: 0.83333em;
+  font-size: 0.85714em;
+  line-height: 1.5; }
+  .image-widget-data label:first-child {
+    margin-top: 0; }
+  .image-widget-data label:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=image-widget.css.map */
