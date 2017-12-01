@@ -8,6 +8,7 @@ libraries:
   - titus/global-styling
 libraries-override:
   system/admin: false
+  classy/image-widget: titus/image-widget
   system/base:
     css:
       component:
