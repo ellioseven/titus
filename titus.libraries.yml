@@ -13,6 +13,7 @@ global-styling:
       css/components/action-links.css: {}
       css/components/action-list.css: {}
       css/components/admin-list.css: {}
+      css/components/autocomplete-loading.module.css: {}
       css/components/block.css: {}
       css/components/breadcrumb.css: {}
       css/components/button.css: {}
