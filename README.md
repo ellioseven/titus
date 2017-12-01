@@ -7,22 +7,5 @@
 
 ## Components
 
-- [ ] Date picker
-- [ ] Drop button
-- Forms
-  - [ ] Date
+- [ ] Date field
 - [ ] Modal
-
-## Modules
-
-- [ ] Block
-- [ ] Contact
-- [ ] Display Suite
-- [ ] Field UI
-- [ ] Node
-- [ ] Paragraphs       
-- [ ] Quick Edit
-- [ ] Taxonomy
-- [ ] Toolbar
-- [ ] Tour
-- [ ] Views UI
