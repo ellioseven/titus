@@ -24,7 +24,7 @@ global-styling:
       css/components/description.css: {}
       css/components/field.css: {}
       css/components/forms.css: {}
-      css/components/form/block-admin-display-form.css: {}
+      css/components/forms/block-admin-display-form.css: {}
       css/components/messages.css: {}
       css/components/operations.css: {}
       css/components/page-title.css: {}
