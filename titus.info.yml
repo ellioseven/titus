@@ -18,6 +18,14 @@ libraries-override:
     css:
       component:
         /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/dropbutton.css
+  filter/drupal.filter.admin:
+    css:
+      theme:
+        /core/themes/stable/css/filter/filter.admin.css: css/components/modules/filter/filter.admin.css
+  filter/drupal.filter:
+    css:
+      theme:
+        /core/themes/stable/css/filter/filter.admin.css: css/components/modules/filter/filter.admin.css
   views_ui/admin.styling: titus/views_ui
   views/views.module: titus/views
 libraries-extend:

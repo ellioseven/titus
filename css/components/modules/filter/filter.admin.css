@@ -1,0 +1,43 @@
+.filter-wrapper {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
+  border: 1px solid #ddd;
+  padding: 1.42857em; }
+  .filter-wrapper:first-child {
+    margin-top: 0; }
+  .filter-wrapper:last-child {
+    margin-bottom: 0; }
+  .filter-wrapper.form-wrapper {
+    margin-top: 0.71429em;
+    margin-bottom: 0.71429em; }
+    .filter-wrapper.form-wrapper:first-child {
+      margin-top: 0; }
+    .filter-wrapper.form-wrapper:last-child {
+      margin-bottom: 0; }
+  .filter-wrapper .form-item,
+  .filter-wrapper .filter-guidelines {
+    margin-bottom: 0;
+    margin-top: 0; }
+  @media (min-width: 48em) {
+    .filter-wrapper .filter-list,
+    .filter-wrapper .form-item select.filter-list {
+      width: auto; } }
+  .filter-wrapper .filter-help {
+    margin-top: 1.42857em;
+    margin-bottom: 1.42857em; }
+    .filter-wrapper .filter-help:first-child {
+      margin-top: 0; }
+    .filter-wrapper .filter-help:last-child {
+      margin-bottom: 0; }
+    @media (min-width: 48em) {
+      .filter-wrapper .filter-help {
+        float: right;
+        margin: 0; } }
+
+.filter-guidelines .filter-guidelines-item {
+  margin-top: 1.42857em; }
+
+.text-format-wrapper > .form-item {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=filter.admin.css.map */

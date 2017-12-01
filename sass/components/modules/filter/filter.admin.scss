@@ -1,0 +1,43 @@
+@import '../../../lib/lib';
+
+.filter-wrapper {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  border: 1px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
+
+  &.form-wrapper {
+    @include type-leader(.5);
+    @include type-leader-clear;
+  }
+
+  .form-item,
+  .filter-guidelines {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .filter-list,
+  .form-item select.filter-list {
+    @include breakpoint($breakpoint-medium) {
+      width: auto;
+    }
+  }
+
+  .filter-help {
+    @include type-leader;
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-medium) {
+      float: right;
+      margin: 0;
+    }
+  }
+}
+
+.filter-guidelines .filter-guidelines-item {
+  margin-top: em($base-vertical-margin);
+}
+
+.text-format-wrapper > .form-item {
+  margin-bottom: 0;
+}
