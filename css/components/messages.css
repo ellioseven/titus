@@ -13,6 +13,9 @@
     margin-top: 0; }
   .messages:last-child {
     margin-bottom: 0; }
+  .messages a {
+    color: inherit;
+    text-decoration: underline; }
 
 .messages.messages--status {
   background-color: #17a2b8;
