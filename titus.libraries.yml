@@ -14,7 +14,6 @@ global-styling:
       css/components/action-list.css: {}
       css/components/admin-list.css: {}
       css/components/system/autocomplete-loading.module.css: {}
-      css/components/block.css: {}
       css/components/breadcrumb.css: {}
       css/components/button.css: {}
       css/components/compact-link.css: {}

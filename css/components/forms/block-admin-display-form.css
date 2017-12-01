@@ -16,4 +16,7 @@
 .block-admin-display-form > table > tbody > tr > td > .form-item {
   margin: 0; }
 
+.block-admin-display-form td.block {
+  margin: 0; }
+
 /*# sourceMappingURL=block-admin-display-form.css.map */
