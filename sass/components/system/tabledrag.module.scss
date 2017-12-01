@@ -1,8 +1,15 @@
 @import '../../lib/lib';
 
+.tabledrag-handle .handle {
+  display: inline-block;
+}
+
 .tabledrag-handle .handle::after {
   @include fontello($icon-move);
   color: $color-grey-ash;
+  margin-right: 1em;
+  position: relative;
+  top: -1px;
 }
 
 .tabledrag-toggle-weight-wrapper {
