@@ -18,4 +18,49 @@
   .machine-name-value + .admin-link::before {
     content: '- '; }
 
+.field--type-text-with-summary .form-item input[type="text"], .field--type-text-with-summary .form-item input[type="password"], .field--type-text-with-summary .form-item input[type="date"], .field--type-text-with-summary .form-item input[type="datetime"], .field--type-text-with-summary .form-item input[type="datetime-local"], .field--type-text-with-summary .form-item input[type="month"], .field--type-text-with-summary .form-item input[type="week"], .field--type-text-with-summary .form-item input[type="email"], .field--type-text-with-summary .form-item input[type="number"], .field--type-text-with-summary .form-item input[type="search"], .field--type-text-with-summary .form-item input[type="tel"], .field--type-text-with-summary .form-item input[type="time"], .field--type-text-with-summary .form-item input[type="url"],
+.field--type-text-with-summary .form-item select,
+.field--type-text-with-summary .form-item textarea {
+  margin: 0;
+  width: 100%; }
+
+.form-type-managed-file .file,
+.form-type-managed-file .file-size {
+  display: inline-block;
+  vertical-align: top; }
+
+.form-type-managed-file .form-item {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em; }
+  .form-type-managed-file .form-item:first-child {
+    margin-top: 0; }
+  .form-type-managed-file .form-item:last-child {
+    margin-bottom: 0; }
+
+.form-type-managed-file .button {
+  font-size: 0.85714em;
+  line-height: 1.66667em;
+  padding: 0.33333em 1.5em;
+  display: block;
+  font-weight: 700;
+  margin-top: 0.83333em; }
+  .form-type-managed-file .button.js-hide {
+    display: none; }
+
+.field-multiple-drag {
+  padding-right: 0;
+  width: 30px; }
+
+.field-multiple-table {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em; }
+  .field-multiple-table:first-child {
+    margin-top: 0; }
+  .field-multiple-table:last-child {
+    margin-bottom: 0; }
+
+.field-multiple-table .form-item > legend {
+  margin-bottom: 0;
+  margin-top: 0; }
+
 /*# sourceMappingURL=field.css.map */

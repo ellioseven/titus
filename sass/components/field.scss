@@ -26,3 +26,54 @@
     content: '- ';
   }
 }
+
+.field--type-text-with-summary .form-item {
+
+  #{$selector-form-text-inputs},
+  select,
+  textarea {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.form-type-managed-file {
+
+  .file,
+  .file-size {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .form-item {
+    @include type-leader(.5);
+    @include type-leader-clear;
+  }
+
+  .button {
+    $base: th-base(saul);
+    @include button-size(small);
+    display: block;
+    font-weight: 700;
+    margin-top: em($base-vertical-margin / 2, $base);
+
+    &.js-hide {
+      display: none;
+    }
+  }
+}
+
+.field-multiple-drag {
+  padding-right: 0;
+  width: 30px;
+}
+
+.field-multiple-table {
+  @include type-leader(.5);
+  @include type-leader-clear;
+}
+
+.field-multiple-table .form-item > legend {
+  margin-bottom: 0;
+  margin-top: 0;
+}
