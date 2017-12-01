@@ -1,0 +1,23 @@
+.node-form .layout-region {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .node-form .layout-region:first-child {
+    margin-top: 0; }
+  .node-form .layout-region:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 48em) {
+    .node-form .layout-region.layout-region-node-secondary, .node-form .layout-region.layout-region-node-main {
+      margin-bottom: 0;
+      margin-top: 0; } }
+
+.layout-region-node-main .form-item,
+.layout-region-node-main .form-wrapper {
+  margin-bottom: 0; }
+  .layout-region-node-main .form-item:first-of-type,
+  .layout-region-node-main .form-wrapper:first-of-type {
+    margin-top: 0; }
+
+.node-form .field--name-comment {
+  margin-top: 0; }
+
+/*# sourceMappingURL=node.module.css.map */

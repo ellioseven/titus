@@ -35,6 +35,8 @@ libraries-extend:
     - titus/system
   core/drupal.vertical-tabs:
     - titus/vertical-tabs
+  node/drupal.node:
+    - titus/node
 regions:
   header: 'Header'
   pre_content: 'Pre-content'

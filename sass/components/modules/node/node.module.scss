@@ -1,0 +1,27 @@
+@import '../../../lib/lib';
+
+.node-form .layout-region {
+  @include type-leader;
+  @include type-leader-clear;
+
+  &.layout-region-node-secondary,
+  &.layout-region-node-main {
+    @include breakpoint($breakpoint-medium) {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+.layout-region-node-main .form-item,
+.layout-region-node-main .form-wrapper {
+  margin-bottom: 0;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.node-form .field--name-comment {
+  margin-top: 0;
+}
