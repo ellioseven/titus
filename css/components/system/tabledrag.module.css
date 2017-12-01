@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.tabledrag-handle .handle::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'fontello';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  vertical-align: middle;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  width: 1em;
+  color: #999; }
+
+.tabledrag-toggle-weight-wrapper {
+  font-size: 0.85714em;
+  line-height: 1.5;
+  text-align: right; }
+
+/*# sourceMappingURL=tabledrag.module.css.map */

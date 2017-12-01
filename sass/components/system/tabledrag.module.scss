@@ -1,0 +1,11 @@
+@import '../../lib/lib';
+
+.tabledrag-handle .handle::after {
+  @include fontello($icon-move);
+  color: $color-grey-ash;
+}
+
+.tabledrag-toggle-weight-wrapper {
+  @include th-h($heading: saul, $include: font-size line-height);
+  text-align: right;
+}
