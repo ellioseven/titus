@@ -39,23 +39,11 @@ global-styling:
   dependencies:
     - titus/fontello
 
-system:
-  version: VERSION
-  css:
-    component:
-      css/components/system/system-themes-list.css: {}
-
 fontello:
   version: VERSION
   css:
     base:
       fonts/fontello/css/fontello.css: {}
-
-vertical-tabs:
-  version: VERSION
-  css:
-    component:
-      css/components/core/vertical-tabs.css: {}
 
 image:
   version: VERSION
@@ -74,6 +62,18 @@ node:
   css:
     component:
       css/components/node/node.module.css: {}
+
+system:
+  version: VERSION
+  css:
+    component:
+      css/components/system/system-themes-list.css: {}
+
+vertical-tabs:
+  version: VERSION
+  css:
+    component:
+      css/components/core/vertical-tabs.css: {}
 
 views:
   version: VERSION

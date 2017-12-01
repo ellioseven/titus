@@ -7,8 +7,20 @@ base theme: seven
 libraries:
   - titus/global-styling
 libraries-override:
-  system/admin: false
   classy/image-widget: titus/image-widget
+  core/drupal.dropbutton:
+    css:
+      component:
+        /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/core/dropbutton.css
+  filter/drupal.filter:
+    css:
+      theme:
+        /core/themes/stable/css/filter/filter.admin.css: css/components/filter/filter.admin.css
+  filter/drupal.filter.admin:
+    css:
+      theme:
+        /core/themes/stable/css/filter/filter.admin.css: css/components/filter/filter.admin.css
+  system/admin: false
   system/base:
     css:
       component:
@@ -16,29 +28,17 @@ libraries-override:
         /core/themes/stable/css/system/components/system-status-report-counters.css: css/components/system/system-status-report-counters.css
         /core/themes/stable/css/system/components/system-status-report-general-info.css: css/components/system/system-status-report-general-info.css
         /core/themes/stable/css/system/components/system-status-counter.css: css/components/system/system-status-counter.css
-  core/drupal.dropbutton:
-    css:
-      component:
-        /core/themes/stable/css/core/dropbutton/dropbutton.css: css/components/core/dropbutton.css
-  filter/drupal.filter.admin:
-    css:
-      theme:
-        /core/themes/stable/css/filter/filter.admin.css: css/components/filter/filter.admin.css
-  filter/drupal.filter:
-    css:
-      theme:
-        /core/themes/stable/css/filter/filter.admin.css: css/components/filter/filter.admin.css
-  views_ui/admin.styling: titus/views_ui
   views/views.module: titus/views
+  views_ui/admin.styling: titus/views_ui
 libraries-extend:
-  image/admin:
-    - titus/image
-  system/base:
-    - titus/system
   core/drupal.vertical-tabs:
     - titus/vertical-tabs
+  image/admin:
+    - titus/image
   node/drupal.node:
     - titus/node
+  system/base:
+    - titus/system
 regions:
   header: 'Header'
   pre_content: 'Pre-content'
