@@ -70,6 +70,13 @@ image-widget:
   css:
     component:
       css/components/image-widget.css: {}
+
+node:
+  version: VERSION
+  css:
+    component:
+      css/components/modules/node/node.module.css: {}
+
 views:
   version: VERSION
   css:
