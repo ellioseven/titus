@@ -1,6 +1,12 @@
 @charset "UTF-8";
-.tabledrag-handle .handle {
+.tabledrag-handle .handle,
+.tabledrag-handle {
   display: inline-block; }
+  .tabledrag-handle .handle + .form-item,
+  .tabledrag-handle + .form-item {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0; }
 
 .tabledrag-handle .handle::after {
   -moz-osx-font-smoothing: grayscale;

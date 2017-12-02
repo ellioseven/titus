@@ -1,7 +1,14 @@
 @import '../../lib/lib';
 
-.tabledrag-handle .handle {
+.tabledrag-handle .handle,
+.tabledrag-handle {
   display: inline-block;
+
+  + .form-item {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
 
 .tabledrag-handle .handle::after {
