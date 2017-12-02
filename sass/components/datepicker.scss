@@ -25,6 +25,11 @@
   td a {
     color: $color-grey-abyss;
     text-align: center;
+
+    &:hover,
+    &:focus {
+      background-color: $color-grey-steam;
+    }
   }
 
   .ui-datepicker-header {
@@ -36,7 +41,7 @@
     background-color: $color-white;
     border-bottom: 1px solid $color-grey-cement;
     font-weight: 700;
-    padding: em(8px, $base);
+    padding: em(6px, $base);
   }
 
   .ui-datepicker-prev,
@@ -49,7 +54,7 @@
     @include fontello;
     color: $color-grey-abyss;
     position: relative;
-    top: em(10px);
+    top: em(8px);
   }
 
   .ui-datepicker-prev::before {
