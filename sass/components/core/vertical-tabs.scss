@@ -12,6 +12,7 @@
   padding: 0;
   @include breakpoint($breakpoint-medium) {
     @include box-sizing(border-box);
+    border-right: 1px solid $color-grey-cement;
     float: left;
     max-width: em(300px);
     width: 100%;
@@ -71,7 +72,9 @@
   padding: em($base-vertical-margin);
   @include breakpoint($breakpoint-medium) {
     @include box-sizing(border-box);
+    border-left: 1px solid $color-grey-cement;
     float: left;
+    margin-left: -1px;
     max-width: calc(100% - #{em(300px)});
     padding: em($base-vertical-margin * 1.25);
     width: 100%;
