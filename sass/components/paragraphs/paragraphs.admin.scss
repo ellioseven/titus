@@ -1,0 +1,31 @@
+@import '../../lib/lib';
+
+.paragraphs-dropbutton-wrapper {
+  @include breakpoint($breakpoint-medium) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.paragraph-type-top {
+  position: relative;
+}
+
+.field--widget-entity-reference-paragraphs {
+
+  .form-item,
+  .form-wrapper {
+    @include type-leader(.5);
+    @include type-leader-clear;
+
+    &.paragraph-type-title {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .paragraphs-dropbutton-wrapper .button {
+    @include button-size(small);
+  }
+}

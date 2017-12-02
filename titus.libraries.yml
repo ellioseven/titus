@@ -71,6 +71,12 @@ node:
     component:
       css/components/node/node.module.css: {}
 
+paragraphs.admin:
+  version: VERSION
+  css:
+    component:
+      css/components/paragraphs/paragraphs.admin.css: {}
+
 system:
   version: VERSION
   css:

@@ -1,0 +1,30 @@
+@media (min-width: 48em) {
+  .paragraphs-dropbutton-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0; } }
+
+.paragraph-type-top {
+  position: relative; }
+
+.field--widget-entity-reference-paragraphs .form-item,
+.field--widget-entity-reference-paragraphs .form-wrapper {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em; }
+  .field--widget-entity-reference-paragraphs .form-item:first-child,
+  .field--widget-entity-reference-paragraphs .form-wrapper:first-child {
+    margin-top: 0; }
+  .field--widget-entity-reference-paragraphs .form-item:last-child,
+  .field--widget-entity-reference-paragraphs .form-wrapper:last-child {
+    margin-bottom: 0; }
+  .field--widget-entity-reference-paragraphs .form-item.paragraph-type-title,
+  .field--widget-entity-reference-paragraphs .form-wrapper.paragraph-type-title {
+    margin-bottom: 0;
+    margin-top: 0; }
+
+.field--widget-entity-reference-paragraphs .paragraphs-dropbutton-wrapper .button {
+  font-size: 0.85714em;
+  line-height: 1.66667em;
+  padding: 0.33333em 1.5em; }
+
+/*# sourceMappingURL=paragraphs.admin.css.map */

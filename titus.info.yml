@@ -35,6 +35,8 @@ libraries-extend:
     - titus/dialog
   core/drupal.vertical-tabs:
     - titus/vertical-tabs
+  paragraphs/drupal.paragraphs.admin:
+    - titus/paragraphs.admin
   image/admin:
     - titus/image
   node/drupal.node:

@@ -14,6 +14,7 @@
 .tabledrag-handle .handle::after {
   @include fontello($icon-move);
   color: $color-grey-ash;
+  display: inline;
   margin-right: 1em;
   position: relative;
   top: -1px;

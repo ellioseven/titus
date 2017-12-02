@@ -26,6 +26,7 @@
   text-align: center;
   width: 1em;
   color: #999;
+  display: inline;
   margin-right: 1em;
   position: relative;
   top: -1px; }
