@@ -1,0 +1,51 @@
+@import '../lib/lib';
+
+.ui-dialog {
+  position: absolute;
+  z-index: 1260;
+
+  .ui-dialog-titlebar {
+    @include border-top-right-radius(2px);
+    @include border-top-left-radius(2px);
+    background: $color-grey-abyss;
+    font-weight: 700;
+    padding: em($base-vertical-margin);
+    position: relative;
+  }
+
+  .ui-dialog-title {
+    color: $color-white;
+  }
+
+  .ui-dialog-titlebar-close {
+    @include transform(translateY(-50%));
+    background-color: transparent;
+    border: 0;
+    color: $color-white;
+    cursor: pointer;
+    height: 1em;
+    padding: 0;
+    position: absolute;
+    right: em($base-vertical-margin);
+    top: 50%;
+    width: 1em;
+  }
+
+  .ui-icon-closethick {
+    @include fontello-replace-with-icon($icon-cancel);
+  }
+
+  .ui-widget-content.ui-dialog-content {
+    background: $color-white;
+  }
+
+  .ui-dialog-content {
+    overflow: auto;
+    padding: em($base-vertical-margin);
+  }
+
+  + .ui-widget-overlay {
+    $background-color: rgba($color-black, .9);
+    background: $background-color;
+  }
+}

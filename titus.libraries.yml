@@ -39,6 +39,12 @@ global-styling:
   dependencies:
     - titus/fontello
 
+dialog:
+  version: VERSION
+  css:
+    component:
+      css/components/dialog.css: {}
+
 fontello:
   version: VERSION
   css:

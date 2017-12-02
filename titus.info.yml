@@ -31,6 +31,8 @@ libraries-override:
   views/views.module: titus/views
   views_ui/admin.styling: titus/views_ui
 libraries-extend:
+  core/jquery.ui.dialog:
+    - titus/dialog
   core/drupal.vertical-tabs:
     - titus/vertical-tabs
   image/admin:
