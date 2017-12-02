@@ -8,4 +8,4 @@
 ## Components
 
 - [ ] Date field
-- [ ] Modal
+- [ ] Vertical Tabs
