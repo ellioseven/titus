@@ -105,3 +105,51 @@
   font-weight: 700;
   line-height: inherit;
 }
+
+
+.form-type-password-confirm {
+  @include pie-clearfix;
+
+  * {
+    clear: both;
+  }
+
+  .form-item {
+    margin-bottom: 0;
+  }
+
+  .confirm-parent,
+  .password-parent {
+    clear: both;
+    display: inline-block;
+    float: left;
+    overflow: visible;
+    width: auto;
+  }
+
+  .password-strength__title,
+  .password-confirm {
+    @include type-leader(.25);
+    @include type-leader-clear;
+  }
+
+  .password-strength__title {
+    display: block;
+  }
+
+  .password-strength__indicator.is-weak {
+    background-color: $color-red-blood;
+  }
+
+  .password-strength__indicator.is-fair {
+    background-color: $color-orange-sun;
+  }
+
+  .password-strength__indicator.is-good {
+    background-color: $color-blue-electric;
+  }
+
+  .password-strength__indicator.is-strong {
+    background-color: $color-green-invader;
+  }
+}
