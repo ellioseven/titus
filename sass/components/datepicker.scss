@@ -1,0 +1,60 @@
+@import '../lib/lib';
+
+.ui-datepicker {
+  border: 1px solid $color-grey-cement;
+  padding: 0;
+
+  a {
+    color: $color-grey-abyss;
+  }
+
+  table {
+    @include th-h(
+      $heading: saul,
+      $include: font-size line-height
+    );
+    border: 0;
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid $color-grey-cement;
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+
+  .ui-datepicker-header {
+    @include th-h(
+      $heading: saul,
+      $include: font-size line-height
+    );
+    background-color: $color-white;
+    border-bottom: 1px solid $color-grey-cement;
+    font-weight: 700;
+  }
+
+
+  .ui-datepicker-prev,
+  .ui-datepicker-next {
+    width: auto;
+  }
+
+  .ui-datepicker-prev::before,
+  .ui-datepicker-next::before {
+    @include fontello;
+    color: $color-grey-abyss;
+    position: relative;
+    top: em(3px);
+  }
+
+  .ui-datepicker-prev::before {
+    content: $icon-left-open;
+  }
+
+  .ui-datepicker-next::before {
+    content: $icon-right-open;
+  }
+}

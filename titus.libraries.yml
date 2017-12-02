@@ -21,6 +21,7 @@ global-styling:
       css/components/container-inline.module.css: {}
       css/components/content-header.css: {}
       css/components/content-main.css: {}
+      css/components/datepicker.css: {}
       css/components/description.css: {}
       css/components/field.css: {}
       css/components/forms.css: {}
