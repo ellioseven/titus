@@ -15,6 +15,5 @@
 .tabledrag-toggle-weight-wrapper {
   $base: th-base(saul);
   @include th-h($heading: saul, $include: font-size line-height);
-  margin-top: -#{em($base-line-height * 1.5, $base)};
   text-align: right;
 }
