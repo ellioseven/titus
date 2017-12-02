@@ -3,6 +3,10 @@
 .ui-dialog {
   position: absolute;
   z-index: 1260;
+  @include breakpoint($breakpoint-medium) {
+    min-width: 93%;
+    max-width: 93%;
+  }
 
   .ui-dialog-titlebar {
     @include border-top-right-radius(2px);
