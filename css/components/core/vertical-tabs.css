@@ -1,4 +1,89 @@
-.vertical-tabs__panes > * {
-  margin-bottom: 0; }
+.vertical-tabs {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  position: relative; }
+
+.vertical-tabs__menu {
+  margin: 0;
+  padding: 0; }
+  @media (min-width: 48em) {
+    .vertical-tabs__menu {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+      max-width: 21.42857em;
+      width: 100%; } }
+  .vertical-tabs__menu::before {
+    background-color: #f1f1f1;
+    content: '';
+    height: 100%;
+    left: 0;
+    max-width: 21.42857em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1; }
+
+.vertical-tabs__menu-item {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.vertical-tabs__menu-item a {
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+  display: block;
+  outline: none;
+  padding: 1.07143em; }
+  .vertical-tabs__menu-item a:hover, .vertical-tabs__menu-item a:focus {
+    background-color: #fff;
+    text-decoration: underline; }
+
+.vertical-tabs__menu-item:first-child a {
+  border-top: 0; }
+
+.vertical-tabs__menu-item.is-selected a {
+  background-color: #fff; }
+
+.vertical-tabs__menu-item-title,
+.vertical-tabs__menu-item-summary {
+  display: block; }
+
+.vertical-tabs__menu-item-summary {
+  color: #292c44; }
+
+.vertical-tabs__panes {
+  padding: 1.42857em; }
+  @media (min-width: 48em) {
+    .vertical-tabs__panes {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+      max-width: calc(100% - 21.42857em);
+      padding: 1.78571em;
+      width: 100%; } }
+  .vertical-tabs__panes > * {
+    margin-bottom: 0; }
+
+.vertical-tabs__pane {
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0; }
+  .vertical-tabs__pane[open] {
+    padding-bottom: 0; }
+  .vertical-tabs__pane .details-wrapper {
+    margin-bottom: 0;
+    margin-top: 0; }
+
+.vertical-tabs__pane > summary {
+  display: none; }
 
 /*# sourceMappingURL=vertical-tabs.css.map */

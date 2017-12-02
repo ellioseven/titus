@@ -1,5 +1,103 @@
 @import '../../lib/lib';
 
-.vertical-tabs__panes > * {
+.vertical-tabs {
+  @include border-radius(2px);
+  border: 1px solid $color-grey-cement;
+  overflow: hidden;
+  position: relative;
+}
+
+.vertical-tabs__menu {
+  margin: 0;
+  padding: 0;
+  @include breakpoint($breakpoint-medium) {
+    @include box-sizing(border-box);
+    float: left;
+    max-width: em(300px);
+    width: 100%;
+  }
+
+  &::before {
+    background-color: $color-grey-steam;
+    content: '';
+    height: 100%;
+    left: 0;
+    max-width: em(300px);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.vertical-tabs__menu-item {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-tabs__menu-item a {
+  background-color: $color-grey-steam;
+  border-top: 1px solid $color-grey-cement;
+  display: block;
+  outline: none;
+  padding: em($base-vertical-margin * .75);
+
+  &:hover,
+  &:focus {
+    background-color: $color-white;
+    text-decoration: underline;
+  }
+}
+
+.vertical-tabs__menu-item:first-child a {
+  border-top: 0;
+}
+
+.vertical-tabs__menu-item.is-selected a {
+  background-color: $color-white;
+}
+
+.vertical-tabs__menu-item-title,
+.vertical-tabs__menu-item-summary {
+  display: block;
+}
+
+.vertical-tabs__menu-item-summary {
+  color: $color-grey-abyss;
+}
+
+.vertical-tabs__panes {
+  padding: em($base-vertical-margin);
+  @include breakpoint($breakpoint-medium) {
+    @include box-sizing(border-box);
+    float: left;
+    max-width: calc(100% - #{em(300px)});
+    padding: em($base-vertical-margin * 1.25);
+    width: 100%;
+  }
+
+  > * {
+    margin-bottom: 0;
+  }
+}
+
+.vertical-tabs__pane {
+  border: 0;
   margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+
+  &[open] {
+    padding-bottom: 0;
+  }
+
+  .details-wrapper {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.vertical-tabs__pane > summary {
+  display: none;
 }
