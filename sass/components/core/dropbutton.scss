@@ -28,6 +28,10 @@
   .dropbutton-toggle {
     display: none;
   }
+
+  .ajax-progress-throbber {
+    display: inline-block;
+  }
 }
 
 .dropbutton-wrapper {
@@ -49,7 +53,7 @@
       $include: font-size line-height
     );
     color: $color-grey-abyss;
-    display: block;
+    display: inline-block;
     font-weight: 700;
     padding: em(6px 18px, $base);
     white-space: nowrap;

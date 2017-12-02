@@ -28,6 +28,8 @@
       margin-left: 0; }
   .dropbutton .dropbutton-toggle {
     display: none; }
+  .dropbutton .ajax-progress-throbber {
+    display: inline-block; }
 
 .dropbutton-wrapper {
   margin-top: 1.42857em;
@@ -45,7 +47,7 @@
   font-size: 0.85714em;
   line-height: 1.5;
   color: #292c44;
-  display: block;
+  display: inline-block;
   font-weight: 700;
   padding: 0.5em 1.5em;
   white-space: nowrap; }
