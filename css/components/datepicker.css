@@ -2,23 +2,26 @@
 .ui-datepicker {
   border: 1px solid #ddd;
   padding: 0; }
-  .ui-datepicker a {
-    color: #292c44; }
   .ui-datepicker table {
     font-size: 0.85714em;
     line-height: 1.5;
     border: 0; }
   .ui-datepicker th,
   .ui-datepicker td {
-    border-bottom: 1px solid #ddd; }
+    border-bottom: 1px solid #ddd;
+    text-align: center; }
   .ui-datepicker tr:last-child td {
     border-bottom: 0; }
+  .ui-datepicker td a {
+    color: #292c44;
+    text-align: center; }
   .ui-datepicker .ui-datepicker-header {
     font-size: 0.85714em;
     line-height: 1.5;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    font-weight: 700; }
+    font-weight: 700;
+    padding: 0.66667em; }
   .ui-datepicker .ui-datepicker-prev,
   .ui-datepicker .ui-datepicker-next {
     width: auto; }
@@ -42,10 +45,13 @@
     width: 1em;
     color: #292c44;
     position: relative;
-    top: 0.21429em; }
+    top: 0.71429em; }
   .ui-datepicker .ui-datepicker-prev::before {
     content: ""; }
   .ui-datepicker .ui-datepicker-next::before {
     content: ""; }
+  .ui-datepicker .ui-state-active {
+    background-color: #f1f1f1;
+    font-weight: 700; }
 
 /*# sourceMappingURL=datepicker.css.map */
