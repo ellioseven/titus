@@ -95,6 +95,11 @@
   }
 }
 
+.container-inline label::after,
+.container-inline .label::after {
+  content: ':';
+}
+
 .details-wrapper {
   @include type-leader;
   @include type-leader-clear;

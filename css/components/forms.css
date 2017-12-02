@@ -160,6 +160,10 @@
   .container-inline .form-item {
     vertical-align: bottom; } }
 
+.container-inline label::after,
+.container-inline .label::after {
+  content: ':'; }
+
 .details-wrapper {
   margin-top: 1.42857em;
   margin-bottom: 1.42857em; }
