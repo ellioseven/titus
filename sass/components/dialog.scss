@@ -44,6 +44,20 @@
     padding: em($base-vertical-margin);
   }
 
+  .ui-widget-content.ui-dialog-buttonpane {
+    background-color: $color-white;
+    border-top: 1px solid $color-grey-cement;
+    padding: em($base-vertical-margin);
+
+    button {
+      margin-left: .25em;
+    }
+
+    button:first-child {
+      margin-left: 0;
+    }
+  }
+
   + .ui-widget-overlay {
     $background-color: rgba($color-black, .9);
     background: $background-color;

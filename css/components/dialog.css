@@ -61,6 +61,14 @@
   .ui-dialog .ui-dialog-content {
     overflow: auto;
     padding: 1.42857em; }
+  .ui-dialog .ui-widget-content.ui-dialog-buttonpane {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 1.42857em; }
+    .ui-dialog .ui-widget-content.ui-dialog-buttonpane button {
+      margin-left: .25em; }
+    .ui-dialog .ui-widget-content.ui-dialog-buttonpane button:first-child {
+      margin-left: 0; }
   .ui-dialog + .ui-widget-overlay {
     background: rgba(0, 0, 0, 0.9); }
 
