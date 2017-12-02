@@ -99,3 +99,9 @@
   @include type-leader;
   @include type-leader-clear;
 }
+
+.label {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: inherit;
+}

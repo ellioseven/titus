@@ -168,4 +168,9 @@
   .details-wrapper:last-child {
     margin-bottom: 0; }
 
+.label {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: inherit; }
+
 /*# sourceMappingURL=forms.css.map */
