@@ -4,8 +4,8 @@
   z-index: 1260; }
   @media (min-width: 48em) {
     .ui-dialog {
-      min-width: 93%;
-      max-width: 93%; } }
+      max-width: 93%;
+      min-width: 93%; } }
   .ui-dialog .ui-dialog-titlebar {
     -moz-border-radius-topright: 2px;
     -webkit-border-top-right-radius: 2px;

@@ -4,8 +4,8 @@
   position: absolute;
   z-index: 1260;
   @include breakpoint($breakpoint-medium) {
-    min-width: 93%;
     max-width: 93%;
+    min-width: 93%;
   }
 
   .ui-dialog-titlebar {
