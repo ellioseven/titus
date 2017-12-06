@@ -1,8 +1,11 @@
 'use strict';
 
+const babel = require('gulp-babel');
 const cached = require('gulp-cached');
+const eslint = require('gulp-eslint');
 const fs = require('fs');
 const gulp = require('gulp');
+const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sasslint = require('gulp-sass-lint');
 const sassPartialsImported = require('gulp-sass-partials-imported');
@@ -37,6 +40,33 @@ gulp.task('sass:watch', function () {
   watch('./sass/**/*.scss', function () {
     // Compile stylesheets.
     gulp.start('sass');
+  });
+});
+
+// Compile JavaScript.
+gulp.task('js', function() {
+  return gulp.src(['./js/src/*.es6.js'])
+    // Lint JavaScript.
+    .pipe(eslint({
+      configFile: '.eslintrc.json'
+    }))
+    .pipe(eslint.format())
+    // Write Javascript.
+    .pipe(babel({
+      presets: ['babel-preset-env']
+    }))
+    .pipe(rename(function (path) {
+      // Trim ".es6" from end of string.
+      path.basename = path.basename.replace(/\.es6$/, '');
+    }))
+    .pipe(gulp.dest('./js/dist'))
+});
+
+// Watch JavaScript.
+gulp.task('js:watch', function () {
+  watch('./js/src/*.es6.js', function () {
+    // Compile JavaScript.
+    gulp.start('js');
   });
 });
 
