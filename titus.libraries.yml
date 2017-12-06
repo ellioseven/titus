@@ -38,6 +38,8 @@ global-styling:
       css/components/tabs.css: {}
     layout:
       css/layout/layout.css: {}
+  js:
+    js/dist/titus.js: {}
   dependencies:
     - titus/fontello
 

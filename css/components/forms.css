@@ -20,6 +20,10 @@
   .form-item > label:last-child,
   .form-item > legend:last-child {
     margin-bottom: 0; }
+  .form-item > label.is-visually-hidden,
+  .form-item > legend.is-visually-hidden {
+    margin-bottom: 0;
+    margin-top: 0; }
 
 .form-item > input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
 .form-item > select {
@@ -159,6 +163,10 @@
   .form--inline .form-actions,
   .container-inline .form-item {
     vertical-align: bottom; } }
+
+input[type="hidden"] + .form-actions {
+  margin-bottom: 0;
+  margin-top: 0; }
 
 .container-inline label::after,
 .container-inline .label::after {

@@ -143,3 +143,35 @@ details.views-display-column.form-wrapper:not([open]) {
     padding-top: 0;
   }
 }
+
+%views-direction-length {
+  @include type-leader;
+  @include type-leader-clear;
+
+  .clearfix {
+    @include type-leader;
+    @include type-leader-clear;
+  }
+}
+
+@each $length in (25, 30, 40, 50, 60, 70, 75) {
+  .views-left-#{$length},
+  .views-right-#{$length} {
+    @extend %views-direction-length;
+  }
+}
+
+.views-grouped .form-item,
+.views-grouped .form-wrapper {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.views-override {
+  padding-bottom: em($base-vertical-margin);
+
+  + .scroll {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

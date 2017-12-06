@@ -61,6 +61,7 @@
     @include type-leader(.5);
     @include type-leader-clear;
     background-color: $color-white;
+    border-color: $color-grey-cement;
     display: block;
     width: 100%;
   }
@@ -81,5 +82,36 @@
     @include breakpoint($breakpoint-medium) {
       margin: 0;
     }
+  }
+}
+
+.js .views-ui-edit-display-form {
+
+  table,
+  .form-actions {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.views-ui-dialog {
+
+  .views-filterable-options-controls {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: .5em;
+    margin-top: 0;
+  }
+
+  .form-item-path .field-prefix,
+  .form-item-path .field-suffix {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .scroll {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 }

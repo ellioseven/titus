@@ -11,6 +11,11 @@
   @include type-leader(.5);
   @include type-leader-clear;
   font-weight: 700;
+
+  &.is-visually-hidden {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
 
 .form-item > #{$selector-form-text-inputs},
@@ -95,6 +100,11 @@
   }
 }
 
+input[type="hidden"] + .form-actions {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .container-inline label::after,
 .container-inline .label::after {
   content: ':';
@@ -110,7 +120,6 @@
   font-weight: 700;
   line-height: inherit;
 }
-
 
 .form-type-password-confirm {
   @include pie-clearfix;

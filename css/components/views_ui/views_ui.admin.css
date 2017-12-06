@@ -45,6 +45,7 @@
   margin-top: 0.71429em;
   margin-bottom: 0.71429em;
   background-color: #fff;
+  border-color: #ddd;
   display: block;
   width: 100%; }
   .views-ui-display-tab-actions .views-display-setting:first-child {
@@ -64,5 +65,26 @@
 @media (min-width: 48em) {
   .js .views-ui-display-tab-actions .views-display-setting {
     margin: 0; } }
+
+.js .views-ui-edit-display-form table,
+.js .views-ui-edit-display-form .form-actions {
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.views-ui-dialog .views-filterable-options-controls {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: .5em;
+  margin-top: 0; }
+
+.views-ui-dialog .form-item-path .field-prefix,
+.views-ui-dialog .form-item-path .field-suffix {
+  display: inline;
+  margin-left: 0;
+  margin-right: 0; }
+
+.views-ui-dialog .scroll {
+  margin-bottom: 0;
+  margin-top: 0; }
 
 /*# sourceMappingURL=views_ui.admin.css.map */
