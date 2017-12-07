@@ -1,0 +1,15 @@
+.view,
+.view-filters,
+.view-content {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .view:first-child,
+  .view-filters:first-child,
+  .view-content:first-child {
+    margin-top: 0; }
+  .view:last-child,
+  .view-filters:last-child,
+  .view-content:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=views.module.css.map */

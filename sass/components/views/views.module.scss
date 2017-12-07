@@ -1,0 +1,8 @@
+@import '../../lib/lib';
+
+.view,
+.view-filters,
+.view-content {
+  @include type-leader;
+  @include type-leader-clear;
+}

@@ -1,19 +1,10 @@
-.view,
-.view-filters,
-.view-content,
 .views-list-section,
 .views-preview-wrapper {
   margin-top: 1.42857em;
   margin-bottom: 1.42857em; }
-  .view:first-child,
-  .view-filters:first-child,
-  .view-content:first-child,
   .views-list-section:first-child,
   .views-preview-wrapper:first-child {
     margin-top: 0; }
-  .view:last-child,
-  .view-filters:last-child,
-  .view-content:last-child,
   .views-list-section:last-child,
   .views-preview-wrapper:last-child {
     margin-bottom: 0; }
