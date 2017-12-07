@@ -1,5 +1,20 @@
 @import '../../lib/lib';
 
+.view,
+.view-filters,
+.view-content,
+.views-list-section,
+.views-preview-wrapper {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+.views-grouped .form-item,
+.views-grouped .form-wrapper {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .views-ui-display-tab-bucket {
   @include type-leader;
   @include type-leader-clear;
@@ -40,6 +55,13 @@
   &.access {
     margin-top: 0;
   }
+}
+
+.views-display-setting {
+  @include box-sizing(border-box);
+  border: 1px solid $color-grey-cement;
+  margin-top: -1px;
+  padding: em($base-vertical-margin / 2);
 }
 
 .details-wrapper .views-ui-display-tab-bucket:first-child .views-ui-display-tab-bucket__title {
@@ -139,6 +161,7 @@
   }
 }
 
+.views-edit-view .unit-title,
 .view-preview-form .view-preview-form__title,
 .view-preview-form .section-title {
   $base: th-base(mike);
@@ -146,4 +169,117 @@
   @include type-leader-clear;
   border-bottom: 1px solid $color-grey-cement;
   padding-bottom: em($base-vertical-margin / 2, $base);
+}
+
+.views-query-info {
+
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      display: block;
+    }
+  }
+
+  table,
+  th,
+  td {
+    vertical-align: top;
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      border: 0;
+      padding: 0;
+    }
+  }
+
+  td {
+    min-width: em(200px);
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      @include type-leader(.25);
+      @include type-leader-clear;
+    }
+  }
+
+  tr {
+    @include breakpoint(max-width $breakpoint-large-lower) {
+      @include type-leader;
+      @include type-leader-clear;
+    }
+  }
+
+  pre {
+    white-space: pre-wrap;
+  }
+}
+
+.views-offset-top {
+  border-bottom: 1px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
+}
+
+
+%views-direction-length {
+  @include type-leader;
+  @include type-leader-clear;
+
+  .clearfix {
+    @include type-leader;
+    @include type-leader-clear;
+  }
+}
+
+@each $length in (25, 30, 40, 50, 60, 70, 75) {
+  .views-left-#{$length},
+  .views-right-#{$length} {
+    @extend %views-direction-length;
+  }
+}
+
+.views-display-top {
+  @include breakpoint($breakpoint-large) {
+    position: relative;
+  }
+
+  .form-submit {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    display: block;
+    width: 100%;
+    @include breakpoint($breakpoint-medium) {
+      display: inline-block;
+      margin: 0;
+      width: auto;
+    }
+  }
+}
+
+.js .views-display-top {
+
+  .add {
+    margin: 0;
+    position: relative;
+    @include breakpoint($breakpoint-medium) {
+      padding: 0;
+    }
+  }
+
+  .add > a {
+    outline: none;
+    @include breakpoint($breakpoint-medium) {
+      padding-bottom: em($base-vertical-margin / 2);
+    }
+  }
+
+  .action-list {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-medium) {
+      margin: 0;
+      position: absolute;
+      top: 100%;
+      z-index: 20;
+    }
+  }
 }

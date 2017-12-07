@@ -28,7 +28,6 @@ libraries-override:
         /core/themes/stable/css/system/components/system-status-report-counters.css: css/components/system/system-status-report-counters.css
         /core/themes/stable/css/system/components/system-status-report-general-info.css: css/components/system/system-status-report-general-info.css
         /core/themes/stable/css/system/components/system-status-counter.css: css/components/system/system-status-counter.css
-  views/views.module: titus/views
   views_ui/admin.styling: titus/views_ui
 libraries-extend:
   core/jquery.ui.dialog:
