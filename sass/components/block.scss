@@ -1,6 +1,7 @@
 @import '../lib/lib';
 
-.block {
+.block,
+#edit-block-region-wrapper {
   @include type-leader;
   @include type-leader-clear;
 }
