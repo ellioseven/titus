@@ -84,6 +84,7 @@ system:
   css:
     component:
       css/components/system/system-themes-list.css: {}
+      css/components/system/tablesort.module.css: {}
 
 vertical-tabs:
   version: VERSION
