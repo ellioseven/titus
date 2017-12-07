@@ -199,7 +199,7 @@
 .views-query-info pre {
   white-space: pre-wrap; }
 
-.views-offset-top {
+.views-ui-dialog .views-override:not(:empty) {
   border-bottom: 1px solid #ddd;
   padding: 1.42857em; }
 

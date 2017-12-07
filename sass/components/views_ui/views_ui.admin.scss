@@ -220,7 +220,7 @@
   }
 }
 
-.views-offset-top {
+.views-ui-dialog .views-override:not(:empty) {
   border-bottom: 1px solid $color-grey-cement;
   padding: em($base-vertical-margin);
 }
