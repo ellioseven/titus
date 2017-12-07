@@ -12,7 +12,7 @@
    * @type {Drupal~behavior}
    *
    * @prop {Drupal~behaviorAttach} attach
-   *   Attaches summary behavior for tabs in the node edit form.
+   *   Attaches behavior for hidden class additions
    */
   Drupal.behaviors.titusHiddenClasses = {
     attach: function attach(context) {
