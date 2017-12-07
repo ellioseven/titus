@@ -174,4 +174,7 @@ details.views-display-column.form-wrapper:not([open]) {
     margin-bottom: 0;
     margin-top: 0;
   }
+.views-offset-top {
+  border-bottom: 1px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
 }
