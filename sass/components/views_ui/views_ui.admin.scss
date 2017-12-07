@@ -195,10 +195,16 @@
   }
 
   td {
-    min-width: em(200px);
     @include breakpoint(max-width $breakpoint-large-lower) {
       @include type-leader(.25);
       @include type-leader-clear;
+    }
+  }
+
+  td:first-child {
+    @include breakpoint($breakpoint-large) {
+      background-color: $color-grey-steam;
+      max-width: em(200px);
     }
   }
 
