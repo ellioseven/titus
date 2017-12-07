@@ -25,3 +25,7 @@
   @include th-h($heading: saul, $include: font-size line-height);
   text-align: right;
 }
+
+tr.region-populated {
+  display: none;
+}
