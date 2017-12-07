@@ -138,3 +138,12 @@
     }
   }
 }
+
+.view-preview-form .view-preview-form__title,
+.view-preview-form .section-title {
+  $base: th-base(mike);
+  @include th-h(mike);
+  @include type-leader-clear;
+  border-bottom: 1px solid $color-grey-cement;
+  padding-bottom: em($base-vertical-margin / 2, $base);
+}

@@ -102,4 +102,19 @@
     display: block;
     height: 1.42857em; }
 
+.view-preview-form .view-preview-form__title,
+.view-preview-form .section-title {
+  font-size: 1.71429em;
+  line-height: 1.5;
+  margin-top: 0.83333em;
+  margin-bottom: 0.83333em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.41667em; }
+  .view-preview-form .view-preview-form__title:first-child,
+  .view-preview-form .section-title:first-child {
+    margin-top: 0; }
+  .view-preview-form .view-preview-form__title:last-child,
+  .view-preview-form .section-title:last-child {
+    margin-bottom: 0; }
+
 /*# sourceMappingURL=views_ui.admin.css.map */
