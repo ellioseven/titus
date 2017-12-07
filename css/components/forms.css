@@ -164,7 +164,7 @@
   .container-inline .form-item {
     vertical-align: bottom; } }
 
-input[type="hidden"] + .form-actions {
+input[type='hidden'] + .form-actions {
   margin-bottom: 0;
   margin-top: 0; }
 
