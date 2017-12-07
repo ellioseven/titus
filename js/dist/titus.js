@@ -12,7 +12,7 @@
    * @type {Drupal~behavior}
    *
    * @prop {Drupal~behaviorAttach} attach
-   *   Attaches behavior for hidden class additions
+   *   Attaches behavior for hidden class additions.
    */
   Drupal.behaviors.titusHiddenClasses = {
     attach: function attach(context) {
