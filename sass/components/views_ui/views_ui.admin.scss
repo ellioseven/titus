@@ -110,8 +110,26 @@
     margin-right: 0;
   }
 
+  .ui-widget-content.ui-dialog-content {
+    padding: 0;
+
+    &::after {
+      display: none;
+    }
+  }
+
   .scroll {
     margin-bottom: 0;
     margin-top: 0;
+    padding: em($base-vertical-margin);
+    padding-bottom: 0;
+
+    // Used to apply bottom padding on overflow auto in firefox.
+    // @url https://bugzilla.mozilla.org/show_bug.cgi?id=748518
+    &::after {
+      content: '';
+      display: block;
+      height: em($base-vertical-margin);
+    }
   }
 }

@@ -83,8 +83,19 @@
   margin-left: 0;
   margin-right: 0; }
 
+.views-ui-dialog .ui-widget-content.ui-dialog-content {
+  padding: 0; }
+  .views-ui-dialog .ui-widget-content.ui-dialog-content::after {
+    display: none; }
+
 .views-ui-dialog .scroll {
   margin-bottom: 0;
-  margin-top: 0; }
+  margin-top: 0;
+  padding: 1.42857em;
+  padding-bottom: 0; }
+  .views-ui-dialog .scroll::after {
+    content: '';
+    display: block;
+    height: 1.42857em; }
 
 /*# sourceMappingURL=views_ui.admin.css.map */

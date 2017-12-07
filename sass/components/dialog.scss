@@ -41,11 +41,17 @@
 
   .ui-widget-content.ui-dialog-content {
     background: $color-white;
-  }
-
-  .ui-dialog-content {
     overflow: auto;
     padding: em($base-vertical-margin);
+    padding-bottom: 0;
+
+    // Used to apply bottom padding on overflow auto in firefox.
+    // @url https://bugzilla.mozilla.org/show_bug.cgi?id=748518
+    &::after {
+      content: '';
+      display: block;
+      height: em($base-vertical-margin);
+    }
   }
 
   .ui-widget-content.ui-dialog-buttonpane {

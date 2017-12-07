@@ -61,10 +61,14 @@
       vertical-align: middle;
       width: 100%; }
   .ui-dialog .ui-widget-content.ui-dialog-content {
-    background: #fff; }
-  .ui-dialog .ui-dialog-content {
+    background: #fff;
     overflow: auto;
-    padding: 1.42857em; }
+    padding: 1.42857em;
+    padding-bottom: 0; }
+    .ui-dialog .ui-widget-content.ui-dialog-content::after {
+      content: '';
+      display: block;
+      height: 1.42857em; }
   .ui-dialog .ui-widget-content.ui-dialog-buttonpane {
     background-color: #fff;
     border-top: 1px solid #ddd;
