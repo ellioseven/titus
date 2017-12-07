@@ -43,30 +43,20 @@
     display: inline-block; }
 
 .form-type-radio,
-.js-form-type-radio,
-.form-type-checkbox,
-.js-form-type-checkbox {
-  margin-top: 1.42857em;
-  margin-bottom: 1.42857em;
+.form-type-checkbox {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
   vertical-align: middle; }
   .form-type-radio:first-child,
-  .js-form-type-radio:first-child,
-  .form-type-checkbox:first-child,
-  .js-form-type-checkbox:first-child {
+  .form-type-checkbox:first-child {
     margin-top: 0; }
   .form-type-radio:last-child,
-  .js-form-type-radio:last-child,
-  .form-type-checkbox:last-child,
-  .js-form-type-checkbox:last-child {
+  .form-type-checkbox:last-child {
     margin-bottom: 0; }
   .form-type-radio > input,
   .form-type-radio > label,
-  .js-form-type-radio > input,
-  .js-form-type-radio > label,
   .form-type-checkbox > input,
-  .form-type-checkbox > label,
-  .js-form-type-checkbox > input,
-  .js-form-type-checkbox > label {
+  .form-type-checkbox > label {
     display: inline-block;
     font-weight: inherit;
     letter-spacing: inherit;
@@ -74,62 +64,8 @@
     text-transform: inherit;
     vertical-align: middle; }
   .form-type-radio > input,
-  .js-form-type-radio > input,
-  .form-type-checkbox > input,
-  .js-form-type-checkbox > input {
+  .form-type-checkbox > input {
     margin-right: .25em; }
-  .form-type-radio + .form-type-radio,
-  .form-type-radio + .js-form-type-radio,
-  .form-type-radio + .form-type-checkbox,
-  .form-type-radio + .js-form-type-checkbox,
-  .js-form-type-radio + .form-type-radio,
-  .js-form-type-radio + .js-form-type-radio,
-  .js-form-type-radio + .form-type-checkbox,
-  .js-form-type-radio + .js-form-type-checkbox,
-  .form-type-checkbox + .form-type-radio,
-  .form-type-checkbox + .js-form-type-radio,
-  .form-type-checkbox + .form-type-checkbox,
-  .form-type-checkbox + .js-form-type-checkbox,
-  .js-form-type-checkbox + .form-type-radio,
-  .js-form-type-checkbox + .js-form-type-radio,
-  .js-form-type-checkbox + .form-type-checkbox,
-  .js-form-type-checkbox + .js-form-type-checkbox {
-    margin-top: 0.35714em;
-    margin-bottom: 0.35714em; }
-    .form-type-radio + .form-type-radio:first-child,
-    .form-type-radio + .js-form-type-radio:first-child,
-    .form-type-radio + .form-type-checkbox:first-child,
-    .form-type-radio + .js-form-type-checkbox:first-child,
-    .js-form-type-radio + .form-type-radio:first-child,
-    .js-form-type-radio + .js-form-type-radio:first-child,
-    .js-form-type-radio + .form-type-checkbox:first-child,
-    .js-form-type-radio + .js-form-type-checkbox:first-child,
-    .form-type-checkbox + .form-type-radio:first-child,
-    .form-type-checkbox + .js-form-type-radio:first-child,
-    .form-type-checkbox + .form-type-checkbox:first-child,
-    .form-type-checkbox + .js-form-type-checkbox:first-child,
-    .js-form-type-checkbox + .form-type-radio:first-child,
-    .js-form-type-checkbox + .js-form-type-radio:first-child,
-    .js-form-type-checkbox + .form-type-checkbox:first-child,
-    .js-form-type-checkbox + .js-form-type-checkbox:first-child {
-      margin-top: 0; }
-    .form-type-radio + .form-type-radio:last-child,
-    .form-type-radio + .js-form-type-radio:last-child,
-    .form-type-radio + .form-type-checkbox:last-child,
-    .form-type-radio + .js-form-type-checkbox:last-child,
-    .js-form-type-radio + .form-type-radio:last-child,
-    .js-form-type-radio + .js-form-type-radio:last-child,
-    .js-form-type-radio + .form-type-checkbox:last-child,
-    .js-form-type-radio + .js-form-type-checkbox:last-child,
-    .form-type-checkbox + .form-type-radio:last-child,
-    .form-type-checkbox + .js-form-type-radio:last-child,
-    .form-type-checkbox + .form-type-checkbox:last-child,
-    .form-type-checkbox + .js-form-type-checkbox:last-child,
-    .js-form-type-checkbox + .form-type-radio:last-child,
-    .js-form-type-checkbox + .js-form-type-radio:last-child,
-    .js-form-type-checkbox + .form-type-checkbox:last-child,
-    .js-form-type-checkbox + .js-form-type-checkbox:last-child {
-      margin-bottom: 0; }
 
 .form-radios > .form-type-radio,
 .form-checkboxes > .form-type-checkbox {

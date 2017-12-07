@@ -39,10 +39,8 @@
 }
 
 .form-type-radio,
-.js-form-type-radio,
-.form-type-checkbox,
-.js-form-type-checkbox {
-  @include type-leader;
+.form-type-checkbox {
+  @include type-leader(.5);
   @include type-leader-clear;
   vertical-align: middle;
 
@@ -58,14 +56,6 @@
 
   > input {
     margin-right: .25em;
-  }
-
-  + .form-type-radio,
-  + .js-form-type-radio,
-  + .form-type-checkbox,
-  + .js-form-type-checkbox {
-    @include type-leader(.25);
-    @include type-leader-clear;
   }
 }
 
