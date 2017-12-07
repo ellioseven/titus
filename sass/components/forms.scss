@@ -42,9 +42,8 @@
 .js-form-type-radio,
 .form-type-checkbox,
 .js-form-type-checkbox {
+  @include type-leader;
   @include type-leader-clear;
-  margin-bottom: 0;
-  margin-top: em($base-vertical-margin);
   vertical-align: middle;
 
   > input,
