@@ -1,12 +1,12 @@
 @import '../lib/lib';
 
 .layout-container {
-  padding-left: em($base-vertical-margin);
-  padding-right: em($base-vertical-margin);
+  padding-left: $grid-bleed;
+  padding-right: $grid-bleed;
 }
 
 .layout-column + .layout-column {
-  padding-left: em($base-vertical-margin);
+  padding-left: $grid-gutter;
 }
 
 .layout-column--half {
