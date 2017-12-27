@@ -3,6 +3,7 @@
 .system-status-report {
 
   details {
+    @include pie-clearfix;
     @include breakpoint($breakpoint-medium) {
       @include border-radius(0);
       border: 0;
@@ -20,8 +21,7 @@
 
   details > * {
     @include breakpoint($breakpoint-medium) {
-      display: inline-block;
-      vertical-align: top;
+      float: left;
     }
   }
 
@@ -34,6 +34,10 @@
       padding: 0;
       width: 100%;
     }
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
   }
 
   summary.system-status-report__status-icon--error::before {

@@ -1,24 +1,28 @@
 @charset "UTF-8";
-@media (min-width: 48em) {
-  .system-status-report details {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    border: 0;
-    border-bottom: 1px solid #ddd;
-    margin: 0;
-    padding: 0.71429em 0; } }
-
-@media (min-width: 48em) {
-  .system-status-report details:first-of-type {
-    border-top: 1px solid #ddd; } }
+.system-status-report details {
+  *zoom: 1; }
+  .system-status-report details:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 48em) {
+    .system-status-report details {
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0;
+      border: 0;
+      border-bottom: 1px solid #ddd;
+      margin: 0;
+      padding: 0.71429em 0; } }
+  @media (min-width: 48em) {
+    .system-status-report details:first-of-type {
+      border-top: 1px solid #ddd; } }
 
 @media (min-width: 48em) {
   .system-status-report details > * {
-    display: inline-block;
-    vertical-align: top; } }
+    float: left; } }
 
 @media (min-width: 48em) {
   .system-status-report summary {
@@ -28,6 +32,9 @@
     max-width: 22.85714em;
     padding: 0;
     width: 100%; } }
+
+.system-status-report summary::-webkit-details-marker {
+  display: none; }
 
 @media (min-width: 48em) {
   .system-status-report summary.system-status-report__status-icon--error::before {
