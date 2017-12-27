@@ -1,0 +1,52 @@
+.progress {
+  position: relative; }
+
+.progress__track {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 2px solid #18cdca;
+  height: 2.14286em;
+  max-width: 100%;
+  min-width: 100px; }
+  .progress__track:first-child {
+    margin-top: 0; }
+  .progress__track:last-child {
+    margin-bottom: 0; }
+
+.progress__bar {
+  background-color: #18cdca;
+  height: 2.14286em;
+  max-width: 100%;
+  min-width: 3%;
+  width: 3%; }
+
+.progress__label,
+.progress__percentage,
+.progress__description {
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em; }
+  .progress__label:first-child,
+  .progress__percentage:first-child,
+  .progress__description:first-child {
+    margin-top: 0; }
+  .progress__label:last-child,
+  .progress__percentage:last-child,
+  .progress__description:last-child {
+    margin-bottom: 0; }
+
+.progress__description {
+  color: #999; }
+
+.progress--small .progress__track {
+  height: 1.42857em; }
+
+.progress--small .progress__bar {
+  height: 1.42857em; }
+
+/*# sourceMappingURL=progress.module.css.map */

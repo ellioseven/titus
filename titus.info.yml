@@ -24,10 +24,11 @@ libraries-override:
   system/base:
     css:
       component:
-        /core/themes/stable/css/system/components/tabledrag.module.css: css/components/system/tabledrag.module.css
+        /core/themes/stable/css/system/components/progress.module.css: css/components/system/progress.module.css
         /core/themes/stable/css/system/components/system-status-report-counters.css: css/components/system/system-status-report-counters.css
         /core/themes/stable/css/system/components/system-status-report-general-info.css: css/components/system/system-status-report-general-info.css
         /core/themes/stable/css/system/components/system-status-counter.css: css/components/system/system-status-counter.css
+        /core/themes/stable/css/system/components/tabledrag.module.css: css/components/system/tabledrag.module.css
   update/drupal.update.admin:
     css:
       theme:

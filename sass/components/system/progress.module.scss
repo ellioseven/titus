@@ -1,0 +1,43 @@
+@import '../../lib/lib';
+
+.progress {
+  position: relative;
+}
+
+.progress__track {
+  @include type-leader(.5);
+  @include type-leader-clear;
+  @include border-radius(2px);
+  background-color: $color-white;
+  border: 2px solid $color-green-retro;
+  height: em($base-line-height * 1.5);
+  max-width: 100%;
+  min-width: 100px;
+}
+
+.progress__bar {
+  background-color: $color-green-retro;
+  height: em($base-line-height * 1.5);
+  max-width: 100%;
+  min-width: 3%;
+  width: 3%;
+}
+
+.progress__label,
+.progress__percentage,
+.progress__description {
+  @include type-leader(.5);
+  @include type-leader-clear;
+}
+
+.progress__description {
+  color: $color-grey-ash;
+}
+
+.progress--small .progress__track {
+  height: em($base-line-height);
+}
+
+.progress--small .progress__bar {
+  height: em($base-line-height);
+}
