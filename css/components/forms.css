@@ -109,23 +109,27 @@
     content: "";
     display: table;
     clear: both; }
-  .form-type-password-confirm * {
-    clear: both; }
+  .form-type-password-confirm input,
+  .form-type-password-confirm .password-strength {
+    max-width: 36.57143em;
+    width: 100%; }
   .form-type-password-confirm .form-item {
     margin-bottom: 0; }
-  .form-type-password-confirm .confirm-parent,
-  .form-type-password-confirm .password-parent {
-    clear: both;
-    display: inline-block;
-    float: left;
-    overflow: visible;
-    width: auto; }
   .form-type-password-confirm .password-strength__title,
   .form-type-password-confirm .password-confirm {
     margin-top: 0.35714em; }
     .form-type-password-confirm .password-strength__title:first-child,
     .form-type-password-confirm .password-confirm:first-child {
       margin-top: 0; }
+  .form-type-password-confirm .password-confirm:not(:visible) {
+    height: 0; }
+  .form-type-password-confirm .password-suggestions {
+    margin-top: 0.71429em;
+    margin-bottom: 0.71429em; }
+    .form-type-password-confirm .password-suggestions:first-child {
+      margin-top: 0; }
+    .form-type-password-confirm .password-suggestions:last-child {
+      margin-bottom: 0; }
   .form-type-password-confirm .password-strength__title {
     display: block; }
   .form-type-password-confirm .password-strength__indicator.is-weak {
@@ -136,5 +140,7 @@
     background-color: #007bff; }
   .form-type-password-confirm .password-strength__indicator.is-strong {
     background-color: #20c997; }
+  .form-type-password-confirm .password-strength__meter {
+    height: 0.35714em; }
 
 /*# sourceMappingURL=forms.css.map */

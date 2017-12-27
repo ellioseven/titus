@@ -121,8 +121,10 @@
 .form-type-password-confirm {
   @include pie-clearfix;
 
-  * {
-    clear: both;
+  input,
+  .password-strength {
+    max-width: em(512px);
+    width: 100%;
   }
 
   .form-item {
@@ -131,11 +133,6 @@
 
   .confirm-parent,
   .password-parent {
-    clear: both;
-    display: inline-block;
-    float: left;
-    overflow: visible;
-    width: auto;
   }
 
   .password-strength__title,
@@ -145,6 +142,15 @@
     &:first-child {
       margin-top: 0;
     }
+  }
+
+  .password-confirm:not(:visible) {
+    height: 0;
+  }
+
+  .password-suggestions {
+    @include type-leader(.5);
+    @include type-leader-clear;
   }
 
   .password-strength__title {
@@ -165,5 +171,9 @@
 
   .password-strength__indicator.is-strong {
     background-color: $color-green-invader;
+  }
+
+  .password-strength__meter {
+    height: em($base-line-height * .25);
   }
 }
