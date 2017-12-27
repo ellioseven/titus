@@ -8,16 +8,16 @@
   @include type-leader(.5);
   @include type-leader-clear;
   @include border-radius(2px);
-  background-color: $color-white;
-  border: 2px solid $color-green-retro;
-  height: em($base-line-height * 1.5);
+  background-color: $color-grey-steam;
+  height: em($base-line-height);
   max-width: 100%;
   min-width: 100px;
 }
 
 .progress__bar {
+  @include border-radius(2px);
   background-color: $color-green-retro;
-  height: em($base-line-height * 1.5);
+  height: em($base-line-height);
   max-width: 100%;
   min-width: 3%;
   width: 3%;
@@ -35,9 +35,9 @@
 }
 
 .progress--small .progress__track {
-  height: em($base-line-height);
+  height: em($base-line-height / 2);
 }
 
 .progress--small .progress__bar {
-  height: em($base-line-height);
+  height: em($base-line-height / 2);
 }
