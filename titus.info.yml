@@ -28,6 +28,10 @@ libraries-override:
         /core/themes/stable/css/system/components/system-status-report-counters.css: css/components/system/system-status-report-counters.css
         /core/themes/stable/css/system/components/system-status-report-general-info.css: css/components/system/system-status-report-general-info.css
         /core/themes/stable/css/system/components/system-status-counter.css: css/components/system/system-status-counter.css
+  update/drupal.update.admin:
+    css:
+      theme:
+        /core/themes/stable/css/update/update.admin.theme.css: css/components/update/update.admin.theme.css
   views/views.module: titus/views
   views_ui/admin.styling: titus/views_ui
 libraries-extend:

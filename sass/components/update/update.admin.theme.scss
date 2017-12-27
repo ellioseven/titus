@@ -1,0 +1,19 @@
+@import '../../lib/lib';
+
+.project-update__status  {
+  float: right;
+
+  img {
+    display: inline-block;
+    margin-left: .25em;
+    vertical-align: middle;
+  }
+}
+
+.project-updates__details {
+  $base: th-base(saul);
+  @include th-h($heading: saul, $include: font-size line-height);
+  clear: both;
+  color: $color-grey-ash;
+  margin-top: em($base-vertical-margin / 2, $base);
+}

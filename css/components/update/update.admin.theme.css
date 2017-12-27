@@ -1,0 +1,15 @@
+.project-update__status {
+  float: right; }
+  .project-update__status img {
+    display: inline-block;
+    margin-left: .25em;
+    vertical-align: middle; }
+
+.project-updates__details {
+  font-size: 0.85714em;
+  line-height: 1.5;
+  clear: both;
+  color: #999;
+  margin-top: 0.83333em; }
+
+/*# sourceMappingURL=update.admin.theme.css.map */
