@@ -3,15 +3,6 @@
 .region {
   @include type-leader;
   @include type-leader-clear;
-
-  &.is-empty {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-
-  &.is-empty + .region {
-    margin-top: 0;
-  }
 }
 
 .visually-hidden:first-child + .region {

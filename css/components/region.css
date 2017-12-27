@@ -5,11 +5,6 @@
     margin-top: 0; }
   .region:last-child {
     margin-bottom: 0; }
-  .region.is-empty {
-    margin-bottom: 0;
-    margin-top: 0; }
-  .region.is-empty + .region {
-    margin-top: 0; }
 
 .visually-hidden:first-child + .region {
   margin-top: 0; }
