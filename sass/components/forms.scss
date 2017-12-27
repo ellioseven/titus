@@ -4,7 +4,8 @@
 .form-item {
   margin-top: em($base-vertical-margin);
 
-  &:first-child {
+  &:first-child,
+  &.visually-hidden {
     margin-top: 0;
   }
 }
@@ -139,8 +140,11 @@
 
   .password-strength__title,
   .password-confirm {
-    @include type-leader(.25);
-    @include type-leader-clear;
+    margin-top: em($base-vertical-margin * .25);
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   .password-strength__title {
