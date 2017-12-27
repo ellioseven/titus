@@ -13,3 +13,7 @@
     margin-top: 0;
   }
 }
+
+.visually-hidden:first-child + .region {
+  margin-top: 0;
+}
