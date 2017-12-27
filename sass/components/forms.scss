@@ -2,8 +2,11 @@
 
 .form-wrapper,
 .form-item {
-  @include type-leader;
-  @include type-leader-clear;
+  margin-top: em($base-vertical-margin);
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .form-item > label,
@@ -40,9 +43,12 @@
 
 .form-type-radio,
 .form-type-checkbox {
-  @include type-leader(.5);
-  @include type-leader-clear;
+  margin-top: em($base-vertical-margin / 2);
   vertical-align: middle;
+
+  &:first-child {
+    margin-top: 0;
+  }
 
   > input,
   > label {
@@ -61,8 +67,11 @@
 
 .form-radios > .form-type-radio,
 .form-checkboxes > .form-type-checkbox {
-  @include type-leader(.5);
-  @include type-leader-clear;
+  margin-top: em($base-vertical-margin / 2);
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .form--inline .form-item,
@@ -95,8 +104,11 @@
 }
 
 .details-wrapper {
-  @include type-leader;
-  @include type-leader-clear;
+  margin-top: em($base-vertical-margin / 2);
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .label {
