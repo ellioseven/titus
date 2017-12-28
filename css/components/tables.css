@@ -1,11 +1,4 @@
 th.select-all {
   width: 1px; }
 
-.tableresponsive-toggle-columns {
-  margin-top: 1.42857em; }
-  .tableresponsive-toggle-columns:first-child {
-    margin-top: 0; }
-  .tableresponsive-toggle-columns + table {
-    margin-top: 0; }
-
 /*# sourceMappingURL=tables.css.map */

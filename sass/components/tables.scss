@@ -3,15 +3,3 @@
 th.select-all {
   width: 1px;
 }
-
-.tableresponsive-toggle-columns {
-  margin-top: em($base-vertical-margin);
-
-  &:first-child {
-    margin-top: 0;
-  }
-
-  + table {
-    margin-top: 0;
-  }
-}
