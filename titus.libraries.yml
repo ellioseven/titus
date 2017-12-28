@@ -107,4 +107,4 @@ views_ui:
   version: VERSION
   css:
     component:
-      css/components/views_ui/views_ui.admin.css: {}
+      css/components/views-ui/views-ui.admin.css: {}
