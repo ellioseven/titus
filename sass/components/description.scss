@@ -13,3 +13,8 @@
   @include type-leader-clear;
   color: $color-grey-ash;
 }
+
+td.description {
+  font-size: inherit;
+  line-height: inherit;
+}

@@ -9,4 +9,8 @@
   .description:last-child {
     margin-bottom: 0; }
 
+td.description {
+  font-size: inherit;
+  line-height: inherit; }
+
 /*# sourceMappingURL=description.css.map */
