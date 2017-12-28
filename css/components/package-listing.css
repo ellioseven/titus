@@ -5,19 +5,17 @@
     padding-bottom: 0; }
   .package-listing > summary {
     margin: 0; }
+  .package-listing[open] > summary {
+    margin-bottom: 0; }
   .package-listing table {
     border: 0;
     margin: 0; }
   .package-listing th,
   .package-listing td {
     vertical-align: top; }
-  .package-listing tr:nth-child(even):not(:hover) td {
-    background-color: #f9f9f9; }
   .package-listing tr:last-child th,
   .package-listing tr:last-child td {
     border-bottom: 0; }
-  .package-listing tr:hover td {
-    background-color: #fefbd6; }
   .package-listing table details {
     border: 0;
     margin: 0;

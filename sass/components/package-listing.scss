@@ -11,6 +11,10 @@
     margin: 0;
   }
 
+  &[open] > summary {
+    margin-bottom: 0;
+  }
+
   table {
     border: 0;
     margin: 0;
@@ -21,17 +25,9 @@
     vertical-align: top;
   }
 
-  tr:nth-child(even):not(:hover) td {
-    background-color: $color-grey-cloud;
-  }
-
   tr:last-child th,
   tr:last-child td {
     border-bottom: 0;
-  }
-
-  tr:hover td {
-    background-color: $color-yellow-sand;
   }
 
   table details {
