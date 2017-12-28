@@ -177,3 +177,7 @@
     height: em($base-line-height * .25);
   }
 }
+
+table {
+  @include input-size(small);
+}

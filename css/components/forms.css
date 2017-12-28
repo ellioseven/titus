@@ -143,4 +143,19 @@
   .form-type-password-confirm .password-strength__meter {
     height: 0.35714em; }
 
+table input[type="text"], table input[type="password"], table input[type="date"], table input[type="datetime"], table input[type="datetime-local"], table input[type="month"], table input[type="week"], table input[type="email"], table input[type="number"], table input[type="search"], table input[type="tel"], table input[type="time"], table input[type="url"],
+table select,
+table textarea {
+  font-size: 0.85714em;
+  line-height: 1.66667em;
+  padding: 0.33333em 0.66667em; }
+
+table input[type="text"], table input[type="password"], table input[type="date"], table input[type="datetime"], table input[type="datetime-local"], table input[type="month"], table input[type="week"], table input[type="email"], table input[type="number"], table input[type="search"], table input[type="tel"], table input[type="time"], table input[type="url"],
+table select {
+  height: 2.5em; }
+
+table select {
+  background-position: calc(100% - 0.57143em) center;
+  padding-right: 1.71429em; }
+
 /*# sourceMappingURL=forms.css.map */
