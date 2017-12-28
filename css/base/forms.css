@@ -30,30 +30,46 @@ details {
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
-  border: 1px solid #ddd;
-  padding-left: 1.42857em;
-  padding-right: 1.42857em; }
-  details[open] {
-    padding-bottom: 1.42857em; }
+  border: 1px solid #ddd; }
 
 summary {
-  margin-top: 1.42857em;
-  margin-bottom: 1.42857em;
   background-color: #f1f1f1;
-  border-bottom: 1px solid #ddd;
   display: list-item;
   font-weight: 700;
-  margin-left: -1.42857em;
-  margin-right: -1.42857em;
   padding: 0.71429em; }
-  summary:first-child {
-    margin-top: 0; }
-  summary:last-child {
-    margin-bottom: 0; }
-  summary[aria-expanded='false'] {
-    border-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 0; }
+  summary:focus {
+    outline: none; }
+
+details {
+  padding-left: 1.42857em;
+  padding-right: 1.42857em; }
+
+details[open] {
+  padding-bottom: 1.42857em; }
+
+summary {
+  margin-left: -1.42857em;
+  margin-right: -1.42857em; }
+
+details[open] summary {
+  margin-bottom: 1.42857em; }
+
+details[open] summary {
+  border-bottom: 1px solid #ddd; }
+
+details {
+  padding-left: 1.42857em;
+  padding-right: 1.42857em; }
+
+details[open] {
+  padding-bottom: 1.42857em; }
+
+summary {
+  margin-left: -1.42857em;
+  margin-right: -1.42857em; }
+
+details[open] summary {
+  margin-bottom: 1.42857em; }
 
 label {
   margin-top: 0.71429em;

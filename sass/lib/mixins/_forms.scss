@@ -17,7 +17,7 @@
 
   @if $size == small {
     $font-size: th-base(saul);
-    $padding-horizontal: 6px;
+    $padding-horizontal: 8px;
     $padding-vertical: 4px;
     $line-height: $base-line-height;
     $border: 1px;
@@ -45,4 +45,26 @@
 
   $memo-font-size: _memo('input-size', 'font-size', $font-size);
   @content;
+}
+
+@mixin forms-details-spacing(
+  $spacing: em($base-vertical-margin)
+){
+  details {
+    padding-left: $spacing;
+    padding-right: $spacing;
+  }
+
+  details[open] {
+    padding-bottom: $spacing;
+  }
+
+  summary {
+    margin-left: -#{$spacing};
+    margin-right: -#{$spacing};
+  }
+
+  details[open] summary {
+    margin-bottom: $spacing;
+  }
 }
