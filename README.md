@@ -12,3 +12,8 @@ seamless and visually pleasing admin experience.
 ## Screenshots
 
 Screenshots are available on [Imgur](https://imgur.com/a/F3wNu).
+
+## Testing
+
+See [Titus - Testing Distribution](https://github.com/ellioseven/titus-test) for
+testing details.
