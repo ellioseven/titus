@@ -39,4 +39,7 @@
 tr.region-populated {
   display: none; }
 
+tr.draggable.drag td {
+  background-color: #fefbd6 !important; }
+
 /*# sourceMappingURL=tabledrag.module.css.map */
