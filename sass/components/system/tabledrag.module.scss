@@ -29,6 +29,14 @@
 tr.region-populated {
   display: none;
 }
+
+table[data-striping='1'] > tbody > tr.region-title td,
+table[data-striping='1'] > tbody > tr.region-title.odd td,
+table[data-striping='1'] > tbody > tr.region-title.even td {
+  background-color: $color-grey-steam;
+  font-weight: 700;
+}
+
 tr.draggable.drag td {
   background-color: $color-yellow-sand !important;
 }
