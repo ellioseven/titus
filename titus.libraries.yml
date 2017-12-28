@@ -48,6 +48,12 @@ dialog:
     component:
       css/components/dialog.css: {}
 
+features-ui:
+  version: VERSION
+  css:
+    component:
+      css/components/features-ui/features-ui.admin.css: {}
+
 fontello:
   version: VERSION
   css:

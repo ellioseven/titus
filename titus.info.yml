@@ -40,6 +40,8 @@ libraries-extend:
     - titus/dialog
   core/drupal.vertical-tabs:
     - titus/vertical-tabs
+  features_ui/drupal.features_ui.admin:
+    - titus/features-ui
   paragraphs/drupal.paragraphs.admin:
     - titus/paragraphs.admin
   image/admin:

@@ -1,0 +1,280 @@
+#features-export-wrapper .component-included .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-included,
+#features-export-wrapper .component-detected .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-detected,
+#features-export-wrapper .component-added .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-added,
+#features-export-wrapper .component-conflict.form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-conflict, #features-export-wrapper .features-component-list span {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 0.14286em 0.57143em;
+  white-space: nowrap; }
+
+.features-header {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  .features-header:first-child {
+    margin-top: 0; }
+  .features-header:last-child {
+    margin-bottom: 0; }
+
+.features-listing td {
+  vertical-align: top; }
+
+.features-listing details,
+.features-listing summary {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+.features-listing details,
+.features-listing details:first-child {
+  margin-top: 0.35714em; }
+
+.features-listing summary {
+  background-color: transparent;
+  margin-bottom: 0; }
+
+.features-listing details[open] summary {
+  margin-bottom: 0;
+  padding-bottom: 0.71429em; }
+
+.features-listing .description {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+.features-listing .features-item:not(:last-child)::after {
+  content: ', ';
+  display: inline-block; }
+
+.features-listing span.features-override,
+.features-listing a.features-override {
+  font-style: italic; }
+
+.features-listing span.features-detected,
+.features-listing a.features-detected {
+  font-weight: 700; }
+
+.features-listing span.features-conflict,
+.features-listing a.features-conflict {
+  color: #dc3545;
+  font-weight: 700; }
+
+.features-listing span.features-moved,
+.features-listing a.features-moved {
+  color: #20c997; }
+
+.features-listing span.features-missing,
+.features-listing a.features-missing {
+  color: #dc3545;
+  font-style: italic; }
+
+.features-listing .column-nowrap {
+  white-space: nowrap; }
+
+tr.features-export-header-row td {
+  background: #f9f9f9; }
+
+#features-assignment-methods tr.draggable > td:nth-child(1) {
+  white-space: nowrap; }
+
+@media (min-width: 64em) {
+  #features-export-info,
+  #features-export-wrapper {
+    position: relative;
+    width: 49%; } }
+
+@media (min-width: 64em) {
+  #features-export-info {
+    float: left; } }
+
+.form-type-checkbox.form-item-conflicts {
+  clear: left;
+  padding-top: 0.71429em; }
+
+div.features-export-empty {
+  display: none; }
+
+span.features-component-list span.features-conflict {
+  background-color: #dc3545;
+  color: #fff; }
+
+span.features-component-list .features-detected {
+  background-color: #f9f9f9;
+  color: #17a2b8; }
+
+span.features-component-list .features-dependency {
+  background-color: #f9f9f9; }
+
+@media (min-width: 64em) {
+  #features-export-wrapper {
+    clear: both;
+    float: right; } }
+
+#features-export-wrapper details {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0; }
+  #features-export-wrapper details[open] {
+    padding-bottom: 0; }
+
+#features-export-wrapper summary {
+  margin-left: 0;
+  margin-right: 0; }
+
+#features-export-wrapper details[open] summary {
+  border-bottom: 0;
+  margin-bottom: 0; }
+
+#features-export-wrapper .component-select > .form-checkboxes > .form-type-checkbox {
+  border-top: 1px solid #ddd;
+  margin: 0;
+  padding: 0.71429em; }
+  #features-export-wrapper .component-select > .form-checkboxes > .form-type-checkbox:nth-child(even) {
+    background-color: #f9f9f9; }
+
+#features-export-wrapper .component-included .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-included,
+#features-export-wrapper .component-detected .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-detected,
+#features-export-wrapper .component-added .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-added,
+#features-export-wrapper .component-conflict.form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-conflict {
+  float: left;
+  margin: 0 .25em 0 0; }
+
+#features-export-wrapper .component-detected .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-detected {
+  background: #f1f1f1;
+  color: #4f80ee;
+  font-weight: 700; }
+
+#features-export-wrapper .component-added .form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-added {
+  background: #f9f9f9;
+  font-weight: bold; }
+
+#features-export-wrapper .component-conflict.form-type-checkbox,
+#features-export-wrapper #features-legend .fieldset-wrapper .component-conflict {
+  color: #dc3545;
+  font-weight: bold;
+  margin: 0; }
+
+#features-export-wrapper .component-conflict.form-type-checkbox label,
+#features-export-wrapper .component-added .form-type-checkbox label {
+  font-weight: bold; }
+
+#features-export-wrapper .features-export-parent {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 0.71429em;
+  margin-bottom: 0.71429em;
+  clear: both;
+  overflow: hidden; }
+  #features-export-wrapper .features-export-parent:first-child {
+    margin-top: 0; }
+  #features-export-wrapper .features-export-parent:last-child {
+    margin-bottom: 0; }
+
+#features-export-wrapper .features-export-list {
+  border: 1px solid #ddd;
+  border-top: 0;
+  margin-top: -0.35714em;
+  overflow: hidden;
+  padding: 0.71429em; }
+  #features-export-wrapper .features-export-list .form-type-checkbox {
+    margin-top: 0.35714em; }
+
+#features-export-wrapper .features-component-list span {
+  background-color: #f9f9f9; }
+
+#features-filter {
+  margin-top: 1.42857em;
+  margin-bottom: 1.42857em; }
+  #features-filter:first-child {
+    margin-top: 0; }
+  #features-filter:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 64em) {
+    #features-filter .fieldset-content,
+    #features-filter .fieldset-wrapper,
+    #features-filter fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0; } }
+  #features-filter fieldset legend {
+    display: none; }
+  @media (min-width: 64em) {
+    #features-filter input,
+    #features-filter label {
+      display: inline-block;
+      margin: 0;
+      vertical-align: middle; } }
+  @media (min-width: 64em) {
+    #features-filter input {
+      max-width: 21.42857em; } }
+  #features-filter span {
+    margin-top: 0.71429em;
+    margin-bottom: 0.71429em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    color: #4f80ee;
+    cursor: pointer;
+    display: block; }
+    #features-filter span:first-child {
+      margin-top: 0; }
+    #features-filter span:last-child {
+      margin-bottom: 0; }
+    @media (min-width: 64em) {
+      #features-filter span {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: .5em;
+        margin-top: 0; } }
+    #features-filter span:hover {
+      color: #292c44; }
+  @media (min-width: 64em) {
+    #features-filter .form-item {
+      display: inline-block;
+      margin-left: 1em; } }
+  @media (min-width: 64em) {
+    #features-filter .form-item:first-child {
+      margin-left: 0; } }
+  @media (min-width: 64em) {
+    #features-filter .form-item-features-filter label {
+      margin-right: .5em; } }
+  @media (min-width: 64em) {
+    #features-filter .form-item-checkall {
+      margin-bottom: 0;
+      margin-top: 0; } }
+
+#edit-bundles-wrapper .form-item-bundle-bundle-select,
+#edit-bundles-wrapper #edit-bundle-remove {
+  display: inline-block; }
+
+#features-diff-form .form-actions {
+  vertical-align: middle; }
+  #features-diff-form .form-actions * {
+    vertical-align: middle; }
+  #features-diff-form .form-actions input {
+    margin-right: .5em; }
+
+/*# sourceMappingURL=features-ui.admin.css.map */

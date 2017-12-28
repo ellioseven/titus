@@ -1,0 +1,327 @@
+@import '../../lib/lib';
+
+%features-ui-pill {
+  @include border-radius(2px);
+  border: 1px solid $color-grey-cement;
+  display: inline-block;
+  padding: em(2px 8px);
+  white-space: nowrap;
+}
+
+.features-header {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+.features-listing {
+
+  td {
+    vertical-align: top;
+  }
+
+  details,
+  summary {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  details,
+  details:first-child {
+    margin-top: em($base-vertical-margin / 4);
+  }
+
+  summary {
+    background-color: transparent;
+    margin-bottom: 0;
+  }
+
+  details[open] summary {
+    margin-bottom: 0;
+    padding-bottom: em($base-vertical-margin / 2);
+  }
+
+  .description {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  .features-item:not(:last-child)::after {
+    content: ', ';
+    display: inline-block;
+  }
+
+  span.features-override,
+  a.features-override {
+    font-style: italic;
+  }
+
+  span.features-detected,
+  a.features-detected {
+    font-weight: 700;
+  }
+
+  span.features-conflict,
+  a.features-conflict {
+    color: $color-red-blood;
+    font-weight: 700;
+  }
+
+  span.features-moved,
+  a.features-moved {
+    color: $color-green-invader;
+  }
+
+  span.features-missing,
+  a.features-missing {
+    color: $color-red-blood;
+    font-style: italic;
+  }
+
+  .column-nowrap {
+    white-space: nowrap;
+  }
+}
+
+tr.features-export-header-row td {
+  background: $color-grey-cloud;
+}
+
+#features-assignment-methods tr.draggable > td:nth-child(1) {
+  white-space: nowrap;
+}
+
+#features-export-info,
+#features-export-wrapper {
+  @include breakpoint($breakpoint-large) {
+    position: relative;
+    width: 49%;
+  }
+}
+
+#features-export-info {
+  @include breakpoint($breakpoint-large) {
+    float: left;
+  }
+}
+
+.form-type-checkbox.form-item-conflicts {
+  clear: left;
+  padding-top: em($base-vertical-margin / 2);
+}
+
+div.features-export-empty {
+  display: none;
+}
+
+span.features-component-list span.features-conflict {
+  background-color: $color-red-blood;
+  color: $color-white;
+}
+
+span.features-component-list .features-detected {
+  background-color: $color-grey-cloud;
+  color: $color-blue-sea;
+}
+
+span.features-component-list .features-dependency {
+  background-color: $color-grey-cloud;
+}
+
+#features-export-wrapper {
+  @include breakpoint($breakpoint-large) {
+    clear: both;
+    float: right;
+  }
+
+  details {
+    @include border-radius(0);
+    margin: 0;
+    padding: 0;
+
+    &[open] {
+      padding-bottom: 0;
+    }
+  }
+
+  summary {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  details[open] summary {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .component-select > .form-checkboxes > .form-type-checkbox {
+    border-top: 1px solid $color-grey-cement;
+    margin: 0;
+    padding: em($base-vertical-margin / 2);
+
+    &:nth-child(even) {
+      background-color: $color-grey-cloud;
+    }
+  }
+
+  .component-included .form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-included,
+  .component-detected .form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-detected,
+  .component-added .form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-added,
+  .component-conflict.form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-conflict {
+    @extend %features-ui-pill;
+    float: left;
+    margin: 0 .25em 0 0;
+  }
+
+  .component-detected .form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-detected {
+    background: $color-grey-steam;
+    color: $color-link;
+    font-weight: 700;
+  }
+
+  .component-added .form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-added {
+    background: $color-grey-cloud;
+    font-weight: bold;
+  }
+
+  .component-conflict.form-type-checkbox,
+  #features-legend .fieldset-wrapper .component-conflict {
+    color: $color-red-blood;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .component-conflict.form-type-checkbox label,
+  .component-added .form-type-checkbox label {
+    font-weight: bold;
+  }
+
+  .features-export-parent {
+    @include border-radius(2px);
+    @include type-leader(.5);
+    @include type-leader-clear;
+    clear: both;
+    overflow: hidden;
+  }
+
+  .features-export-list  {
+    border: 1px solid $color-grey-cement;
+    border-top: 0;
+    margin-top: -#{em($base-vertical-margin / 4)};
+    overflow: hidden;
+    padding: em($base-vertical-margin / 2);
+
+    .form-type-checkbox {
+      margin-top: em($base-vertical-margin / 4);
+    }
+  }
+
+  .features-component-list span {
+    @extend %features-ui-pill;
+    background-color: $color-grey-cloud;
+  }
+
+}
+
+#features-filter {
+  @include type-leader;
+  @include type-leader-clear;
+
+  .fieldset-content,
+  .fieldset-wrapper,
+  fieldset {
+    @include breakpoint($breakpoint-large) {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  fieldset legend {
+    display: none;
+  }
+
+  input,
+  label {
+    @include breakpoint($breakpoint-large) {
+      display: inline-block;
+      margin: 0;
+      vertical-align: middle;
+    }
+  }
+
+  input {
+    @include breakpoint($breakpoint-large) {
+      max-width: em(300px);
+    }
+  }
+
+  span {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    @include border-radius(2px);
+    color: $color-link;
+    cursor: pointer;
+    display: block;
+    @include breakpoint($breakpoint-large) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-left: .5em;
+      margin-top: 0;
+    }
+
+    &:hover {
+      color: $color-link-hover;
+    }
+  }
+
+  .form-item {
+    @include breakpoint($breakpoint-large) {
+      display: inline-block;
+      margin-left: 1em;
+    }
+
+    &:first-child {
+      @include breakpoint($breakpoint-large) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .form-item-features-filter label {
+    @include breakpoint($breakpoint-large) {
+      margin-right: .5em;
+    }
+  }
+
+  .form-item-checkall {
+    @include breakpoint($breakpoint-large) {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+#edit-bundles-wrapper .form-item-bundle-bundle-select,
+#edit-bundles-wrapper #edit-bundle-remove {
+  display: inline-block;
+}
+
+#features-diff-form .form-actions {
+  vertical-align: middle;
+
+  * {
+    vertical-align: middle;
+  }
+
+  input {
+    margin-right: .5em;
+  }
+}
