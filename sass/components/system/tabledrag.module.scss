@@ -48,3 +48,9 @@ abbr[title].tabledrag-changed {
 tr.draggable.drag td {
   background-color: $color-yellow-sand !important;
 }
+
+.indentation {
+  float: left;
+  height: em($base-line-height);
+  width: em($base-line-height);
+}

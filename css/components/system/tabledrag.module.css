@@ -55,4 +55,9 @@ abbr[title].tabledrag-changed {
 tr.draggable.drag td {
   background-color: #fefbd6 !important; }
 
+.indentation {
+  float: left;
+  height: 1.42857em;
+  width: 1.42857em; }
+
 /*# sourceMappingURL=tabledrag.module.css.map */
