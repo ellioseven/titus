@@ -37,6 +37,14 @@ table[data-striping='1'] > tbody > tr.region-title.even td {
   font-weight: 700;
 }
 
+.tabledrag-changed,
+abbr[title].tabledrag-changed {
+  border: 0;
+  margin-left: .25em;
+  margin-right: .25em;
+  text-decoration: none;
+}
+
 tr.draggable.drag td {
   background-color: $color-yellow-sand !important;
 }
