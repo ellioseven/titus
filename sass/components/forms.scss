@@ -112,6 +112,10 @@
   }
 }
 
+summary + .details-wrapper {
+  margin-top: 0;
+}
+
 .label {
   font-size: inherit;
   font-weight: 700;
@@ -129,10 +133,6 @@
 
   .form-item {
     margin-bottom: 0;
-  }
-
-  .confirm-parent,
-  .password-parent {
   }
 
   .password-strength__title,

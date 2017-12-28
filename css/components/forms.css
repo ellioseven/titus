@@ -98,6 +98,9 @@
   .details-wrapper:first-child {
     margin-top: 0; }
 
+summary + .details-wrapper {
+  margin-top: 0; }
+
 .label {
   font-size: inherit;
   font-weight: 700;
