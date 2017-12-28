@@ -34,7 +34,7 @@ libraries-override:
       theme:
         /core/themes/stable/css/update/update.admin.theme.css: css/components/update/update.admin.theme.css
   views/views.module: titus/views
-  views_ui/admin.styling: titus/views_ui
+  views-ui/admin.styling: titus/views-ui
 libraries-extend:
   core/jquery.ui.dialog:
     - titus/dialog
