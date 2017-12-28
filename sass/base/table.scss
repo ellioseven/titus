@@ -54,4 +54,12 @@ table {
   thead th {
     background-color: $color-grey-steam;
   }
+
+  &[data-striping="1"] > tbody > tr.even > td {
+    background-color: $color-grey-cloud;
+  }
+
+  &[data-striping="1"] > tbody > tr.odd > td {
+    background-color: $color-white;
+  }
 }
