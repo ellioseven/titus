@@ -36,6 +36,11 @@
     }
   }
 
+  details[open] > summary {
+    border: 0;
+    margin-bottom: 0;
+  }
+
   summary::-webkit-details-marker {
     display: none;
   }

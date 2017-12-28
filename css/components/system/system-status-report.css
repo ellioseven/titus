@@ -33,6 +33,10 @@
     padding: 0;
     width: 100%; } }
 
+.system-status-report details[open] > summary {
+  border: 0;
+  margin-bottom: 0; }
+
 .system-status-report summary::-webkit-details-marker {
   display: none; }
 
